@@ -5,7 +5,6 @@
 * [Class Exercises](class_exercises/README.md)
    * [Part 1: Exploring the Interfaces](class_exercises/part_1_exploring_the_interfaces.md)
    * [Part 2: Initialize a Repository](class_exercises/part_2_initialize_a_repository.md)
-   * [](class_exercises/.4.md)
    * [Part 3:  Cloning Your Local Repository](class_exercises/part_3_cloning_your_local_repository.md)
    * [Part 4: Staging, Committing, and Pushing to GitHub](class_exercises/part_4_staging,_committing,_and_pushing_to_github.md)
    * [](class_exercises/.7.md)
