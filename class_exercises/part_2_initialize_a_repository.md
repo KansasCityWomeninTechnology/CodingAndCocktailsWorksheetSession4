@@ -8,3 +8,6 @@ _Note: these examples use root location c:\users\yourname\codingandocktails. You
 4.  Click **Create Repository**.
 
 **Congratulations! Have a drink! You’ve established your presence on GitHub!**
+
+
+![](../assets/image07.png)
