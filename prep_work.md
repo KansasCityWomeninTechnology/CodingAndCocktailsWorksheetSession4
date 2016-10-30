@@ -8,4 +8,6 @@
 4.  Finally, just to ensure that you have entered everything correctly, type `git config --list` to list all the settings Git can find at that point. Ensure that user.email and user.name are displayed in this list.
 5.  While there are many Git command cheat sheet sites, we found this one particularly useful: [http://bit.ly/CnCGitCS](http://bit.ly/CnCGitCS). You may want to print this as well ahead of time and bring it with you for easier access during the session.
 
+**![Stop](assets/image08.png)**
+
 **Stop here and save the rest for class!**
