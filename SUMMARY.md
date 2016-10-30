@@ -1,7 +1,6 @@
 # Summary
 
 * [Overview](README.md)
-* [Overview](overview.md)
 * [Prep Work](prep_work.md)
 * [Class Exercises](class_exercises/README.md)
    * [Part 1: Exploring the Interfaces](class_exercises/part_1_exploring_the_interfaces.md)
