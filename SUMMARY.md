@@ -12,5 +12,5 @@
    * [Epilogue - Resolving Merge Conflicts](class_exercises/epilogue_-_resolving_merge_conflicts.md)
 * [The Morning After. . .](the_morning_after/readmemd.md)
    * [Additional Resources](the_morning_after/additional_resources.md)
-   * [Homework](the_morning_after/Homework)
+   * [Homework](the_morning_after/homework.md)
 
