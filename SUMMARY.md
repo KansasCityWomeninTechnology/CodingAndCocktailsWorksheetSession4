@@ -10,7 +10,7 @@
    * [Part 5:  Practice with Forking](class_exercises/part_5_practice_with_forking.md)
    * [Part 6: Branching and the Art of Collaboration](class_exercises/part_6_branching_and_the_art_of_collaboration.md)
    * [Epilogue - Resolving Merge Conflicts](class_exercises/epilogue_-_resolving_merge_conflicts.md)
-* [The Morning After. . .](the_morning_after/README.md)
+* [The Morning After. . .](the_morning_after/readmemd.md)
    * [Additional Resources](the_morning_after/additional_resources.md)
    * [Homework](the_morning_after/Homework)
 
