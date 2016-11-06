@@ -13,4 +13,4 @@ Your newborn repository exists in The Cloud for now, but that’s not where you 
 6.  Next, we are going to make a simple change to the readme file, so that you can track the changes in the next section. Open Sublime Text. Select **File--&gt;Open Folder** and drive to the repo you just cloned down to your machine. There should only be one file in it - your ReadMe.md file.<br>
 ![](../assets/image05.png)
 7.  Open the **README.md** file and in Sublime Text, change something in the file, such as adding a sentence, or a list of the ladies sitting around you tonight. Save the changes.
-8.  Back in Git Bash or iTerm2, use `cd myfirstrepo` to change the directory to the new repo you just cloned.
+8.  Back in **Git Bash** or **iTerm2**, use `cd myfirstrepo` to change the directory to the new repo you just cloned.
