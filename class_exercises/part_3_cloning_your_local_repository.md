@@ -10,7 +10,7 @@ Your newborn repository exists in The Cloud for now, but that’s not where you 
 4.  Return to **Git Bash** or **iTerm2**. Type `git clone` and then paste in the URL of your repo. You should see it churn out something that looks like this: <br>
 ![](../assets/image03.png)
 5.  Just to confirm, you can use your system’s file manager (i.e. Windows Explorer or Mac Finder) to verify that it did indeed copy down the **ReadMe** file. You could also use the ls command to review the contents of the repo from your command line. Now you have a copy on Github, and a local copy that you can modify without affecting the original.
-6.  Next, we are going to make a simple change to the readme file, so that you can track the changes in the next section. Open Sublime Text. Select **File--&gt;Open Folder** and drive to the repo you just cloned down to your machine. There should only be one file in it - your ReadMe.md file.<br>
+6.  Next, we are going to make a simple change to the readme file, so that you can track the changes in the next section. Open Sublime Text. Select **File--&gt;Open Folder** and drive to the repo you just cloned down to your machine. There should only be one file in it - your **ReadMe.md** file.<br>
 ![](../assets/image05.png)
 7.  Open the **README.md** file and in Sublime Text, change something in the file, such as adding a sentence, or a list of the ladies sitting around you tonight. Save the changes.
 8.  Back in **Git Bash** or **iTerm2**, use `cd myfirstrepo` to change the directory to the new repo you just cloned.
