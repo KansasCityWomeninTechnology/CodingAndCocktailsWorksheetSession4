@@ -1,10 +1,16 @@
-# Version Control using Git {#version-control-using-git}
+# Coding & Cocktails Session 3:
+## Version Control using Git {#version-control-using-git}
+<hr>
 
 **![Coding and Cocktails Badge](assets/codingcocktailsbadge-200.png)**
 
-**Coding &amp; Cocktails Worksheet**
+**Overview**
 
 During the session we’ll discuss distributed version control, primarily through a tool called Git. This will be a very interactive session with lots of practice during the talk.
 
 
 ![Overview](assets/overview.png)
+
+[![](images/glossary.png)](http://bit.ly/CnCgloss)
+[![](images/tools.png)](http://bit.ly/CnCTools)
+
