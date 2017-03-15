@@ -1,11 +1,28 @@
 ### Part 2: Initialize a Repository {#part-2-initialize-a-repository}
 
-_Note: these examples use root location c:\users\yourname\codingandocktails. You may choose your own location if you like._
+1.
 
-1.  On Github: From your profile page, click on the repositories tab and then click the green **New** button or in the upper right corner, click the dropdown menu next to the plus (+) and select **New Repository.**
-2.  Give your repository a name, like MyFirstRepo.
-3.  Give it a description, and click **Initialize with a Readme** **file**.
-4.  Click **Create Repository**.
+2. Inside your _VersionControl_ directory, create another directory.  Type `mkdir AnotherDir`.
+
+3. Type `cd AnotherDir` to move into this directory.
+
+4. Type `ls -la` (remember this from last month?) to view the files in the folder.
+
+5. Type `git init` to initialize your repository.  
+
+6. Type `ls -la` to view the _.git_ folder that `git init` command created.
+
+7. Move back up one directory to the _VersionControl_ directory.  Hint: Try the command `cd ..`.
+
+8. In Google Chrome, navigate to GitHub
+
+9. In the upper right corner, click on the `+` button and choose `New Repository`.
+
+10.  Give your repository a name, like MyFirstRepo.
+
+11.  Give it a description, and click the checkbox next to `Initialize this repository with a README`.
+
+12.  Click `Create Repository`.
 
 **Congratulations! Have a drink! You’ve established your presence on GitHub!**
 

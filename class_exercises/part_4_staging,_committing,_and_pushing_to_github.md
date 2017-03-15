@@ -1,11 +1,27 @@
 ### Part 4: Staging, Committing, and Pushing to GitHub {#part-4-staging-committing-and-pushing-to-github}
 
-There are three vital steps to pushing your changes up to GitHub: **staging, committing,** and **pushing.** The first step is to tell Git which files you want to add to the repository. This is called _staging_ your changes. Then, you prepare to push them using the _commit_ command. Finally, the committed changes are pushed up to the cloud and Git assigns a unique alpha-numeric log entry, known as a _commit hash_, to track that change. Let’s try it now.
+There are three vital steps to pushing your changes up to GitHub: **staging**, **committing,** and **pushing.** The first step is to tell Git which files you want to add to the repository. This is called **staging** your changes. Then, you prepare to push them using the `commit` command. Finally, the committed changes are pushed up to the cloud and Git assigns a unique alpha-numeric log entry, known as a **commit hash**, to track that change. Let’s try it now.
 
-1.  In Git Bash or iTerm2, type `git add README.md` . Alternatively, you could also type `git add --A`, which would add all files you have modified lately. To verify that your files were added, use `git status`, which will tell you all about your repo. the last line will show which files have been modified.<br>
+1.  In Git Bash or iTerm2, type `git status`.  This shows you what changes you have made to your code.
+
+2. Type `git add README.md`.
+
+3. To verify that your files were added, type `git status`, which will tell you all about your repo. the last line will show which files have been modified.<br>
 ![](../assets/image09.png)
-2.  Commit your changes with a brief message like this: `git commit -m "First Commit of the README.md file"`. The -m message is always necessary and should accurately and concisely describe the content of the changes. This is important information for those who will be responsible for maintaining your code later. Your changes have been committed and are ready to load up to GitHub.<br>
+
+4. In Atom, make another change to your _README.md_ file and save the changes.
+
+5. In Git Bash or iTerm2, check your status again by typing `git status`.  You'll see that the _README.md_ file was again modified.
+
+6. This time,  type `git add -A`, to add all files you have modified since the last commit to the staging area.
+
+2.  Commit your changes with a brief commit message by typing `git commit -m "Initial Commit"`.
+
+    The -m flag is necessary and should accurately and concisely describe the content of the changes. This is important information for those who will be responsible for maintaining your code later. Your changes have been committed and are ready to be pushed up to GitHub.
 ![](../assets/image00.png)
-3.  Use the command `git push origin master` to initiate the push. “Origin” tells Git you are pushing the changes to the original remote location and “Master” indicates which branch within the remote location. This will be more important later.
-4.  At each prompt, enter your username and password. Your password will be masked so don’t be surprised if it looks like you are not typing anything on that line.
-5.  Note that the last line assigns the commit hash for this first commit. Voila! You have pushed your first revision to GitHub!
+
+3.  Type `git push origin master` to initiate the push.
+
+    “origin” tells Git you are pushing the changes to the original remote location and “master” indicates which branch within the remote location you'd like to push to.
+
+Voila! You have pushed your first revision to GitHub!
