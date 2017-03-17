@@ -1,7 +1,5 @@
 ### Part 2: Initialize a Repository {#part-2-initialize-a-repository}
 
-1.
-
 2. Inside your _VersionControl_ directory, create another directory.  Type `mkdir AnotherDir`.
 
 3. Type `cd AnotherDir` to move into this directory.

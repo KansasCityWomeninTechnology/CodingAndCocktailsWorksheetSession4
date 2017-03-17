@@ -22,6 +22,10 @@ There are three vital steps to pushing your changes up to GitHub: **staging**, *
 
 3.  Type `git push origin master` to initiate the push.
 
-    “origin” tells Git you are pushing the changes to the original remote location and “master” indicates which branch within the remote location you'd like to push to.
+    {% hint style='info' %}
+    “origin” tells Git you are pushing the changes to the original remote location
+
+    “master” indicates which branch within the remote location you'd like to push to.
+    {% endhint %}
 
 Voila! You have pushed your first revision to GitHub!
