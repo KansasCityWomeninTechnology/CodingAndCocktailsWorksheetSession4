@@ -17,8 +17,13 @@ There are three vital steps to pushing your changes up to GitHub: **staging**, *
 
 2.  Commit your changes with a brief commit message by typing `git commit -m "Initial Commit"`.
 
-    The -m flag is necessary and should accurately and concisely describe the content of the changes. This is important information for those who will be responsible for maintaining your code later. Your changes have been committed and are ready to be pushed up to GitHub.
-![](../assets/image00.png)
+    {% hint style='info' %}
+The -m flag allows you to provide a description of the changes. This is important information for those who will be responsible for maintaining your code later.
+    {% endhint %}
+
+    Your changes have been committed and are ready to be pushed up to GitHub.
+    
+    ![](../assets/image00.png)
 
 3.  Type `git push origin master` to initiate the push.
 
