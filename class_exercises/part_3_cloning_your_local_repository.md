@@ -1,4 +1,4 @@
-### Part 3: Cloning Your Local Repository {#part-3-cloning-your-local-repository}
+### Part 3: Clone A Repository {#part-3-cloning-your-local-repository}
 
 Your newborn repository exists in the Cloud for now, but that’s not where you will be writing your code. That happens on your own computer. From this point on, your computer is referred to as “local” and your GitHub repository (or repo) is “remote.”
 
