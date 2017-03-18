@@ -1,6 +1,6 @@
 ### Part 6: Branching and the Art of Collaboration {#part-6-branching-and-the-art-of-collaboration}
 
-Now we are going to collaborate on a very simple web based application.
+Now we are going to collaborate on a very simple web application.
 
 1.  In Google Chrome, navigate to [https://github.com/KansasCityWomeninTechnology/DrinkOrderApp](https://github.com/KansasCityWomeninTechnology/DrinkOrderApp). Note that in the **issues** tab there are a number of things we want to fix. You will be assigned just one of these issues to change.
 2.  Clone this repository down to your Coding &amp; Cocktails folder. (_Hint: Review the steps for cloning a repository in Part 3)_.
