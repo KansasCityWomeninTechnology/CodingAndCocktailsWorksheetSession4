@@ -1,8 +1,8 @@
 ### Part 6: Branching and the Art of Collaboration {#part-6-branching-and-the-art-of-collaboration}
 
-At this point you should have two repositories listed in your GitHub account: the one you built for yourself, and the one you just forked. Now we are going to collaborate on a very simple web based application.
+Now we are going to collaborate on a very simple web based application.
 
-1.  Point your browser to [https://github.com/KansasCityWomeninTechnology/DrinkOrderApp](https://github.com/KansasCityWomeninTechnology/DrinkOrderApp). Note that in the **issues** tab there are a number of things we want to fix. You will be assigned just one of these issues to change.
+1.  In Google Chrome, navigate to [https://github.com/KansasCityWomeninTechnology/DrinkOrderApp](https://github.com/KansasCityWomeninTechnology/DrinkOrderApp). Note that in the **issues** tab there are a number of things we want to fix. You will be assigned just one of these issues to change.
 2.  Clone this repository down to your Coding &amp; Cocktails folder. (_Hint: Review the steps for cloning a repository in Part 3)_.
 3.  Since you will want to be working within this new repo you just cloned, change your directory to be your **DrinkOrderApp** directory.
 4.  Now we want to make a new branch of this repository. A _branch_ is a copy of the repository that (for our purposes) focuses on one change or kind of change to the repository. In your command line (Git Bash or iTerm2) type `git checkout -b [newbranchname]` where “newbranchname” is the branch name for the issue we will assign to you in class. We suggest using issue-## as your branch name so if you were assigned issue #4 your branch name would be **issue-04**.
