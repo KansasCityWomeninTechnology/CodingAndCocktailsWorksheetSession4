@@ -13,8 +13,10 @@
 3.  Type `mkdir FirstRepo` to make a repository inside your  VersionControl directory your directory structure should now look like this:
 ```
 CodingAndCocktails
-|_VersionControl
-        |_FirstRepo
+        |
+        |--VersionControl
+                |
+                |--FirstRepo
 ```
 4. Type `git gui`. This will open the GUI (Graphical User Interface) to interact with Git.
 
