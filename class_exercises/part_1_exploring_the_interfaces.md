@@ -2,14 +2,26 @@
 
 1.  If you use Windows, open Git Bash, or if you use a Mac, open iTerm2.
 
-2.  Navigate to your `CodingAndCocktails` directory in your home directory and make a new folder called `VersionControl`.
+2.  Type `cd CodingAndCocktails` to navigate to your `CodingAndCocktails` directory in your home directory.
 
-{% hint style='tip' %}
-For a refresher on command line, check out the worksheet from last month: [http://bit.ly/cmdln](http://bit.ly/cmdln).
-{% endhint %}
+3. Type `mkdir VersionControl` to make a new folder for this month. Then type `cd VersionControl` to move into that folder.
 
-3.  Type `git gui`.
+    {% hint style='tip' %}
+    For a refresher on command line, check out the worksheet from last month: [bit.ly/CnCMarWork](http://bit.ly/CnCMarWork).
+    {% endhint %}
 
-4. Click **Create New Repository**. This will bring up the GUI (graphical user interface), which you may explore but we will not go into detail in class.
+3.  Type `mkdir FirstRepo` to make a repository inside your  VersionControl directory your directory structure should now look like this:
+```
+CodingAndCocktails
+|_VersionControl
+        |_FirstRepo
+```
+4. Type `git gui`. This will open the GUI (Graphical User Interface) to interact with Git.
 
-5.  Go to [Github.com](github.com) and log into your account.
+5. Click **Create New Repository** and **Browse** to your _FirstRepo_ directory and choose it.
+
+6. Click **Create** This will turn _FirstRepo_ into a Git repository and bring up the GUI , which you may explore but we will not go into detail in class.
+
+7. To return to the command line either quit out of Git GUI or in iTerm2 or Git Bash, press the `ctrl` + `c` buttons to return to your prompt.
+
+8. In Google Chrome, navigate to [Github.com](github.com) and log into your account. Take a look around.  View your profile by selecting that option from the drop down menu in the upper right.  This will be more exciting to look at once we have a bit more GitHub interaction. 
