@@ -2,8 +2,9 @@
 
 Your new repository exists in the Cloud for now, but that’s not where you will be writing your code. That happens on your own computer. From this point on, your computer is referred to as “local” and your GitHub repository (or repo) is “remote.”
 
-1.  In Google Chrome on the GitHub site, look for a URL assigned to your new repo. Click on the clipboard icon to the right of the URL. This copies it to your system clipboard.
-![](../assets/image02.png)
+1.  In Google Chrome on the GitHub site, find the green `Clone or download` button. Click on the clipboard icon to the right of the URL to copy it to your system clipboard.
+
+  ![](/images/GHClone.png)
 
 2.  In **Git Bash** or **iTerm2**, type `git clone ` and then paste in the URL of your repo. You should see it churn out something that looks like this: <br>
 ![](../assets/image03.png)
