@@ -6,7 +6,7 @@ Your new repository exists in the Cloud for now, but that’s not where you will
 
   ![](/images/GHClone.png)
 
-2.  In **Git Bash** or **iTerm2**, type `git clone ` and then paste in the URL of your repo. You should see it churn out something that looks like this: <br>
+2.  In Git Bash or iTerm2, type `git clone ` and then paste in the URL of your repo. You should see it churn out something that looks like this: <br>
 ![](../assets/image03.png)
 
 3.  Type `ls -la` to verify that it did indeed copy down the repository. Now you have a copy on GitHub, and a local copy that you can modify without affecting the original.

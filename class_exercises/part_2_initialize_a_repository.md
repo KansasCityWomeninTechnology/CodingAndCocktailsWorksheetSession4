@@ -5,7 +5,7 @@
 2. Type `cd ../AnotherDir` to move into this directory.
 
     {% hint style='tip' %}
-    The `../` is telling your computer to look up to the parent directory (_VersionControl_) before looking for that _AnotherDir_ directory.
+    The `../` is telling your computer to look up one level to the parent directory (_VersionControl_) before looking for that _AnotherDir_ directory.
     {% endhint %}
 
 4. Type `ls -la` (remember this from last month?) to view the files in the folder.
@@ -14,7 +14,7 @@
 
 6. Type `ls -la` and notice the _.git_ folder that the `git init` command created.
 
-7. In Google Chrome, navigate to GitHub
+7. In Google Chrome, navigate to [GitHub](https://github.com).
 
 8. In the upper right corner, click on the `+` button and choose `New Repository`.
 
