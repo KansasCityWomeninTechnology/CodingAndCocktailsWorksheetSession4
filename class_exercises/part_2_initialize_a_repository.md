@@ -1,16 +1,20 @@
 ### Part 2: Initialize a Repository {#part-2-initialize-a-repository}
 
-2. Inside your _VersionControl_ directory, create another directory.  Type `mkdir AnotherDir`.
+1. In Git Bash or iTerm2, make sure you're still in the FirstRepo folder and type `mkdir ../AnotherDir` create another directory nside your _VersionControl_ directory.
 
-3. Type `cd AnotherDir` to move into this directory.
+2. Type `cd ../AnotherDir` to move into this directory.
+
+    {% hint style='tip' %}
+    The `../` is telling your computer to look up to the parent directory (_VersionControl_) before looking for that _AnotherDir_ directory.
+    {% endhint %}
 
 4. Type `ls -la` (remember this from last month?) to view the files in the folder.
 
 5. Type `git init` to initialize your repository.  
 
-6. Type `ls -la` to view the _.git_ folder that `git init` command created.
+6. Type `ls -la` and notice the _.git_ folder that the `git init` command created.
 
-7. Move back up one directory to the _VersionControl_ directory.  Hint: Try the command `cd ..`.
+7. Type `cd ..` to move back up one directory to the _VersionControl_ directory.
 
 8. In Google Chrome, navigate to GitHub
 
@@ -20,9 +24,14 @@
 
 11.  Give it a description, and click the checkbox next to `Initialize this repository with a README`.
 
+    {% hint style='tip' %}
+    You can ignore the `Add .gitignore` and `Add a license` dropdowns for the time being.  You won't need them for what we are doing this evening.
+    {% endhint %}
+
 12.  Click `Create Repository`.
 
-**Congratulations! Have a drink! You’ve established your presence on GitHub!**
+**Congratulations! Have a drink! You’ve created two repositories and established your presence on GitHub!**
 
-
-![](../assets/image07.png)
+{% hint style='tip' %}
+Unless you decide to purchase a paid GitHub account (not necessary for what we do) all of your repositories are automatically publicly searchable.
+{% endhint %}
