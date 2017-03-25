@@ -7,4 +7,8 @@
         3.  [http://markdowntutorial.com/](http://markdowntutorial.com/)
 2.  Take the Codecademy Introduction to Git: [https://www.codecademy.com/learn/learn-git](https://www.codecademy.com/learn/learn-git)
 3.  Just for fun - Learning Github via a game! [http://pcottle.github.io/learnGitBranching/](http://pcottle.github.io/learnGitBranching/)
-4.  Sign up for next month’s [Coding &amp; Cocktails session](https://www.eventbrite.com/e/coding-cocktails-april-tickets-21508067208)!
+
+1.  The Atlassian Git Tutorial: [https://www.atlassian.com/git/](https://www.atlassian.com/git/)
+2.  The Official Git Starting point: [https://git-scm.com/](https://git-scm.com/)
+
+[![](/images/slack.png)](http://kcwit.slack.com)
