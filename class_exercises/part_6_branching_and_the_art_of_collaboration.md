@@ -6,17 +6,17 @@ Now we are going to collaborate on a very simple web application.
 
 2. Click on the issues tab at the top.
 
-3. Get your issue number
+3. Click on an issue to open it.  Do this until you find one that does not have a comment on it from another student and make the comment "This issue is assigned to <your GitHub Username>". Replacing the backets and text "your GitHub Username with your actual GitHub username. Make note of the issue number to use in step 7. 
 
-4. Fork the repository
+4. Fork the repository.
 
 5. In Git Bash or iTerm2 change directory to your CodingAndCocktails directory.
 
-5. Clone the repository and cd into it 
+6. Clone the repository and `cd` into it.
 
-4.  Make a new branch. In your command line (Git Bash or iTerm2) type `git checkout -b newbranchname` where “newbranchname” is the branch name for the issue we will assign to you in class. We suggest using issue-## as your branch name so if you were assigned issue #4 your branch name would be **issue-04**.
+7. Using the issue number from step 3, make a new branch. In Git Bash or iTerm2, create a branch called issue-## where “##” is the issue number you've been assigned. If you were assigned issue #4 your branch name would be **issue-04**. Type `git checkout -b issue-##` to do this.
 
-5.  To list all branches within the repo, use `git branch` . This should show you at least two branches - master, and the one you just created. The branch you are working in will be highlighted with an asterisk (*).
+8. To view all branches within the repo, type `git branch` . This should show you at least two branches - master, and the one you just created. The branch you are working in will be highlighted with an asterisk (*).
 
     To switch between branches type `git checkout {{branchname}}`
     
