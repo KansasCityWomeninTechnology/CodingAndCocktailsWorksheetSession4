@@ -30,9 +30,21 @@ Now we are going to collaborate on a very simple web application.
 
 12. If everything looks good, stage and commit your changes. Type `git push origin {{branchname}}` to push to the branch you made, substituting your own branch name. Now you have pushed your changes to the _origin_ (that is, to the cloud), to your specific branch.
 
-9.  Next, you have to migrate your changes from the branch you have been working on to the Kansas City Women in Technology repository. To do this we create a **pull request.** Go to [https://github.com/KansasCityWomeninTechnology/DrinkOrderApp](https://github.com/KansasCityWomeninTechnology/DrinkOrderApp) and click on the green **New Pull Request** button.
+9. Create a **pull request** to migrate your changes from the fork and branch you have been working on to the Kansas City Women in Technology repository.
 
-10.  You will be prompted to select the “base”, which is where you are moving your changes **TO**, and the “compare”, which is where you are moving them **FROM**. If Git detects no conflicts, it will give you a checkmarked message saying “able to merge.” Below that will be your _commit_ message. Scrolling down further you will be able to see the commit history that is being included in this request, and the actual changed code. At the bottom for your message box, click on **Create pull request**.
+    1. In Google Chrome, navigate to [https://github.com/KansasCityWomeninTechnology/DrinkOrderApp](https://github.com/KansasCityWomeninTechnology/DrinkOrderApp) and click on the **New Pull Request** button.
+
+    2. Click the link at the end of the text "Compare changes across branches, commits, tags, and more below. If you need to, you can also compare across forks."
+    
+    3. Keep the "base fork" (organization where you are moving your changes **TO**) as KansasCityWomeninTechnology and the "base" (the branch within the organization you selected to move your changes **TO**) as "master".
+    
+    4. Change the "head fork" (User that you're moving changes **FROM**) to yourGitHubusername/DrinkOrderApp and the "compare" to the issue-## branch you created in step 7.
+    
+    Feel free to add any comments you'd like.  If you keep scrolling down you'll see the commits you added to make the change along with the diff across the file(s) you changed.
+    
+    5. Click on the Green "Create pull request" button.
+
+    If Git detects no conflicts, it will give you a checkmarked message saying “able to merge” or a red message saying "Can't automatically merge"
 
 11.  Typically we would expect someone to have oversight into merging the pull requests into the master branch to become the final version of the code. Once your pull request is accepted by this person, you can view your code in the master branch, along with all of the changes your peers have made.
 
