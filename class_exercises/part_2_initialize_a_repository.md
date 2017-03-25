@@ -14,21 +14,19 @@
 
 6. Type `ls -la` and notice the _.git_ folder that the `git init` command created.
 
-7. Type `cd ..` to move back up one directory to the _VersionControl_ directory.
+7. In Google Chrome, navigate to GitHub
 
-8. In Google Chrome, navigate to GitHub
+8. In the upper right corner, click on the `+` button and choose `New Repository`.
 
-9. In the upper right corner, click on the `+` button and choose `New Repository`.
+9.  Give your repository a name, like MyFirstRepo.
 
-10.  Give your repository a name, like MyFirstRepo.
-
-11.  Give it a description, and click the checkbox next to `Initialize this repository with a README`.
+10.  Give it a description, and click the checkbox next to `Initialize this repository with a README`.
 
     {% hint style='tip' %}
     You can ignore the `Add .gitignore` and `Add a license` dropdowns for the time being.  You won't need them for what we are doing this evening.
     {% endhint %}
 
-12.  Click `Create Repository`.
+11.  Click `Create Repository`.
 
 **Congratulations! Have a drink! You’ve created two repositories and established your presence on GitHub!**
 
