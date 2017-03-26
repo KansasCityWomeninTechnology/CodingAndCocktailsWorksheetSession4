@@ -3,7 +3,7 @@
 "custom-favicon",
 "hints",
 "sectionx",
-"video"
+"local-video"
 ],
 "pluginsConfig": {
 "favicon": "assets/favicon.ico"
