@@ -22,7 +22,9 @@ Check out these resources:
 
 6. Issue a pull request to the Kansas City Women in Technology repository's master branch to have your term and its definition added to our learning resources glossary.
         
-7. If you haven't yet, take the Codecademy Introduction to Git for more practice: [https://www.codecademy.com/learn/learn-git](https://www.codecademy.com/learn/learn-git)
+7. Try this quick online interactive tutorial for a refresher! [try.github.io](https://try.github.io/)
+
+8. If you haven't yet, take the Codecademy Introduction to Git for more practice: [https://www.codecademy.com/learn/learn-git](https://www.codecademy.com/learn/learn-git)
 
 ## Additional Resources
 
