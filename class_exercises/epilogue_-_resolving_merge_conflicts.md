@@ -5,7 +5,7 @@ Merge conflicts may not happen as often, but eventually you will run into one. V
 {% raw %}
   <video id="my-video" class="video-js" controls preload="auto" width="900" height="600"
   data-setup="{}">
-  <source src="assets/mergeconflictclis.mp4" type='video/mp4'>
+  <source src="../assets/mergeconflictclis.mp4" type='video/mp4'>
   <p class="vjs-no-js">
     To view this video please enable JavaScript, and consider upgrading to a web browser that
     <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
