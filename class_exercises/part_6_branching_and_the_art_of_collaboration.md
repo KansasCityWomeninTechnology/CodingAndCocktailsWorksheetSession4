@@ -23,13 +23,13 @@ If you need a refresher on how to fork a repository go back to [Part 5: Forking]
 7. Use the issue number from step 4, make a new branch. In Git Bash or iTerm2, type `git checkout -b issue-##` to do this.
 
     {% hint style='tip' %}
-    If you are working on issue #4, your branch name would be **issue-04**.
+If you are working on issue #4, your branch name would be **issue-04**.
     {% endhint %}
 
 8. To view all branches within the repo, type `git branch` . This should show you at least two branches - master, and the issue-## branch you just created. The branch you are currently working in will be highlighted with an asterisk (*).
 
     {% hint style='tip' %}
-    To switch between branches type `git checkout {{branchname}}` 
+To switch between branches type `git checkout <branchname>` replacing the angle brackets and the text "branchname" with the branch you'd like to switch to.  For example if you want to switch to the "development" branch you'd type `git checkout development`.
     {% endhint %}
     
 9.  In Git Bash or iTerm2 type `atom .`. This will open your Atom text editor with the context of the current directory.
