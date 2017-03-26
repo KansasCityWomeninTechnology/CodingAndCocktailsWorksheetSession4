@@ -6,9 +6,11 @@ Now we are going to collaborate on a very simple web application.
 
 2. Click on the issues tab at the top.
 
-3. Click on an issue to open it.  Do this until you find one that does not have a comment on it from another student and make the comment "This issue is assigned to {{your GitHub Username}}". Replacing the curly braces and text "your GitHub Username" with your actual GitHub username. Make note of the issue number to use in step 7. 
+3. Look through the list of issues for one that does not yet have a comment icon on the right side: ![](/images/comment.png).
 
-4. Fork the repository.
+4. Click on the issue to open it and at the bottom, add a comment "This issue is assigned to @<your GitHub Username>". Replacing the angle brackets and text "your GitHub Username" with your actual GitHub username, leaving the @ symbol. Make note of the issue number to use in step 7. 
+
+5. Fork the repository.
 
 5. In Git Bash or iTerm2 change directory to your CodingAndCocktails directory.
 
