@@ -12,7 +12,11 @@ Now we are going to collaborate on a very simple web application.
 
 5. Fork the repository.
 
-5. In Git Bash or iTerm2 change directory to your CodingAndCocktails directory.
+    {% hint style='tip' %}
+    If you need a refresher on how to fork a repository go back to [Part 5: Forking](/class_exercises/part_5_practice_with_forking.md).
+    {% endhint %}
+
+6. In Git Bash or iTerm2 change directory to your CodingAndCocktails directory.
 
 6. Clone the repository and `cd` into it.
 
