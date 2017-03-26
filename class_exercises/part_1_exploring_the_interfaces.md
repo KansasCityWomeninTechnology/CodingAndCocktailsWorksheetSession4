@@ -19,6 +19,7 @@ CodingAndCocktails
                 |--FirstRepo
 ```
 4. Type `git gui`. This will open the GUI (Graphical User Interface) to interact with Git.
+    ![](/images/gitgui.png)
 
 5. Click **Create New Repository** and **Browse** to your _FirstRepo_ directory and choose it.
 
