@@ -7,7 +7,7 @@
 3. Type `mkdir VersionControl` to make a new folder for this month. Then type `cd VersionControl` to move into that folder.
 
     {% hint style='tip' %}
-    For a refresher on command line, check out the worksheet from last month: [bit.ly/CnCMarWork](http://bit.ly/CnCMarWork).
+For a refresher on command line, check out the worksheet from last month: [bit.ly/CnCMarWork](http://bit.ly/CnCMarWork).
     {% endhint %}
 
 3.  Type `mkdir FirstRepo` to make a repository inside your  VersionControl directory your directory structure should now look like this:
