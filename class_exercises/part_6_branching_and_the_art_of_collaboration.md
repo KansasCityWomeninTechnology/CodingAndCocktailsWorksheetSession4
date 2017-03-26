@@ -38,17 +38,23 @@ Now we are going to collaborate on a very simple web application.
 
 11.  After you've saved your files, in Git Bash or iTerm2, type `git status` to view which files you've changed. 
 
-12. If everything looks good, stage and commit your changes. Type `git push origin {{branchname}}` to push to the branch you made, substituting your own branch name. Now you have pushed your changes to the _origin_ (that is, to the cloud), to your specific branch.
+12. If everything looks good, stage and commit your changes. Type `git push origin <branchname>` to push to the branch you made to your remote fork, substituting your own branch name for the angle brackets and "branchname" text. Now you have pushed your changes to the _origin_ (that is, to the cloud), to your specific branch.
 
 9. Create a **pull request** to migrate your changes from the fork and branch you have been working on to the Kansas City Women in Technology repository.
 
     1. In Google Chrome, navigate to [https://github.com/KansasCityWomeninTechnology/DrinkOrderApp](https://github.com/KansasCityWomeninTechnology/DrinkOrderApp) and click on the **New Pull Request** button.
+    
+    ![](/images/pullrequest.png)
 
-    2. Click the link at the end of the text "Compare changes across branches, commits, tags, and more below. If you need to, you can also compare across forks."
+    2. Click the "compare across forks" link at the end of the text "Compare changes across branches, commits, tags, and more below. If you need to, you can also compare across forks."
     
-    3. Keep the "base fork" (organization where you are moving your changes **TO**) as KansasCityWomeninTechnology and the "base" (the branch within the organization you selected to move your changes **TO**) as "master".
+    3. Keep the "base fork" (organization where you are moving your changes **TO**) as KansasCityWomeninTechnology 
+
+     4. Change the "base" (the branch within the organization you selected to move your changes **TO**) as "vc-final".
     
-    4. Change the "head fork" (User that you're moving changes **FROM**) to yourGitHubusername/DrinkOrderApp and the "compare" to the issue-## branch you created in step 7.
+    4. Change the "head fork" (User that you're moving changes **FROM**) to yourGitHubusername/DrinkOrderApp 
+    
+    5. Change the "compare" to the issue-## branch you created in step 7.
     
     Feel free to add any comments you'd like.  If you keep scrolling down you'll see the commits you added to make the change along with the diff across the file(s) you changed.
     
