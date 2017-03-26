@@ -18,11 +18,15 @@ Now we are going to collaborate on a very simple web application.
 
 6. In Git Bash or iTerm2 you are probably still in the _MyFirstRepo_ directory from step 4. If so, type `cd ..` to navigate back up to your `VersionControl` directory.  If you are anywhere else change directories to the _VersionControl_ directory.
 
-6. Clone the repository and `cd` into it.
+7. Clone the repository and `cd` into it.
 
-7. Using the issue number from step 3, make a new branch. In Git Bash or iTerm2, create a branch called issue-## where “##” is the issue number you've been assigned. If you were assigned issue #4 your branch name would be **issue-04**. Type `git checkout -b issue-##` to do this.
+7. Use the issue number from step 4, make a new branch. In Git Bash or iTerm2, type `git checkout -b issue-##` to do this.
 
-8. To view all branches within the repo, type `git branch` . This should show you at least two branches - master, and the one you just created. The branch you are working in will be highlighted with an asterisk (*).
+    {% hint style='tip' %}
+    If you are working on issue #4, your branch name would be **issue-04**.
+    {% endhint %}
+
+8. To view all branches within the repo, type `git branch` . This should show you at least two branches - master, and the issue-## branch you just created. The branch you are currently working in will be highlighted with an asterisk (*).
 
     {% hint style='tip' %}
     To switch between branches type `git checkout {{branchname}}` 
@@ -32,7 +36,7 @@ Now we are going to collaborate on a very simple web application.
 
 10. Make changes to the application as instructed in your issue and make sure to save any files you change. 
 
-11.  After you've saved your files, in Git Bash or iTerm2, type `git status` to view your changes. 
+11.  After you've saved your files, in Git Bash or iTerm2, type `git status` to view which files you've changed. 
 
 12. If everything looks good, stage and commit your changes. Type `git push origin {{branchname}}` to push to the branch you made, substituting your own branch name. Now you have pushed your changes to the _origin_ (that is, to the cloud), to your specific branch.
 
