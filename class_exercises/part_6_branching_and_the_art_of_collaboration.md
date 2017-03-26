@@ -66,6 +66,6 @@ Now we are going to collaborate on a very simple web application.
     If Git detects conflicts, it will display a red message saying "Can't automatically merge."
     {% endhint %}
 
-11.  Typically we would expect someone to have oversight into merging the pull requests into the master branch to become the final version of the code. Once your pull request is accepted by this person, you can view your code in the master branch, along with all of the changes your peers have made.
+11.  Typically someone or a group of people have oversight into merging the pull requests into the upstream repository (where you forked from) to become the final version of the code. Once your pull request is accepted by this person, you can view your code in the final destination, along with all of the changes your peers have made.
 
 **Congratulations! You’ve collaborated on a project for the first time!**
