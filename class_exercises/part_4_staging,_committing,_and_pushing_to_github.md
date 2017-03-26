@@ -25,7 +25,7 @@ There are three vital steps to pushing your changes up to GitHub: **staging**, *
 6. This time,  type `git add -A`, to add all files you have modified since the last commit to the staging area.
 
     {% hint style='danger' %}
-The capitalization of the `A` is important in this step.  a lowercase -a is not a command that Git recognizes by itself.
+The capitalization of the `A` is important in this step.  A lowercase -a is not a command that Git recognizes by itself.
     {% endhint %}
 
 7. Double check yourself that everything is staged by typing `git status`.
