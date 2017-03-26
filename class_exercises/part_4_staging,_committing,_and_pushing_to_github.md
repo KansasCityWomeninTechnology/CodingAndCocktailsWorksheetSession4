@@ -6,6 +6,8 @@ There are three vital steps to pushing your changes up to GitHub: **staging**, *
     ![](/images/gitstatusmodified.png)
     
     Notice it tells us these are "Changes not staged for commit:"
+    
+    If you do not see any changes, double check that you saved your file in Atom.
 
 2. Type `git add README.md`.
 
