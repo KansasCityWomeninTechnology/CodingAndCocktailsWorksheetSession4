@@ -5,7 +5,7 @@
 2. Type `cd ../AnotherDir` to move into this directory.
 
     {% hint style='tip' %}
-    The `../` is telling your computer to look up one level to the parent directory (_VersionControl_) before looking for that _AnotherDir_ directory.
+The `../` is telling your computer to look up one level to the parent directory (_VersionControl_) before looking for that _AnotherDir_ directory.
     {% endhint %}
 
 4. Type `ls -la` (remember this from last month?) to view the files in the folder.
@@ -24,7 +24,7 @@
 10.  Give it a description, and click the checkbox next to `Initialize this repository with a README`.
 
     {% hint style='tip' %}
-    You can ignore the `Add .gitignore` and `Add a license` dropdowns for the time being.  You won't need them for what we are doing this evening.
+You can ignore the `Add .gitignore` and `Add a license` dropdowns for the time being.  You won't need them for what we are doing this evening.
     {% endhint %}
 
 11.  Click `Create Repository`.
