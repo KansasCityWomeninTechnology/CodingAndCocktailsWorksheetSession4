@@ -6,12 +6,21 @@ Your new repository exists in the Cloud for now, but that’s not where you will
 
   ![](/images/GHClone.png)
 
-2.  In Git Bash or iTerm2, type `git clone ` and then paste in the URL of your repo. You should see it churn out something that looks like this: <br>
+2.  In Git Bash or iTerm2, type `git clone ` and then paste in the URL of your repo. 
+
+  {% hint style='tip' %}
+  Git Bash users use the `shift` + `ins` keys on your keyboard to paste into Git Bash.  iTerm2 users use `cnd` + `v` keys to paste into iTerm2.
+  {% endhint %}
+
+  You should see it churn out something that looks like this:
 ![](../assets/image03.png)
 
-3.  Type `ls -la` to verify that it did indeed copy down the repository. Now you have a copy on GitHub, and a local copy that you can modify without affecting the original.
+3.  Type `ls -la` to verify that it did indeed copy down the repository. Now you have a copy on GitHub, and a local copy that you can modify without affecting the remote until you tell it to.
 
-4.  Change directory into your repository directory. Hint: The directory is named the same as what you named your repository.
+4.  Type `cd MyFirstRepo` to change directory into your repository. 
+  {% hint style='tip' %}
+  The directory is named the same as what you named your repository.
+  {% endhint %}
 
 5. Next, we are going to make a simple change to the _README.md_ file, so that you can track the changes in the next section.
 
