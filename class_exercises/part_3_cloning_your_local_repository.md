@@ -19,11 +19,13 @@ Your new repository exists in the Cloud for now, but that’s not where you will
 
 4.  Type `cd MyFirstRepo` to change directory into your repository. 
   {% hint style='tip' %}
-  The directory is named the same as what you named your repository.
+  The directory is named the same as what you named your repository when you created it so if you named it something else be sure to modify your `cd` command appropriately.
   {% endhint %}
 
-5. Next, we are going to make a simple change to the _README.md_ file, so that you can track the changes in the next section.
+5. In Git Bash or iTerm2, type `atom .`  This will open the Atom text editor with the folder where you run that command in context.
 
-  In Git Bash or iTerm2, type `atom .`  This will open the Atom text editor with the folder where you run that command in context.
+  We are going to make a simple change to the _README.md_ file, in order to track the changes in the next section.
 
-5. Open the **README.md** file and change something in the file, such as adding a sentence, or a list of the ladies sitting around you tonight. Save the changes.
+6. In Atom, in the left pane where the files are listed, double click on the _README.md_ file.
+
+7. Change something in the file, such as adding a sentence, or a list of the ladies sitting around you tonight. Save the changes.
