@@ -17,6 +17,7 @@
 7. In Google Chrome, navigate to [GitHub](https://github.com).
 
 8. In the upper right corner, click on the `+` button and choose `New Repository`.
+    ![](/images/createrepo.png)
 
 9.  Give your repository a name, like MyFirstRepo.
 
