@@ -61,9 +61,9 @@ To switch between branches type `git checkout <branchname>` replacing the angle 
     5. Click on the Green "Create pull request" button.
 
     {% hint style='info' %}
-    If Git detects no conflicts, it will give you a checkmarked message saying “able to merge.”
+If Git detects no conflicts, it will give you a checkmarked message saying “able to merge.”
     
-    If Git detects conflicts, it will display a red message saying "Can't automatically merge."
+If Git detects conflicts, it will display a red message saying "Can't automatically merge."
     {% endhint %}
 
 11.  Typically someone or a group of people have oversight into merging the pull requests into the upstream repository (where you forked from) to become the final version of the code. Once your pull request is accepted by this person, you can view your code in the final destination, along with all of the changes your peers have made.
