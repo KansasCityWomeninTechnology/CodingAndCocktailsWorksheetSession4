@@ -68,4 +68,6 @@ Now we are going to collaborate on a very simple web application.
 
 11.  Typically someone or a group of people have oversight into merging the pull requests into the upstream repository (where you forked from) to become the final version of the code. Once your pull request is accepted by this person, you can view your code in the final destination, along with all of the changes your peers have made.
 
+    We will work on getting PR's (aka Pull Requests) merged as we are able!
+
 **Congratulations! You’ve collaborated on a project for the first time!**
