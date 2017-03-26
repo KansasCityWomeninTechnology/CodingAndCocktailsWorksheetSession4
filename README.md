@@ -6,7 +6,7 @@
 
 ### Overview
 
-During the session we’ll discuss distributed version control, primarily through a tool called Git. 
+During the session we’ll discuss distributed version control, through a tool called Git. 
 
 ### Helpful Keyboard Shortcuts
 |Command|Mac Key Combination|Windows Key Combination|
