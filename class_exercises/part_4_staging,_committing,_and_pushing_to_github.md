@@ -2,23 +2,36 @@
 
 There are three vital steps to pushing your changes up to GitHub: **staging**, **committing,** and **pushing.** Let’s try it now.
 
-1.  In Git Bash or iTerm2, type `git status`.  This shows you what changes you have made to your code.
+1.  In Git Bash or iTerm2, type `git status`.  This shows you what changes you have made to your code. You should see that your _README.md_ file has changes: 
+    ![](/images/gitstatusmodified.png)
+    
+    Notice it tells us these are "Changes not staged for commit:"
 
 2. Type `git add README.md`.
 
-3. To verify that your files were added, type `git status`, which will tell you all about your repo. the last line will show which files have been modified.<br>
+3. To verify that your files were added, type `git status` again. , which will tell you all about your repo. the last line will show which files have been modified.<br>
 ![](../assets/image09.png)
+
+    Notice this time it tells us these are "Changes to be committed:"
 
 4. In Atom, make another change to your _README.md_ file and save the changes.
 
-5. In Git Bash or iTerm2, check your status again by typing `git status`.  You'll see that the _README.md_ file was again modified.
+5. In Git Bash or iTerm2, check your status again by typing `git status`.  This time it knows you already had changes ready to be committed _AND_ you have some more changes that have not yet been staged. 
+
+    ![](/images/gitstatusmultiplechanges.png)
 
 6. This time,  type `git add -A`, to add all files you have modified since the last commit to the staging area.
 
-2.  Commit your changes with a brief commit message by typing `git commit -m "Initial Commit"`.
+    {% hint style='danger' %}
+    The capitalization of the `A` is important in this step.  a lowercase -a is not a command that Git recognizes by itself.
+    {% endhint %}
+
+7. Double check yourself that everything is staged by typing `git status`.
+
+7.  Commit your changes with a brief commit message by typing `git commit -m "Initial Commit"`.
 
     {% hint style='info' %}
-The -m flag allows you to provide a description of the changes. This is important information for those who will be responsible for maintaining your code later.
+The -m flag allows you to provide a description of the changes. This is important information for those who may collaborate on the code later.
     {% endhint %}
 
     Your changes have been committed and are ready to be pushed up to GitHub.
@@ -33,4 +46,4 @@ The -m flag allows you to provide a description of the changes. This is importan
     “master” indicates which branch within the remote location you'd like to push to.
     {% endhint %}
 
-Voila! You have pushed your first revision to GitHub!
+**Voila! You have pushed your first revision to GitHub!**
