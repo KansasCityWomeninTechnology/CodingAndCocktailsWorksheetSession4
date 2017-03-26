@@ -13,7 +13,7 @@ Now we are going to collaborate on a very simple web application.
 5. Fork the repository.
 
     {% hint style='tip' %}
-    If you need a refresher on how to fork a repository go back to [Part 5: Forking](/class_exercises/part_5_practice_with_forking.md).
+If you need a refresher on how to fork a repository go back to [Part 5: Forking](/class_exercises/part_5_practice_with_forking.md).
     {% endhint %}
 
 6. In Git Bash or iTerm2 you are probably still in the _MyFirstRepo_ directory from step 4. If so, type `cd ..` to navigate back up to your `VersionControl` directory.  If you are anywhere else change directories to the _VersionControl_ directory.
