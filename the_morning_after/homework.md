@@ -8,13 +8,7 @@
 
 3. Clone your fork to your local device and open it in atom.
 
-4. Open the _glossary.md_ file to add your term.
-
-5. Update the markdown document in your repository. 
-
-6. Push your changes to your repository on GitHub.
-
- 7. Issue a pull request to the Kansas City Women in Technology repository's master branch to have your term and its definition added to our learning resources glossary.
+4. Open and update the _glossary.md_ markdown document to add your term.
 
 {% hint style='tip' %}
 Never used markdown before and need some help figuring it out? Check out these resources:
@@ -24,8 +18,13 @@ Never used markdown before and need some help figuring it out? Check out these r
         
         3.  [http://markdowntutorial.com/](http://markdowntutorial.com/)
 {% endhint %}
+
+
+5. Push your changes to your repository on GitHub.
+
+6. Issue a pull request to the Kansas City Women in Technology repository's master branch to have your term and its definition added to our learning resources glossary.
         
-8. If you haven't yet, take the Codecademy Introduction to Git for more practice: [https://www.codecademy.com/learn/learn-git](https://www.codecademy.com/learn/learn-git)
+7. If you haven't yet, take the Codecademy Introduction to Git for more practice: [https://www.codecademy.com/learn/learn-git](https://www.codecademy.com/learn/learn-git)
 
 ## Additional Resources
 
