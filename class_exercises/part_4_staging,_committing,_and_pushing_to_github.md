@@ -1,6 +1,6 @@
 ### Part 4: Staging, Committing, and Pushing to GitHub {#part-4-staging-committing-and-pushing-to-github}
 
-There are three vital steps to pushing your changes up to GitHub: **staging**, **committing,** and **pushing.** The first step is to tell Git which files you want to add to the repository. This is called **staging** your changes. Then, you prepare to push them using the `commit` command. Finally, the committed changes are pushed up to the cloud and Git assigns a unique alpha-numeric log entry, known as a **commit hash**, to track that change. Let’s try it now.
+There are three vital steps to pushing your changes up to GitHub: **staging**, **committing,** and **pushing.** Let’s try it now.
 
 1.  In Git Bash or iTerm2, type `git status`.  This shows you what changes you have made to your code.
 
