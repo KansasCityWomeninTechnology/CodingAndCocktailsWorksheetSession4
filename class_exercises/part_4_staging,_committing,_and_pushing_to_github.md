@@ -43,7 +43,7 @@ The -m flag allows you to provide a description of the changes. This is importan
 3.  Type `git push origin master` to initiate the push.
 
     {% hint style='info' %}
-“origin” tells Git you are pushing the changes to the original remote location
+“origin” tells Git you are pushing the changes to the original remote location.
 
 “master” indicates which branch within the remote location you'd like to push to.
     {% endhint %}
