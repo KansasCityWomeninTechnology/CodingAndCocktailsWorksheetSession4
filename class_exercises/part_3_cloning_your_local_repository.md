@@ -6,12 +6,12 @@ Your new MyFirstRepo repository exists in the Cloud for now, but that’s not wh
 
   ![](/images/GHClone.png)
 
-2.  In Git Bash or iTerm2, type `cd ..` to move up one directory to your 
+2.  In Git Bash or iTerm2, type `cd ..` to move up one directory to your _VersionControl_ directory.
 
 3. Next, type `git clone ` and then paste in the URL of your repo. 
 
   {% hint style='tip' %}
-  Git Bash users use the `shift` + `ins` keys on your keyboard to paste into Git Bash.  iTerm2 users use `cnd` + `v` keys to paste into iTerm2.
+  Git Bash users use the `shift` + `ins` keys on your keyboard to paste into Git Bash.  iTerm2 users use `cmd` + `v` keys to paste into iTerm2.
   {% endhint %}
 
   You should see it churn out something that looks like this:
