@@ -4,11 +4,27 @@
 
 1.  Think of one new tech-related term you have heard recently, and research its meaning. 
 
-2. Fork the Kansas City Women in Technology Learning Resources repository from [github.com/KansasCityWomeninTechnology/LearningResources](https://github.com/KansasCityWomeninTechnology/LearningResources)
+2. In Part 5 you forked the Kansas City Women in Technology Learning Resources repository from [github.com/KansasCityWomeninTechnology/LearningResources](https://github.com/KansasCityWomeninTechnology/LearningResources)
 
-3. Clone your fork to your local device and open it in atom.
+3. Open Git Bash or iTerm2 and change directories until you're in the directory for your forked Learning Resources repository. This should be `cd ~/CodingAndCocktails/VersionControl/LearningResources`.
 
-4. Open and update the _glossary.md_ markdown document to add your term.
+4. Configure your upstream remote (where you forked from).
+
+        1. Type `git remote -v` to view the currently configured remotes.
+        
+        2. Specify your upstream remote by typing `git remote add upstream https://github.com/KansasCityWomeninTechnology/LearningResources.git`
+        
+        3. Double check you have a new remote configured by typing `git remote -v` again.  This time you should see both origin remotes and upstream remotes. 
+
+5. Fetch any new commits to the upstream repository. Type `git fetch upstream`.
+        
+6. Merge changes from upstream/master into your local branch.  Type `git merge upstream/master` to sync with the upstream repository without losing any local changes that you may have made.  You should now be up to date with any changes that have been committed and merged into the upstream repository since you forked the repository.
+
+        {% hint style='tip' %}
+This sync only updated your local copy of the repository. To update your fork on GitHub, you must push your changes to your origin remote.
+        {% endhint %}
+
+6. Open and update the _glossary.md_ markdown document to add your term.
 
         {% hint style='tip' %}
 Never used markdown before and need some help figuring it out? 
@@ -16,7 +32,7 @@ Check out these resources:
         1.  [help.github.com/articles/basic-writing-and-formatting-syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
         2.  [guides.github.com/features/mastering-markdown](https://guides.github.com/features/mastering-markdown/)
         3.  [markdowntutorial.com](http://markdowntutorial.com/)
-{% endhint %}
+        {% endhint %}
 
 5. Push your changes to your repository on GitHub.
 
