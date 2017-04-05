@@ -10,20 +10,20 @@
 For a refresher on command line, check out the worksheet from last month: [bit.ly/CnCMarWork](http://bit.ly/CnCMarWork).
     {% endhint %}
 
-3.  Type `mkdir FirstRepo` to make a repository inside your  VersionControl directory your directory structure should now look like this:
+3.  Type `mkdir GUIRepo` to make a new directory inside your  VersionControl directory. Your directory structure should now look like this:
 ```
 CodingAndCocktails
         |
         |--VersionControl
                 |
-                |--FirstRepo
+                |--GUIRepo
 ```
 4. Type `git gui`. This will open the GUI (Graphical User Interface) to interact with Git.
     ![](/images/gitgui.png)
 
-5. Click **Create New Repository** and **Browse** to your _FirstRepo_ directory and choose it.
+5. Click **Create New Repository** and **Browse** to your _GUIRepo_ directory and choose it.
 
-6. Click **Create** This will turn _FirstRepo_ into a Git repository and bring up the GUI , which you may explore but we will not go into detail in class.
+6. Click **Create** This will turn _GUIRepo_ into a Git repository and bring up the GUI , which you may explore but we will not go into detail in class.
 
 7. To return to the command line either quit out of Git GUI or in iTerm2 or Git Bash, press the `ctrl` + `c` buttons to return to your prompt.
 
