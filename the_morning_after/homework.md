@@ -31,9 +31,9 @@ This sync only updated your local copy of the repository. To update your fork on
    {% hint style='tip' %}
 Never used markdown before and need some help figuring it out? 
 Check out these resources:
-        1.  [help.github.com/articles/basic-writing-and-formatting-syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
-        2.  [guides.github.com/features/mastering-markdown](https://guides.github.com/features/mastering-markdown/)
-        3.  [markdowntutorial.com](http://markdowntutorial.com/)
+   1.  [help.github.com/articles/basic-writing-and-formatting-syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+   2.  [guides.github.com/features/mastering-markdown](https://guides.github.com/features/mastering-markdown/)
+   3.  [markdowntutorial.com](http://markdowntutorial.com/)
    {% endhint %}
 
 5. Push your changes to your repository on GitHub.
