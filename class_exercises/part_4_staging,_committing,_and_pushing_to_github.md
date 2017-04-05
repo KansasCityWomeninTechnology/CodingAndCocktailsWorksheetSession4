@@ -14,7 +14,7 @@ There are three vital steps to pushing your changes up to GitHub: **staging**, *
 3. To verify that your files were added, type `git status` again.
 ![](../assets/image09.png)
 
-    Notice this time it tells us these are "Changes to be committed:"
+    Notice this time it tells us these are "Changes to be committed:" which means we've staged this file successfully.
 
 4. In Atom, make another change to your _README.md_ file and save the changes.
 
