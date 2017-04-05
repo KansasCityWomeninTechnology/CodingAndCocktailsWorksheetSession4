@@ -22,19 +22,19 @@
         
 6. Merge changes from upstream/master into your local branch.  Type `git merge upstream/master` to sync with the upstream repository without losing any local changes that you may have made.  You should now be up to date with any changes that have been committed and merged into the upstream repository since you forked the repository.
 
-        {% hint style='tip' %}
+   {% hint style='tip' %}
 This sync only updated your local copy of the repository. To update your fork on GitHub, you must push your changes to your origin remote.
-        {% endhint %}
+   {% endhint %}
 
 6. Open and update the _glossary.md_ markdown document to add your term.
 
-        {% hint style='tip' %}
+   {% hint style='tip' %}
 Never used markdown before and need some help figuring it out? 
 Check out these resources:
         1.  [help.github.com/articles/basic-writing-and-formatting-syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
         2.  [guides.github.com/features/mastering-markdown](https://guides.github.com/features/mastering-markdown/)
         3.  [markdowntutorial.com](http://markdowntutorial.com/)
-        {% endhint %}
+   {% endhint %}
 
 5. Push your changes to your repository on GitHub.
 
