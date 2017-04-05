@@ -11,10 +11,12 @@
 4. Configure your upstream remote (where you forked from).
 
         1. Type `git remote -v` to view the currently configured remotes.
+        ![](/images/originRemote.png)
         
         2. Specify your upstream remote by typing `git remote add upstream https://github.com/KansasCityWomeninTechnology/LearningResources.git`
         
         3. Double check you have a new remote configured by typing `git remote -v` again.  This time you should see both origin remotes and upstream remotes. 
+        ![](/images/upstreamRemote.png)
 
 5. Fetch any new commits to the upstream repository. Type `git fetch upstream`.
         
