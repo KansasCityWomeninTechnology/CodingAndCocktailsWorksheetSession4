@@ -11,7 +11,7 @@ There are three vital steps to pushing your changes up to GitHub: **staging**, *
 
 2. Type `git add README.md`.
 
-3. To verify that your files were added, type `git status` again. , which will tell you all about your repo. the last line will show which files have been modified.<br>
+3. To verify that your files were added, type `git status` again.
 ![](../assets/image09.png)
 
     Notice this time it tells us these are "Changes to be committed:"
