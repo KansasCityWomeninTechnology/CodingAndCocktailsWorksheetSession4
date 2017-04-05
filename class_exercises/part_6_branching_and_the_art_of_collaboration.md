@@ -6,7 +6,7 @@ Now we are going to collaborate on a very simple web application.
 
 2. Click on the issues tab at the top.
 
-3. Look through the list of issues for one that does not yet have a comment icon on the right side: ![](/images/comment.png).
+3. Look through the list of issues for one that does not yet have a comment icon on the right side: ![](/images/comment.png)
 
 4. Click on the issue to open it and at the bottom, add a comment saying the issue is assigned to you.  For example,  "This issue is assigned to @codingandcocktails." Replace codingandcocktails with your own GitHub username, leaving the @ symbol to tag yourself. Make note of the issue number to use in step 8. 
 
