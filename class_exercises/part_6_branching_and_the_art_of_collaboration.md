@@ -13,8 +13,6 @@ Now we are going to collaborate on a very simple web application.
     {% hint style='info' %}
 You may see development teams assign work via the "Assignee" option on the upper right corner of the issue.
 
-![](/images/assignee.png)
-
 We are not using that option to simplify user management tonight.
     {% endhint %}
 
