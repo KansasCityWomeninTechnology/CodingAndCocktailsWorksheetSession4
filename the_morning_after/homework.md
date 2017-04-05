@@ -22,7 +22,7 @@
         
 6. Merge changes from upstream/master into your local branch.  Type `git merge upstream/master` to sync with the upstream repository without losing any local changes that you may have made.  You should now be up to date with any changes that have been committed and merged into the upstream repository since you forked the repository.
 
-   {% hint style='tip' %}
+   {% hint style='info' %}
 This sync only updated your local copy of the repository. To update your fork on GitHub, you must push your changes to your origin remote.
    {% endhint %}
 
