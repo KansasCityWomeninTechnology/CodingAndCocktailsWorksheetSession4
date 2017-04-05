@@ -1,6 +1,6 @@
 ### Part 3: Clone A Repository {#part-3-cloning-your-local-repository}
 
-Your new repository exists in the Cloud for now, but that’s not where you will be writing your code. That happens on your own computer. From this point on, your computer is referred to as “local” and your GitHub repository (or repo) is “remote.”
+Your new MyFirstRepo repository exists in the Cloud for now, but that’s not where you will be writing your code. That happens on your own computer. From this point on, your computer is referred to as “local” and your GitHub repository (or repo) is “remote.”
 
 1.  In Google Chrome on the GitHub site, find the green `Clone or download` button. Click on the clipboard icon to the right of the URL to copy it to your system clipboard.
 
