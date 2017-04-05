@@ -40,15 +40,15 @@ If you are working on issue #9, your branch name would be **issue-09**.
 To switch between branches type `git checkout branchname` replacing the text "branchname" with the branch you'd like to switch to.  For example if you want to switch to the "development" branch you'd type `git checkout development`.
     {% endhint %}
     
-9.  In Git Bash or iTerm2 type `atom .`. This will open your Atom text editor with the context of the current directory.
+10.  In Git Bash or iTerm2 type `atom .`. This will open your Atom text editor with the context of the current directory.
 
-10. Make changes to the application as instructed in your issue and make sure to save any files you change. 
+11. Make changes to the application as instructed in your issue and make sure to save any files you change. 
 
-11.  After you've saved your files, in Git Bash or iTerm2, type `git status` to view which files you've changed. 
+12.  After you've saved your files, in Git Bash or iTerm2, type `git status` to view which files you've changed. 
 
-12. If everything looks good, stage and commit your changes. Type `git push origin <branchname>` to push to the branch you made to your remote fork, substituting your own branch name for the angle brackets and "branchname" text. Now you have pushed your changes to the _origin_ (that is, to the cloud), to your specific branch.
+13. If everything looks good, stage and commit your changes. Type `git push origin <branchname>` to push to the branch you made to your remote fork, substituting your own branch name for the angle brackets and "branchname" text. Now you have pushed your changes to the _origin_ (that is, to the cloud), to your specific branch.
 
-9. Create a **pull request** to migrate your changes from the fork and branch you have been working on to the Kansas City Women in Technology repository.
+14. Create a **pull request** to migrate your changes from the fork and branch you have been working on to the Kansas City Women in Technology repository.
 
     1. In Google Chrome, navigate to [https://github.com/KansasCityWomeninTechnology/DrinkOrderApp](https://github.com/KansasCityWomeninTechnology/DrinkOrderApp) and click on the **New Pull Request** button.
     
@@ -60,9 +60,9 @@ To switch between branches type `git checkout branchname` replacing the text "br
 
      4. Change the "base" (the branch within the organization you selected to move your changes **TO**) as "vc-final".
     
-    4. Change the "head fork" (User that you're moving changes **FROM**) to yourGitHubusername/DrinkOrderApp 
+    5. Change the "head fork" (User that you're moving changes **FROM**) to yourGitHubusername/DrinkOrderApp 
     
-    5. Change the "compare" to the issue-## branch you created in step 7.
+    6. Change the "compare" to the issue-## branch you created in step 8.
     
     Feel free to add any comments you'd like.  If you keep scrolling down you'll see the commits you added to make the change along with the diff across the file(s) you changed.
     
@@ -70,11 +70,15 @@ To switch between branches type `git checkout branchname` replacing the text "br
 
     {% hint style='info' %}
 If Git detects no conflicts, it will give you a checkmarked message saying “able to merge.”
+
+![](/images/mergeable.png)
     
 If Git detects conflicts, it will display a red message saying "Can't automatically merge."
+
+![](/images/cantMerge.png)
     {% endhint %}
 
-11.  Typically someone or a group of people have oversight into merging the pull requests into the upstream repository (where you forked from) to become the final version of the code. Once your pull request is accepted by this person, you can view your code in the final destination, along with all of the changes your peers have made.
+15.  Typically someone or a group of people have oversight into merging the pull requests into the upstream repository (where you forked from) to become the final version of the code. Once your pull request is accepted by this person, you can view your code in the final destination, along with all of the changes your peers have made.
 
     We will work on getting PR's (aka Pull Requests) merged as we are able!
 
