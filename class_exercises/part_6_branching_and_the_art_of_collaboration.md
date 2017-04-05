@@ -22,11 +22,11 @@ We are not using that option because of additional user management overhead.
 If you need a refresher on how to fork a repository go back to [Part 5: Forking](/class_exercises/part_5_practice_with_forking.md).
     {% endhint %}
 
-6. In Git Bash or iTerm2 you are probably still in the _MyFirstRepo_ directory from step 4. If so, type `cd ..` to navigate back up to your `VersionControl` directory.  If you are anywhere else change directories to the _VersionControl_ directory.
+6. In Git Bash or iTerm2 make sure you are in your _VersionControl_ directory.  If you are anywhere else change directories to the _VersionControl_ directory.
 
 7. Clone the repository and `cd` into it.
 
-7. Use the issue number from step 4, make a new branch. In Git Bash or iTerm2, type `git checkout -b issue-##` to do this.
+8. Use the issue number from step 4, make a new branch. In Git Bash or iTerm2, type `git checkout -b issue-##` to do this.
 
     {% hint style='tip' %}
 If you are working on issue #4, your branch name would be **issue-04**.
