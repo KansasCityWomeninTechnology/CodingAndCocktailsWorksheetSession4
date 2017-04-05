@@ -29,7 +29,7 @@ You can ignore the `Add .gitignore` and `Add a license` dropdowns for the time b
 
 11.  Click `Create Repository`.
 
-**Congratulations! Have a drink! You’ve created two repositories and established your presence on GitHub!**
+**Congratulations! Have a drink! In part 2, you created two repositories and established your presence on GitHub!**
 
 {% hint style='tip' %}
 Unless you decide to purchase a paid GitHub account (not necessary for what we do) all of your repositories are automatically publicly searchable.
