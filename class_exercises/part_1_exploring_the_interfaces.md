@@ -4,6 +4,10 @@
 
 2.  Type `cd CodingAndCocktails` to navigate to your `CodingAndCocktails` directory in your home directory.
 
+    {% hint style='tip' %}
+If you don't have a CodingAndCocktails directory created refer back to [The Tools instructions](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/organization---codingandcocktails-folder.html) to create it.
+    {% endhint %}
+
 3. Type `mkdir VersionControl` to make a new folder for this month. Then type `cd VersionControl` to move into that folder.
 
     {% hint style='tip' %}
