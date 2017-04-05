@@ -26,13 +26,13 @@ If you need a refresher on how to fork a repository go back to [Part 5: Forking]
 
 7. Clone the repository and `cd` into it.
 
-8. Use the issue number from step 4, make a new branch. In Git Bash or iTerm2, type `git checkout -b issue-##` to do this.
+8. Use the issue number from step 4, make a new branch. In Git Bash or iTerm2, type `git checkout -b issue-##` to do this replacing ## with your issue number.
 
     {% hint style='tip' %}
 If you are working on issue #4, your branch name would be **issue-04**.
     {% endhint %}
 
-8. To view all branches within the repo, type `git branch` . This should show you at least two branches - master, and the issue-## branch you just created. The branch you are currently working in will be highlighted with an asterisk (*).
+9. To view all branches within the repo, type `git branch` . This should show you at least two branches - master, and the issue-## branch you just created. The branch you are currently working in will be highlighted with an asterisk (*).
 
     {% hint style='tip' %}
 To switch between branches type `git checkout <branchname>` replacing the angle brackets and the text "branchname" with the branch you'd like to switch to.  For example if you want to switch to the "development" branch you'd type `git checkout development`.
