@@ -24,7 +24,7 @@ If you need a refresher on how to fork a repository go back to [Part 5: Forking]
 
 6. In Git Bash or iTerm2 make sure you are in your _VersionControl_ directory.  If you are anywhere else change directories to the _VersionControl_ directory.
 
-7. Clone the repository and `cd` into it.
+7. Clone the forked repository and `cd` into it.
 
 8. Use the issue number from step 4, make a new branch. In Git Bash or iTerm2, type `git checkout -b issue-##` to do this replacing ## with your issue number.
 
