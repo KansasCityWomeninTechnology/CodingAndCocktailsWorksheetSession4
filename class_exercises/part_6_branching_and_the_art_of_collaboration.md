@@ -8,7 +8,15 @@ Now we are going to collaborate on a very simple web application.
 
 3. Look through the list of issues for one that does not yet have a comment icon on the right side: ![](/images/comment.png).
 
-4. Click on the issue to open it and at the bottom, add a comment "This issue is assigned to @codingandcocktails". Replacing codingandcocktails with your own GitHub username, leaving the @ symbol. Make note of the issue number to use in step 8. 
+4. Click on the issue to open it and at the bottom, add a comment saying the issue is assigned to you.  For example,  This issue is assigned to @codingandcocktails. Replacing codingandcocktails with your own GitHub username, leaving the @ symbol to tag yourself. Make note of the issue number to use in step 8. 
+
+    {% hint style='info' %}
+You may see development teams assign work via the "Assignee" option on the upper right corner of the issue. 
+
+
+
+We are not using that option because of additional user management overhead.
+    {% endhint %}
 
 5. Fork the repository.
 
