@@ -15,7 +15,7 @@ You may see development teams assign work via the "Assignee" option on the upper
 
 ![](/images/assignee.png)
 
-We are not using that option because of additional user management overhead.
+We are not using that option to simplify user management tonight.
     {% endhint %}
 
 5. Fork the repository.
