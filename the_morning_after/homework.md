@@ -6,17 +6,17 @@
 
 2. In Part 5 you forked the Kansas City Women in Technology Learning Resources repository from [github.com/KansasCityWomeninTechnology/LearningResources](https://github.com/KansasCityWomeninTechnology/LearningResources)
 
-3. Open Git Bash or iTerm2 and change directories until you're in the directory for your forked Learning Resources repository. This should be `cd ~/CodingAndCocktails/VersionControl/LearningResources`.
+3. Open Git Bash or iTerm2 and change directories until you're in the directory for your forked Learning Resources repository. Type `cd ~/CodingAndCocktails/VersionControl/LearningResources`.
 
 4. Configure your upstream remote (where you forked from).
 
-        1. Type `git remote -v` to view the currently configured remotes.
-        ![](/images/originRemote.png)
+   1. Type `git remote -v` to view the currently configured remotes.
+   ![](/images/originRemote.png)
         
-        2. Specify your upstream remote by typing `git remote add upstream https://github.com/KansasCityWomeninTechnology/LearningResources.git`
+   2. Specify your upstream remote by typing `git remote add upstream https://github.com/KansasCityWomeninTechnology/LearningResources.git`
         
-        3. Double check you have a new remote configured by typing `git remote -v` again.  This time you should see both origin remotes and upstream remotes. 
-        ![](/images/upstreamRemote.png)
+   3. Double check you have a new remote configured by typing `git remote -v` again.  This time you should see both origin remotes and upstream remotes. 
+   ![](/images/upstreamRemote.png)
 
 5. Fetch any new commits to the upstream repository. Type `git fetch upstream`.
         
