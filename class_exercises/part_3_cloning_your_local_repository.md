@@ -17,7 +17,7 @@ Your new MyFirstRepo repository exists in the Cloud for now, but that’s not wh
   You should see it churn out something that looks like this:
 ![](../assets/image03.png)
 
-3.  Type `ls -la` to verify that it did indeed copy down the repository. Now you have a copy on GitHub, and a local copy that you can modify without affecting the remote until you tell it to.
+3.  Type `ls -la` to verify that it did indeed copy down the repository. Now you have a remote copy on GitHub, and a local copy that you can modify without affecting the remote until you tell it to.
 
 4.  Type `cd MyFirstRepo` to change directory into your repository. 
   {% hint style='tip' %}
