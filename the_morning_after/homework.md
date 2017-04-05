@@ -46,7 +46,7 @@ Check out these resources:
 
 ## Additional Resources
 
-1.  Just for fun & more practice - Learning Github via a game! [http://pcottle.github.io/learnGitBranching/](http://pcottle.github.io/learnGitBranching/)
+1.  Just for fun & more practice - Learning Git branching via a game! [http://pcottle.github.io/learnGitBranching/](http://pcottle.github.io/learnGitBranching/)
 
 2.  The Atlassian Git Tutorial: [https://www.atlassian.com/git/](https://www.atlassian.com/git/)
 
