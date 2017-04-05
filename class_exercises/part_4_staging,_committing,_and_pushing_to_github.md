@@ -30,7 +30,7 @@ The capitalization of the `A` is important in this step.  A lowercase -a is not 
 
 7. Double check yourself that everything is staged by typing `git status`.
 
-7.  Commit your changes with a brief commit message by typing `git commit -m "Initial Commit"`.
+7.  Commit your changes with a brief commit message by typing `git commit -m "Updated README.md to practice staging, committing, and pushing."`.
 
     {% hint style='info' %}
 The -m flag allows you to provide a description of the changes. This is important information for those who may collaborate on the code later.
