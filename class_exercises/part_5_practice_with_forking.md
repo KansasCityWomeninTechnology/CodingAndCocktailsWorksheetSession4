@@ -16,9 +16,8 @@ If asked, “Where should we fork this repository?” Select your personal profi
 4.  In Git Bash or iTerm2, change directory up one level to make sure you're in your _VersionControl_ directory prior to cloning.
 
     {% hint style='tip' %}
-Review the steps for cloning a repository in [Part 3](/class_exercises/part_3_cloning_your_local_repository.md)
+Review Part 3, Step 2 for how to move up one directory. [Part 3](/class_exercises/part_3_cloning_your_local_repository.md)
     {% endhint %}
-
 
 5. Clone this repository down to your desktop. 
 
