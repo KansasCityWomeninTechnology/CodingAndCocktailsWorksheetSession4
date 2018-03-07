@@ -1,11 +1,16 @@
 {
-"plugins": [
-"custom-favicon",
-"hints",
-"sectionx",
-"local-video"
-],
-"pluginsConfig": {
-"favicon": "assets/favicon.ico"
-}
+    "root": "./docs",
+    "structure": {
+        "readme": "README.md",
+        "summary": "SUMMARY.md"
+    },
+    "plugins": [
+        "custom-favicon",
+        "hints",
+        "sectionx",
+        "local-video"
+    ],
+    "pluginsConfig": {
+        "favicon": "assets/favicon.ico"
+    }
 }

@@ -1,36 +1,23 @@
-# Coding & Cocktails Session 4:
-## Version Control using Git {#version-control-using-git}
-<hr>
+# Coding & Cocktails Session 4: Git
 
-**![Coding and Cocktails Badge](assets/codingcocktailsbadge-200.png)**
+The `docs` directory contains worksheets for Coding & Cocktails session 4 published on Gitbooks: [Coding & Cocktails - Session 4: Version Control Using Git](https://www.gitbook.com/book/codingandcocktailskc/session-4-version-control-using-git/details).
 
-### Overview
+## Getting Going
+Install [Gitbook](https://www.npmjs.com/package/gitbook) CLI from npm.
 
-During the session we’ll discuss distributed version control, through a tool called Git. 
+```bash
+gitbook install
+gitbook serve
+```
+To build without serving, `gitbook build`.
 
-### Helpful Keyboard Shortcuts
-|Command|Mac Key Combination|Windows Key Combination|
-|--|--|--|
-|Cut|`cmd` + `x`|`ctrl` + `x`|
-|Copy|`cmd` + `c`|`ctrl` + `c`|
-|Paste|`cmd` + `v`|`ctrl` + `v`|
-|Undo|`cmd` + `z`|`ctrl` + `z`|
-|Redo|`cmd` + `y`|`ctrl` + `y`|
-|Save|`cmd` + `s`|`ctrl` + `s`|
-|Select all|`cmd` + `a`|`ctrl` + `a`|
-|Find|`cmd` + `f`|`ctrl` + `f`|
-|Switch between open apps/programs |`cmd` + `tab`|`alt` + `tab`|
-|Switch between programs on the taskbar| N/A | `windows key` + `tab`|
-|Switch between Chrome windows. |`shift` + `cmd` + `~`| N/A |
+## Associated Repos
+[DrinkOrderApp](https://github.com/KansasCityWomeninTechnology/DrinkOrderApp) 
 
-[![](images/glossary.png)](http://bit.ly/CnCgloss)
-[![](images/tools.png)](http://bit.ly/CnCTools)
+## TODO
+- [ ] 2018 updates!
 
+## License
+![](https://lh6.googleusercontent.com/osprAumZLusoNUcKnPtOWMijWYLZ8ydrUS0gMTvMCoyhSVBd69InqiXqQjc7fH8iQiVbZLXvyyvPZXwKjeyHuPnrd2zJT1mYLa1WoziryvxOo0q7nvMnpfeeVPBgfqW0bnp1--wa)![](https://lh5.googleusercontent.com/AZZipN4uXuU6FkxA0zLbrq9EwMhky22oNI8UtjQ2-Kgzy64Jmbij_IKUwXDcqGjnHWSMg9h3ii2Dx_SLI871nVn56NyF1VnmDbkEL2m9sJ_9YYGpNC8kdiYepai1jAZLEWWt8iTW)![](https://lh6.googleusercontent.com/GSxH81qYzBJkBR39GbviwKcwxem0RbN8XTx_6BOHgziQ6OomnG-au25ZSdiNQ4rX2p2HanRGa8_SzTPhJ3SKW-Vrs6fJ8N9s0FLq1EVSwUZXrLZuUVONachwFWwqTr6PMpn1csnu)
 
-
-
-
-
-
-
-
+This work is licensed by [http://kcwomenintech.org/](http://kcwomenintech.org/) under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
