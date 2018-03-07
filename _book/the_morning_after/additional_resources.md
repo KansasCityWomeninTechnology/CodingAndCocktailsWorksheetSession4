@@ -1,4 +1,0 @@
-### Additional Resources {#additional-resources}
-
-
-

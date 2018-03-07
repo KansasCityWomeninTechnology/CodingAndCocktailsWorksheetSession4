@@ -1,1 +1,0 @@
-## Class Exercises {#class-exercises}
