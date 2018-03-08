@@ -1,0 +1,8 @@
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+@import 'instructions.css';
+@import 'checkpoint.css';
+
+
+.markdown-section h2 {
+  margin-top: 60px;
+}

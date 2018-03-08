@@ -46,6 +46,9 @@ Check out these resources:
 
 ## Additional Resources
 
+1. https://try.github.io/levels/1/challenges/1
+1. https://www.codecademy.com/learn/learn-git
+
 1.  Just for fun & more practice - Learning Git branching via a game! [http://pcottle.github.io/learnGitBranching/](http://pcottle.github.io/learnGitBranching/)
 
 2.  The Atlassian Git Tutorial: [https://www.atlassian.com/git/](https://www.atlassian.com/git/)
