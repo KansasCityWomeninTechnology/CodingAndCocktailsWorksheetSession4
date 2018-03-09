@@ -1,30 +1,27 @@
-# Coding & Cocktails Session 4:
-## Version Control using Git {#version-control-using-git}
+<div>
+    <img src="assets/logo.png" style="float: left; margin: 0px 15px 15px 0px; height:125px;">
+    <h2 style="display:inline-block;margin-top:1em;">Coding &amp; Cocktails Session 4:</h2>
+    <h3 style="margin-top:0;margin-bottom:2em;">Version Control Using Git</h3>
+</div>
 <hr>
-
-**![Coding and Cocktails Badge](assets/codingcocktailsbadge-200.png)**
 
 ### Overview
 
-During the session we’ll discuss distributed version control, through a tool called Git. 
+During the session we’ll learn about distributed version control using a tool called Git. 
 
-### Helpful Keyboard Shortcuts
-|Command|Mac Key Combination|Windows Key Combination|
-|--|--|--|
-|Cut|`cmd` + `x`|`ctrl` + `x`|
-|Copy|`cmd` + `c`|`ctrl` + `c`|
-|Paste|`cmd` + `v`|`ctrl` + `v`|
-|Undo|`cmd` + `z`|`ctrl` + `z`|
-|Redo|`cmd` + `y`|`ctrl` + `y`|
-|Save|`cmd` + `s`|`ctrl` + `s`|
-|Select all|`cmd` + `a`|`ctrl` + `a`|
-|Find|`cmd` + `f`|`ctrl` + `f`|
-|Switch between open apps/programs |`cmd` + `tab`|`alt` + `tab`|
-|Switch between programs on the taskbar| N/A | `windows key` + `tab`|
-|Switch between Chrome windows. |`shift` + `cmd` + `~`| N/A |
+{% hint style='tip' %}
+First time at Coding & Cocktails?   [Click here to Install the Tools!](http://bit.ly/CnCTheTools)
+{% endhint %}
 
-[![](images/glossary.png)](http://bit.ly/CnCgloss)
-[![](images/tools.png)](http://bit.ly/CnCTools)
+{% hint style='tip' %}
+Don't know a term?   [Click here to check out our glossary!](http://bit.ly/CnCgloss)
+{% endhint %}
+
+{% hint style='tip' %}
+Want to be more efficient at working with your computer?
+
+[Click here to see our list of Helpful Keyboard Shortcuts!](/references/README.md)
+{% endhint %}
 
 
 

@@ -3,7 +3,7 @@
 * [Setup Instructions](setup/README.md)
 
 ### Worksheet
-* [Inspect A Repo](ws1-github/README.md)
+* [Inspect A Repo](ws1-inspect/README.md)
 * [Create A Repo ](ws2-create/README.md) 
 * [Editing Files](ws3-edit/README.md)
 * [Collaborating With Others](ws4-collaborate/README.md)
