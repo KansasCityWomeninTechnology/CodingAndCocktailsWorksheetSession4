@@ -17,7 +17,7 @@ This section will help guide you through the following steps:
 {% include "./1github.md" %}
 
 ## Clone a repository {#clone} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
-Let's clone an existing repository to our own machines and inspect it using a tool called GitKraken.
+Now let's look at the same repository using a Git GUI tool called GitKraken. We'll clone the repository to our machines and see a unified visualization of the separate branches and paths we inspected earlier. 
 {% include "./2clone.md" %}
 
 
