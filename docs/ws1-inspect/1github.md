@@ -2,7 +2,7 @@
 
 1. Let's find a repository. Search for "KansasCityWomeninTechnology/DrinkOrderApp" using **Search GitHub** in the toolbar at the top of the page. Click on the repository result.
    {% hint style='info' %}
-GitHub is a big place! Sometimes there are many respositories with the same name. In this search we are searching repositories named "DrinkOrderApp" by the user "KansasCityWomeninTechnology". 
+GitHub is a big place! Sometimes there are many repositories with the same name. In this search we are searching repositories named "DrinkOrderApp" by the user "KansasCityWomeninTechnology". 
     {% endhint %}
 
 1. We see an overview for a repository. Let's inspect a little closer. GitHub displays information about the repository such as 
@@ -65,16 +65,16 @@ It might look like random letters and numbers, but it's not! This is the unique 
    ![](images/diff.png)
 
    The pink highlights show the previous version and the light green highlights are the new version. The darker red highlights shows the deleted characters and the dark green highlights show the added characters.
+   {% hint style='info' %}
+This is more commonly known by its abbreviated name, "diff view".
+   {% endhint %}
 
 1. Click the <i class="fa fa-arrow-left" aria-hidden="true"></i> button in Chrome to navigate back to the list of commits.
 
-1. Click on the button to the right (the one that looks like <span class="octicon octicon-code"></span> ). Now you are browsing the repository files as they were in this commit. You have a picture of the entire repository every step of the way!
+1. Click on the button to the right (the one that looks like <span class="octicon octicon-code"></span>). Now you are browsing the repository files as they were in this commit. You have a picture of the entire repository every step of the way!
 
 1. Click the <i class="fa fa-arrow-left" aria-hidden="true"></i> button in Chrome to navigate back to the list of commits.
 
-1. Take a look at the left vertical line outlined by circle #4. The <span class="octicon octicon-git-commit"></span> icon shows each commit made to the selected branch and there's a line between each commit, forming a path. Each branch represents its changes this way. Select a different branch using the **Branch** combobox to see this in action. 
-
-JAD TODO Potentially remove #4??
 
 
 

@@ -17,15 +17,14 @@ This section will help guide you through the following steps:
 {% include "./1github.md" %}
 
 ## Clone a repository {#clone} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
-Now let's look at the same repository using a Git GUI tool called GitKraken. We'll clone the repository to our machines and see a unified visualization of the separate branches and paths we inspected earlier. 
+Let's look at the same repository using a Git GUI tool called GitKraken. We'll clone the repository to our machines and see a unified visualization of the separate branches and paths we inspected earlier. 
 {% include "./2clone.md" %}
-
 
 <!-- trick markdown to give me a little space between these two sections of text -->
 ## 
 
 ## References and helpful links <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
-[Mozilla Developer Network CSS reference documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+[Atlassian Git Tutorial-- What is version control](https://www.atlassian.com/git/tutorials/what-is-version-control)
 
 
 <!-- trick markdown to give me a little space between these two sections of text -->
