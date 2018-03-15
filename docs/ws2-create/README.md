@@ -25,4 +25,8 @@ Our file is ready to go! Let's stage and commit our changes.
 ## 
 
 ## References and helpful links <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
-[Mozilla Developer Network CSS reference documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+[Git SCM documentation for clone](https://git-scm.com/docs/git-clone)
+
+[Git SCM documentation for status](https://git-scm.com/docs/git-status)
+
+JAD TODO Add more here

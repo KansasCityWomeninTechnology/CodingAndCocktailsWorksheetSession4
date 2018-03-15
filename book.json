@@ -9,7 +9,8 @@
         "hints",
         "sectionx",
         "local-video",
-        "anchors"
+        "anchors",
+        "terminal"
     ],
     "pluginsConfig": {
         "favicon": "assets/favicon.ico",
@@ -18,6 +19,11 @@
             "tip": "fa fa-lightbulb-o fa-lg",
             "danger": "fa fa-exclamation-circle fa-lg",
             "working": "fa fa-question-circle fa-lg"
+        },
+        "terminal": {
+            "copyButtons": true,
+            "fade": true,
+            "style": "flat"
         }
     }
 }

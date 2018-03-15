@@ -47,7 +47,7 @@ Windows users - Navigate to your home directory by typing %USERPROFILE% in the f
      <i class="fa fa-circle fa-stack-2x help-annotations"></i>
      <strong class="fa-stack-1x help-annotations-text">5</strong>
    </span>
-   The paths for all the branches in an unified view (aka "Git tree")
+   The paths for all the branches as an unified view (aka a graph and "Git tree")
 
    ![](images/gitkraken-repo.png)
   
@@ -60,9 +60,9 @@ Right click shows more options. We'll cover most of these options later in the s
 
 1. Double click on a branch, such as the one named "jquery-master". Notice your selected branch changed (circle #1). You may have also noticed a message appear and disappear. You switched branches and the **LOCAL** list of branches on the list now contains "jquery-master". We'll cover more about this a little later tonight. 
 
-1. Now let's turn our attention towards the Git tree. This shows all the branches in an unified view and how each path converges and diverges. Each branch is a different color. Circles with faces or robots insides are commits and solid circles show where two branches meet.  
+1. Now let's turn our attention towards the Git tree. This shows all the branches in an unified view and how each path converges and diverges. Each branch is a different color. Circles with faces or robots insides are commits and solid circles show where two branches meet. 
    {% hint style='info' %}
-It looks like a maze, but using this view we can trace revisions and see how a change affects the project as a whole. The ability to create branches in version control allows large groups of people can work independently and still collaborate on a single project.   
+It looks like a maze, but using this view we can trace revisions and see how a change affects the project as a whole. The ability to create branches in version control allows large groups of people can work independently and still collaborate on a single project.    
   {% endhint %} 
 
 1. Right click on "jquery-master" in the left panel with the list of all the branches. Select **Solo** as shown in the picture below.
