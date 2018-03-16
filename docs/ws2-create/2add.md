@@ -16,8 +16,8 @@ Your terminal may have changed when you created a new file. Mac users may see a 
 On branch master
 Your branch is up to date with 'origin/master'.
 Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-           myfile.txt 
+(use "git add <file>..." to include in what will be committed)
+**[error    myfile.txt]
 nothing added to commit but untracked files present (use "git add" to track)
    ```
 
@@ -25,7 +25,7 @@ nothing added to commit but untracked files present (use "git add" to track)
    
    ![](images/gitkraken-unstaged.png)
 
-      {% hint style='tip' %}
+   {% hint style='tip' %}
 Something here about what an untracked file is
    {% endhint %}
 
