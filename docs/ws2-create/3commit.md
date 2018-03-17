@@ -29,6 +29,8 @@ create mode 100644 myfile.txt
       {% hint style='tip' %}
 Something here about what committing is. And that their terminal changed back to normal.
 
+The -m flag allows you to provide a description of the changes. This is important information for those who may collaborate on the code later.
+
 Also
 If you accidentally hit enter after you type `git commit`, have no fear.
 Your default text editor [or falls back to `vi` editor] will open, where you can add your commit message
