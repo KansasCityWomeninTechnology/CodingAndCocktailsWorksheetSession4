@@ -1,1 +1,0 @@
-Find a Slack buddy, fork their repo, clone, make a change (or add a new file) and raise a PR.

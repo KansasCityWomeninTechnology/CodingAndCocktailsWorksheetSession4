@@ -12,7 +12,7 @@ You can ignore the **Add .gitignore** and **Add a license** dropdowns for the ti
 
 1. You now have a repo! Notice you're automatically on 'master' branch. Click the green **Clone or download** button and copy the link by clicking on the <span class="octicon octicon-clippy"></span> button.
 
-1. Open your terminal and navigate to "CodingAndCocktails/Session4" folder in your home directory. If you are already in "DrinkOrderApp", you can type `cd ../Session4` <i class="fa fa-share fa-rotate-180"></i>.
+1. Open your terminal and navigate to "CodingAndCocktails/VersionControl" folder in your home directory. If you are already in "DrinkOrderApp", you can type `cd ../VersionControl` <i class="fa fa-share fa-rotate-180"></i>.
 
    {% hint style='info' %}
 The <i class="fa fa-share fa-rotate-180"></i> icon tells you when to press `Enter`.
@@ -21,7 +21,7 @@ The <i class="fa fa-share fa-rotate-180"></i> icon tells you when to press `Ente
 1. Type `git clone` and paste the link to your repository that you copied in the previous step. Press `Enter`. Your terminal will look like this
    ```
 **[terminal]
-**[prompt LadyDev@Coding&Cocktails]**[path  ~/CodingAndCocktails/Session4]
+**[prompt LadyDev@Coding&Cocktails]**[path  ~/CodingAndCocktails/VersionControl]
 **[delimiter λ ]**[command git clone https://github.com/kcwit/MyFirstRepo.git]
 Cloning into 'MyFirstRepo'...
 remote: Counting objects: 3, done.
@@ -40,7 +40,7 @@ Don't forget to use Tab completion to make typing in the terminal easier!
 1. Type `ls -al` <i class="fa fa-share fa-rotate-180"></i>. You should see the following files
    ```
 **[terminal]
-**[prompt LadyDev@Coding&Cocktails]**[path  ~/CodingAndCocktails/Session4/MyFirstRepo (master)]
+**[prompt LadyDev@Coding&Cocktails]**[path  ~/CodingAndCocktails/VersionControl/MyFirstRepo (master)]
 **[delimiter λ ]**[command ls -al]
 ./
 ../
@@ -56,7 +56,7 @@ Git has special files. One of them is the ".git" folder. It contains all the inf
 1. Type `git status` <i class="fa fa-share fa-rotate-180"></i>. You will see something like this
    ```
 **[terminal]
-**[prompt LadyDev@Coding&Cocktails]**[path  ~/CodingAndCocktails/Session4/MyFirstRepo (master)]
+**[prompt LadyDev@Coding&Cocktails]**[path  ~/CodingAndCocktails/VersionControl/MyFirstRepo (master)]
 **[delimiter λ ]**[command git status]
 On branch master
 Your branch is up to date with 'origin/master'.

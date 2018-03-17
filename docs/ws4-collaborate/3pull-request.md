@@ -12,7 +12,7 @@
 1. In the terminal, type `git status` <i class="fa fa-share fa-rotate-180"></i>. We see that our local copy of 'master' is behind 'origin/master'
    ```
 **[terminal]
-**[prompt LadyDev@Coding&Cocktails]**[path  ~/CodingAndCocktails/Session4/MyFirstRepo (master)]
+**[prompt LadyDev@Coding&Cocktails]**[path  ~/CodingAndCocktails/VersionControl/MyFirstRepo (master)]
 **[delimiter λ ]**[command git status]
 On branch master
 Your branch is behind 'origin/master' by 2 commits, and can be fast-forwarded.
@@ -21,3 +21,8 @@ nothing to commit, working tree clean
 
    ```
 1. Type `git pull` <i class="fa fa-share fa-rotate-180"></i> to pull changes from the remote to our local copy. Check `git status` again.
+
+1. Open Atom and take a look at _cocktails.txt_. You now have the changes you made in 'cocktails-branch'.
+
+1. Check the git graph for 'master' branch. It now contains the commits you made in 'cocktails-branch. Your git graph now looks like this
+   ![](images/git-graph-pull-request.png)
