@@ -29,4 +29,6 @@ Our file is ready to go! Let's stage and commit our changes.
 
 [Git SCM documentation for status](https://git-scm.com/docs/git-status)
 
-JAD TODO Add more here
+[Git SCM documentation for add](https://git-scm.com/docs/git-add)
+
+[Git SCM documentation for commit](https://git-scm.com/docs/git-commit)

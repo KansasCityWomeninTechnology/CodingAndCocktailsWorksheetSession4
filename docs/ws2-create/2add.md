@@ -1,14 +1,14 @@
-1. Let's create a new file by using the command line. Type `echo My favorite cocktail is > cocktails.txt` <i class="fa fa-share fa-rotate-180"></i>. 
+1. Let's create a new file by using the command line. Type `echo My favorite drink is > cocktails.txt` <i class="fa fa-share fa-rotate-180"></i>. 
    ```
 **[terminal]
 **[prompt LadyDev@Coding&Cocktails]**[path  ~/CodingAndCocktails/VersionControl/MyFirstRepo (master)]
 **[delimiter λ ]**[command echo My favorite cocktail is > cocktails.txt]
    ```
    {% hint style='tip' %}
-Your terminal may have changed when you created a new file. Mac users may see a yellow x appear and Cmder users may see the color of '(master)' branch name change. This is a way your terminal helps you keep track of changes in your git repository.
+Your terminal may have changed when you created a new file. Mac users may see a yellow X appear and Cmder users may see the color of '(master)' branch name change. This is a way your terminal helps you keep track of changes in your git repository.
    {% endhint %}
 
-1. Let's check out the status again. This time the terminal lists _cocktails.txt_ as an untracked file.
+1. Let's check out the git status again. This time the terminal lists _cocktails.txt_ as an untracked file.
    ```
 **[terminal]
 **[prompt LadyDev@Coding&Cocktails]**[path  ~/CodingAndCocktails/VersionControl/MyFirstRepo (master)]
@@ -20,13 +20,56 @@ Untracked files:
 **[error    cocktails.txt]
 nothing added to commit but untracked files present (use "git add" to track)
    ```
-
-1. Take a look at GitKraken. You'll see a dotted circle above your commit. If you click on it, it lists _cocktails.txt_ in **Unstaged Files**.
-   
-   ![](images/gitkraken-unstaged.png)
-
-   {% hint style='tip' %}
-Something here about what an untracked file is
+   {% hint style='info' %}
+An untracked file is a file that Git doesn't know about. You have to explicitly ask Git to track a file. Git doesn't do this automatically in case you accidentally include files that shouldn't be in source control (such as large files or application files).
    {% endhint %}
 
+1. We can add the file to git and stage the file at the same time by typing `git add cocktails.txt` <i class="fa fa-share fa-rotate-180"></i>.
+
+1. Let's check out the status again. This time the terminal lists _cocktails.txt_ as a change to be committed. GitKraken also shows the file in **Staged Files**.
+   ```
+**[terminal]
+**[prompt LadyDev@Coding&Cocktails]**[path  ~/CodingAndCocktails/VersionControl/MyFirstRepo (master)]
+**[delimiter λ ]**[command git status]
+On branch master
+Your branch is up to date with 'origin/master'.
+Changes to be committed:
+(use "git reset HEAD <file>..." to unstage)
+cocktails.txt 
+   ```
+
+1. Oops! We meant to say "My favorite **cocktail** is" in _cocktails.txt_. We need to fix that. You can use any text editor you want to edit the sentence. Make the change an save the file.
+   {% hint style='info' %}
+This is a good opportunity to practice your vim skills. Type `vim cocktails.txt` <i class="fa fa-share fa-rotate-180"></i> to launch vim. Type `i` for insert and make your change. Type `Esc` and then type `:wq`. Press `Enter` to save your file.
+
+Chromebook users - use the built in text editor to make your change.
+   {% endhint %}
+
+1. Check the git status in the terminal and take a look at GitKraken. Your terminal should look like this. What?! 
+   ```
+**[terminal]
+**[prompt LadyDev@Coding&Cocktails]**[path  ~/CodingAndCocktails/VersionControl/MyFirstRepo (master)]
+**[delimiter λ ]**[command git status]
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+**[error   new file:   cocktails.txt]        
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+**[error   modified:   cocktails.txt]        
+   ```
+   {% hint style='info' %}
+Our _cocktails.txt_ file is shows up as both unstaged and ready to be committed. This is because when you ran `git add`, Git staged the file in the state at that time. With a new change, we have to stage the file again.  
+   {% endhint %}
+
+1. Stage _cocktails.txt_.
+   {% hint style='working' %}
+<details>
+<summary>
+Need a little help? Expand this section for guidance. 
+</summary>
+Type <code>git add cocktails.txt</code> <i class="fa fa-share fa-rotate-180"></i>.
+</details>
+   {% endhint %}
 

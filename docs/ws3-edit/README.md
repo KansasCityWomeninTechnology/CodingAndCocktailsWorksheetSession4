@@ -25,4 +25,11 @@ Finally, perfection! Let's push those changes up to remote, in our case, GitHub.
 ## 
 
 ## References and helpful links <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
-[Mozilla Developer Network CSS reference documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+[Git SCM documentation for diff](https://git-scm.com/docs/git-diff)
+
+[Git SCM documentation for reset](https://git-scm.com/docs/git-reset)
+
+[Git SCM documentation for log](https://git-scm.com/docs/git-log)
+
+[Git SCM documentation for push](https://git-scm.com/docs/git-push)
+

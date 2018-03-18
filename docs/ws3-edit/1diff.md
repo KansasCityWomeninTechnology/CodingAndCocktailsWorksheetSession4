@@ -21,9 +21,6 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 
    ```
-   {% hint style='info' %}
-JAD TODO Call out difference about modify versus previous git status message
-   {% endhint %}
 
 1. We modified a file so let's check out the difference between them. Type `git diff` <i class="fa fa-share fa-rotate-180"></i>.
    ```
@@ -41,5 +38,9 @@ index 29a3e24..4d8a785 100644
    ```
    Git diff shows us the difference in the files. The top line in red with the `-` in front of it shows the line removed. The second line with the `+` in front of it shows the line added.
 
-1. Take a look in GitKraken by clicking on the top line and then on _cocktails.txt_ in the **Unstaged Files** list.
+   {% hint style='info' %}
+We only see differences when a file unstaged.
+   {% endhint %}
+
+1. Take a look at the diff in GitKraken by clicking on the top line and then on _cocktails.txt_ in the **Unstaged Files** list.
 
