@@ -2,12 +2,12 @@
 
    ![](images/git-log.png)
 
-   Your git graph currently looks like this
+   If we mapped out your commits, your git graph currently looks like this
    
    ![](images/git-graph-pre-squash.png)
 
    {% hint style='info' %}
-It shows each commit (with the unique identifier) and the commit message along with the author and date. Notice the top commit also has `(HEAD -> master)`. This says your own copy of the "master" branch is at the top commit. Notice the bottom commit has `(origin/master, origin/HEAD)`. This is the last change that your remote, GitHub, is aware of.
+It shows each commit (with the unique identifier) and the commit message along with the author and date. Notice the top commit also has `(HEAD -> master)`. This says your own copy of the "master" branch is at the top commit. Notice the bottom commit has `(origin/master, origin/HEAD)`. This is the last change that your remote, GitHub, is aware of. Your terminal may not show where HEAD is.
    {% endhint %}
       {% hint style='tip' %}
 Your terminal automatically shows the output using 'less'. To exit out of 'less' type `q`. Refer to [Command Line Basics](https://www.gitbook.com/book/codingandcocktailskc/session-2-command-line-basics/details) for more details on 'less'. 
@@ -33,10 +33,10 @@ Type <code>git commit -am "helpful commit message here"</code> <i class="fa fa-s
    ![](images/git-graph-squash.png)
 
       {% hint style='tip' %}
-Use `q` to exit `less`
+Use `q` to exit `less`.
    {% endhint %}
 
-1. We can also see the git graph in the terminal. Type `git log --graph` <i class="fa fa-share fa-rotate-180"></i> to see the commits for this branch with the lines to show the path.
+1. We can also see the git graph in the terminal. Type `git log --graph` <i class="fa fa-share fa-rotate-180"></i> to see the commits for this branch with the lines to show the path. This matches up with the git graph image.
 
 1. Type `git push` <i class="fa fa-share fa-rotate-180"></i>. Take a look at git status (states up to date with 'origin/master'). 
 

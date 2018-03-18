@@ -31,6 +31,8 @@ What if you want to make a change in another repository that doesn't belong to y
 ## References and helpful links <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
 [Git SCM documentation for checkout](https://git-scm.com/docs/git-checkout)
 
+[Git SCM documentation for fetch](https://git-scm.com/docs/git-fetch)
+
 [Git SCM documentation for pull](https://git-scm.com/docs/git-pull)
 
 [Git SCM documentation for merge](https://git-scm.com/docs/git-merge)
