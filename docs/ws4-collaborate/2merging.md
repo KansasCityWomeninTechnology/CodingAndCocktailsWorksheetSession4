@@ -47,7 +47,7 @@ Merge made by the 'recursive' strategy.
  1 file changed, 1 insertion(+)
    ```
    {% hint style='info' %}
-In this case, we didn't have to merge from master. Git automatically figures out how to merge the branches together. Merge is used when you have a longer running project and need to bring in changes from the rest of the development team. Sometimes when working on larger projects, there are merge conflicts. Check out the [Merge conflicts](/homework/merge-conflicts.md) bonus work as extra practice before next session.
+In this case, we didn't really have to merge from master. Git automatically figures out how to merge the branches together. Merge is used when you have a longer running project and need to bring in changes from the rest of the development team. Sometimes when working on larger projects, there are merge conflicts. Check out the [Merge conflicts](/homework/merge-conflicts.md) bonus work as extra practice before next session.
    {% endhint %}
 
 1. Open Atom and take a look at _README.md_. It now contains the sentence you added in the beginning of this section.

@@ -9,7 +9,7 @@
 
 1. Click the **<span class="octicon octicon-code"></span> Code** tab at the top of the page to navigate back to your code. Click on _cocktails.txt_ to see your changes from 'cocktails-branch' in 'master'.
 
-1. In the terminal, type `git status` <i class="fa fa-share fa-rotate-180"></i>. We see that our local copy of 'master' is behind 'origin/master'
+1. In the terminal, checkout 'master'. Type `git fetch` <i class="fa fa-share fa-rotate-180"></i> and then check git status. We see that our local copy of 'master' is behind 'origin/master'
    ```
 **[terminal]
 **[prompt LadyDev@Coding&Cocktails]**[path  ~/CodingAndCocktails/VersionControl/MyFirstRepo (master)]
@@ -20,7 +20,14 @@ Your branch is behind 'origin/master' by 2 commits, and can be fast-forwarded.
 nothing to commit, working tree clean
 
    ```
+   {% hint style='info' %}
+Fetch updates references in your local repository so that it's aware of what's going on in remote, but it does not pull down any changes. 
+   {% endhint %}
+
 1. Type `git pull` <i class="fa fa-share fa-rotate-180"></i> to pull changes from the remote to our local copy. Check `git status` again.
+   {% hint style='info' %}
+`git pull` wraps `git fetch` plus `git merge`.
+   {% endhint %}
 
 1. Open Atom and take a look at _cocktails.txt_. You now have the changes you made in 'cocktails-branch'.
 

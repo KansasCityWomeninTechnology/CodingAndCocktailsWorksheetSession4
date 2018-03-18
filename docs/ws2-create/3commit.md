@@ -2,8 +2,8 @@
    ```
 **[terminal]
 **[prompt LadyDev@Coding&Cocktails]**[path  ~/CodingAndCocktails/VersionControl/MyFirstRepo (master)]
-**[delimiter λ ]**[command git commit -m "my first commit"]
-[master bc3f239] my first commit
+**[delimiter λ ]**[command git commit -m "important file"]
+[master bc3f239] important file
 1 file changed, 1 insertion(+)
 create mode 100644 cocktails.txt
    ```

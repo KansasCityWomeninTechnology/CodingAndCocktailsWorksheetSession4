@@ -3,12 +3,6 @@ Being able to keep track of changes in your source code is necessary. Having ver
 
 <!-- trick markdown to give me a little space between these two sections of text -->
 ## 
-{% hint style='danger' %}
-Before starting, please review the [Setup instructions](/setup) to ensure you have all the tools and that you've prepared your workspace as needed for tonight.
-{% endhint %}
-
-<!-- trick markdown to give me a little space between these two sections of text -->
-## 
 
 This section will help guide you through the following steps:
 
