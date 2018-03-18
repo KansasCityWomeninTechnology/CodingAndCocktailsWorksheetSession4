@@ -21,6 +21,7 @@ If you are using a Chromebook, please skip to the [Chromebook instructions](#chr
 {% endhint %}
 
 ## Explore a repository in GitHub {#github} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
+We will take a quick tour of GitHub and cover the UI we will use for tonight's session work.
 {% include "./1github.md" %}
 
 ## Clone a repository {#clone} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>

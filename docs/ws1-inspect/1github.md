@@ -39,7 +39,7 @@ GitHub is a big place! Sometimes there are many repositories with the same name.
 
    ![](images/github.png)
 
-1. Click on **commits** (circle #2) to see the list of commits for the branch. Now we see more details about each commit such as 
+1. Click on **<span class="octicon octicon-history"></span> commits** (circle #2) to see the list of commits for the branch. Now we see more details about each commit such as 
 
    <span class="fa-stack">
      <i class="fa fa-circle fa-stack-2x help-annotations"></i>
@@ -52,6 +52,12 @@ GitHub is a big place! Sometimes there are many repositories with the same name.
      <strong class="fa-stack-1x help-annotations-text">2</strong>
    </span>
    The author, date, and author's message about the changes
+
+   <span class="fa-stack">
+     <i class="fa fa-circle fa-stack-2x help-annotations"></i>
+     <strong class="fa-stack-1x help-annotations-text">2</strong>
+   </span>
+   Further actions you can take on a commit
 
      ![](images/commits.png)
 
@@ -71,9 +77,9 @@ This is more commonly known by its abbreviated name, "diff view".
 
 1. Click the <i class="fa fa-arrow-left" aria-hidden="true"></i> button in Chrome to navigate back to the list of commits.
 
-1. Click on the button to the right (the one that looks like <span class="octicon octicon-code"></span>). Now you are browsing the repository files as they were in this commit. You have a picture of the entire repository every step of the way!
+1. In the further actions you can take on a commit (circle #3), click on the button to the right (the one that looks like <span class="octicon octicon-code"></span>). Now you are browsing the repository files as they were in this commit. You have a snapshot of the entire repository on every commit!
 
-1. Click the <i class="fa fa-arrow-left" aria-hidden="true"></i> button in Chrome to navigate back to the list of commits.
+1. Click the name of the repository "DrinkOrderApp" at the top of the page to navigate back to the main repository page.
 
 
 

@@ -1,8 +1,8 @@
-1. Let's create a new file by using the command line. Type `echo My favorite drink is > cocktails.txt` <i class="fa fa-share fa-rotate-180"></i>. 
+1. Let's create a new file by using the command line. Type `touch cocktails.txt` <i class="fa fa-share fa-rotate-180"></i>. 
    ```
 **[terminal]
 **[prompt LadyDev@Coding&Cocktails]**[path  ~/CodingAndCocktails/VersionControl/MyFirstRepo (master)]
-**[delimiter λ ]**[command echo My favorite cocktail is > cocktails.txt]
+**[delimiter λ ]**[command touch cocktails.txt]
    ```
    {% hint style='tip' %}
 Your terminal may have changed when you created a new file. Mac users may see a yellow X appear and Cmder users may see the color of '(master)' branch name change. This is a way your terminal helps you keep track of changes in your git repository.
@@ -38,11 +38,11 @@ Changes to be committed:
 cocktails.txt 
    ```
 
-1. Oops! We meant to say "My favorite **cocktail** is" in _cocktails.txt_. We need to fix that. You can use any text editor you want to edit the sentence. Make the change an save the file.
+1. Oops! We meant to add some text to the file. It should say "My favorite cocktail is " in _cocktails.txt_. We need to fix that. You can use any text editor you want to add the text. Make the change and save the file.
    {% hint style='info' %}
-This is a good opportunity to practice your vim skills. Type `vim cocktails.txt` <i class="fa fa-share fa-rotate-180"></i> to launch vim. Type `i` for insert and make your change. Type `Esc` and then type `:wq`. Press `Enter` to save your file.
+This is a good opportunity to practice your vim skills. Type `vim cocktails.txt` <i class="fa fa-share fa-rotate-180"></i> to launch vim. Type `i` for insert and add the text. When complete, type `Esc` and then type `:wq`. Press `Enter` to save your file.
 
-Chromebook users - use the built in text editor to make your change.
+Chromebook users - use the built in text editor to make your changes.
    {% endhint %}
 
 1. Check the git status in the terminal and take a look at GitKraken. Your terminal should look like this. What?! 

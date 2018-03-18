@@ -19,9 +19,11 @@ You will need the following for the worksheet:
 
 1. [CLI for your OS](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-command-line/)
    {% hint style='danger' %}
-If you are a Windows user, please verify you are using version 1.3.5 of Cmder and Git version 2.16 or higher by following the instructions in the link above. If you need help identifying your tooling versions or updating, please let a mentor know. 
+#### Attention Windows users
 
-If you have Git installed separately, you will need to update Git as well as Cmder.
+Please verify you are using Cmder version 1.3.5 and Git version >=2.16 by following the instructions in the link above. If you need help identifying your tooling versions or updating, please let a mentor know. 
+
+If you have Git installed separately, you will need to update both Git and Cmder.
    {% endhint %}
 
 1. [Atom IDE](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-atom/)
@@ -29,7 +31,7 @@ If you have Git installed separately, you will need to update Git as well as Cmd
 1. [Coding & Cocktails folder](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tips-directory-structure/)
 
 1. [Git](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-git/)
-   {% hint style='danger' %}
+   {% hint style='info' %}
 We will use GitHub and an external Git GUI tool called GitKraken tonight. Follow the instructions in the link above to create your GitHub account and install GitKraken.
    {% endhint %}
 

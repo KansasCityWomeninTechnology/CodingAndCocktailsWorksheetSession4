@@ -33,4 +33,4 @@ use `q` to exit `less`
 
 1. In Chrome, navigate to your "MyFirstRepo" page and reload the page. You should see your new file _cocktails.txt_. You can click on the file to see the contents.
 
-1. You will also see **<span class="octicon octicon-clippy"></span> 2 commits** above the dropdown for 'master' branch. Click on it to navigate to your commit history. The commit history and path should match what you saw in the terminal.
+1. You will also see **<span class="octicon octicon-history"></span> 2 commits** above the dropdown for 'master' branch. Click on it to navigate to your commit history. The commit history and path should match what you saw in the terminal.

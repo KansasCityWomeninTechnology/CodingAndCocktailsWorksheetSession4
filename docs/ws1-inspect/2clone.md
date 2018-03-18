@@ -1,12 +1,22 @@
-1. Open a file explorer or your terminal. Navigate to the "CodingAndCocktails" folder in your home directory. Create a new folder named "VersionControl".
-   {% hint style='tip' %}
-If you want to practice your CLI skills, navigate to your home directory in the terminal by typing `cd ~/CodingAndCocktails` for Mac users and `cd %USERPROFILE%/CodingAndCocktails` for Windows users. Create a directory by typing `mkdir VersionControl`.
-   {% endhint %} 
+1. Open your terminal. Navigate to the "CodingAndCocktails" folder in your home directory, create a new folder named "VersionControl", and navigate into your newly created folder by following the instructions for your OS
+   {% codetabs name="Mac", type="bash" -%} 
+cd ~/CodingAndCocktails
+mkdir VersionControl
+cd VersionControl
+   {%- language name="Windows", type="bash" -%} 
+cd %USERPROFILE%/CodingAndCocktails
+mkdir VersionControl
+cd VersionControl
+   {%- language name="Chromebooks", type="bash" -%} 
+cd /projects/CodingAndCocktails
+mkdir VersionControl
+cd VersionControl
+   {%- endcodetabs %}
    {% hint style='danger' %}
 If you don't have a "CodingAndCocktails" directory, take a moment to [set up your workspace](/setup).
    {% endhint %} 
 
-1. Navigate back to the main overview page for "DrinkOrderApp" repository. Click on the green **Clone or download** button and click the <span class="octicon octicon-clippy"></span> button to copy the link to the repository.
+1. On the main overview page for "DrinkOrderApp" repository, click on the green **Clone or download** button and click the <span class="octicon octicon-clippy"></span> button to copy the link to the repository.
 
 1. Open GitKraken. Clone a repo in GitKraken by selecting **File** <i class="fa fa-long-arrow-right"></i> **Clone Repo**. In the **Repository Management** dialog that display, select **Clone with URL**. Click on **Browse**. Navigate to and select the "VersionControl" folder to populate the **Where to clone to** field.
   

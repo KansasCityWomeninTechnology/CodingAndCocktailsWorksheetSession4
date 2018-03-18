@@ -10,7 +10,8 @@
         "sectionx",
         "local-video",
         "anchors",
-        "terminal"
+        "terminal",
+        "codetabs"
     ],
     "pluginsConfig": {
         "favicon": "assets/favicon.ico",
