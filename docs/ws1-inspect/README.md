@@ -3,6 +3,12 @@ Being able to keep track of changes in your source code is necessary. Having ver
 
 <!-- trick markdown to give me a little space between these two sections of text -->
 ## 
+{% hint style='danger' %}
+Before starting, please review the [Setup instructions](/setup) to ensure you have all the tools and that you've prepared your workspace as needed for tonight.
+{% endhint %}
+
+<!-- trick markdown to give me a little space between these two sections of text -->
+## 
 
 This section will help guide you through the following steps:
 
@@ -10,7 +16,8 @@ This section will help guide you through the following steps:
 
 <!-- trick markdown to give me a little space between these two sections of text -->
 ## 
-{% hint style='danger' %}If you are using a Chromebook, please skip to the <a href="#chromebook-instructions">Chromebook instructions</a> below!
+{% hint style='danger' %}
+If you are using a Chromebook, please skip to the [Chromebook instructions](#chromebook-instructions) below!
 {% endhint %}
 
 ## Explore a repository in GitHub {#github} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>

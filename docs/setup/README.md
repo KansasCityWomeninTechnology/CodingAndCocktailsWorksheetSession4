@@ -8,18 +8,30 @@ If this is your first time at Coding & Cocktails [click here to install the tool
 <!-- trick markdown to give me a little space between these two sections of text -->
 ## 
 {% hint style='danger' %}
-If you are using a Chromebook, please skip to the <a href="#chromebook-instructions">Chromebook instructions</a> below!
+If you are using a Chromebook, please skip to the [Chromebook instructions](#chromebook-instructions) below!
 {% endhint %}
 
 <!-- trick markdown to give me a little space between these two sections of text -->
 ## Requirements for this session
 
 You will need the following for the worksheet:
-* [Chrome browser](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-browser/)
-* [CLI for your OS](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-command-line/)
-* [Coding & Cocktails folder](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tips-directory-structure/)
-* [Git](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-git/)
+1. [Chrome browser](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-browser/)
 
+1. [CLI for your OS](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-command-line/)
+   {% hint style='danger' %}
+If you are a Windows user, please verify you are using version 1.3.5 of Cmder and Git version 2.16 or higher by following the instructions in the link above. If you need help identifying your tooling versions or updating, please let a mentor know. 
+
+If you have Git installed separately, you will need to update Git as well as Cmder.
+   {% endhint %}
+
+1. [Atom IDE](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-atom/)
+
+1. [Coding & Cocktails folder](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tips-directory-structure/)
+
+1. [Git](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-git/)
+   {% hint style='danger' %}
+We will use GitHub and an external Git GUI tool called GitKraken tonight. Follow the instructions in the link above to create your GitHub account and install GitKraken.
+   {% endhint %}
 
 
 <!--sec data-title="Chromebook instructions" data-id="section0" data-show=true data-collapse=true ces-->

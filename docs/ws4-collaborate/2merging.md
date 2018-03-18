@@ -17,7 +17,7 @@ Type <code>git push</code> <i class="fa fa-share fa-rotate-180"></i>.
 
 1. There's another parameter we can add to the `git log` command to see the graph for all branches. Type `git log --graph --all` <i class="fa fa-share fa-rotate-180"></i>. 
    {% hint style='info' %}
-JAD TODO Something here? Add `--oneline`??
+JAD TODO Something here? Add `--oneline`?? Read more here https://git-scm.com/docs/git-log
    {% endhint %}
 
 1. We want to bring our changes in the 'cocktails-branch' into 'master' by creating a pull request. Before we do so, we should reconcile the differences in branches. Checkout 'cocktails-branch'.

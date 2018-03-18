@@ -29,4 +29,10 @@ What if you want to make a change in another repository that doesn't belong to y
 ## 
 
 ## References and helpful links <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
-[Mozilla Developer Network CSS reference documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+[Git SCM documentation for checkout](https://git-scm.com/docs/git-checkout)
+
+[Git SCM documentation for pull](https://git-scm.com/docs/git-pull)
+
+[Git SCM documentation for merge](https://git-scm.com/docs/git-merge)
+
+[Git SCM documentation for push](https://git-scm.com/docs/git-push)
