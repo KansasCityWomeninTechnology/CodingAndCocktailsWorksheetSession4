@@ -9,7 +9,8 @@
 }
 
 .help-annotations { 
-  color: #666b8f; 
+  /* color: #666b8f; */
+  color: #A661DB;
 }
 .help-annotations-text {
   color: white;

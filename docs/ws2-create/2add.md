@@ -38,29 +38,16 @@ Changes to be committed:
 cocktails.txt 
    ```
 
-1. Oops! We meant to add some text to the file. It should say "My favorite cocktail is " in _cocktails.txt_. We need to fix that. You can use any text editor you want to add the text. Make the change and save the file.
+1. Oops! We meant to add some text to the file. It should say "My favorite cocktail is " in _cocktails.txt_. We need to fix that. You can use any editor you want to add the text. Make the change and save the file.
    {% hint style='info' %}
-This is a good opportunity to practice your vim skills. Type `vim cocktails.txt` <i class="fa fa-share fa-rotate-180"></i> to launch vim. Type `i` for insert and add the text. When complete, type `Esc` and then type `:wq`. Press `Enter` to save your file.
+This is a good opportunity to practice your vim skills. Type `vim cocktails.txt` <i class="fa fa-share fa-rotate-180"></i> to launch vim. Type `i` for insert and add the text. When complete, type `Esc` and then type `:wq`. Press `Enter` to save your file. Refer to [Command Line Basics](https://www.gitbook.com/book/codingandcocktailskc/session-2-command-line-basics/details) for more details on 'vim'.
 
 Chromebook users - use the built in text editor to make your changes.
    {% endhint %}
 
-1. Check the git status in the terminal and take a look at GitKraken. Your terminal should look like this. What?! 
-   ```
-**[terminal]
-**[prompt LadyDev@Coding&Cocktails]**[path  ~/CodingAndCocktails/VersionControl/MyFirstRepo (master)]
-**[delimiter λ ]**[command git status]
-On branch master
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-**[error   new file:   cocktails.txt]        
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-**[error   modified:   cocktails.txt]        
-   ```
+1. Check the git status in the terminal and take a look at GitKraken. Your terminal shows _cocktails.txt_ as unstaged and ready to be committed. What?! 
    {% hint style='info' %}
-Our _cocktails.txt_ file is shows up as both unstaged and ready to be committed. This is because when you ran `git add`, Git staged the file in the state at that time. With a new change, we have to stage the file again.  
+This is because when you ran `git add`, Git staged the file in the state at that time. With a new change, we have to stage the file again.  
    {% endhint %}
 
 1. Stage _cocktails.txt_.

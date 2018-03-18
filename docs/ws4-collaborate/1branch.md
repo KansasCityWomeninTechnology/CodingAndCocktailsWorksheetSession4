@@ -6,6 +6,9 @@
 Switched to a new branch 'cocktails-branch'
    ```
    {% hint style='info' %}
+We passed in the '-b' flag into `git checkout` command. This means we'll create and checkout a branch at the same time.
+   {% endhint %}
+   {% hint style='tip' %}
 Your terminal might look a little different after creating a branch. The terminals we have you use include the branch name, so you should see 'cocktails-branch' included in your prompt.
    {% endhint %}
 
@@ -31,7 +34,7 @@ Type <code>git commit -am "personalized message here"</code> <i class="fa fa-sha
 </details>
    {% endhint %}
 
-1. Take a look in GitKraken. It shows 'cocktails-branch' in the top toolbar and added your branch under **LOCAL** branches on the left. We've created a branch but the origin, GitHub, doesn't know about it. We need to push our new branch info. (JAD TODO Change this to GitHub???)
+1. Take a look in your on GitHub in the branches dropdown. We don't see 'cocktails-branch' in there yet. We've created a branch but the remote doesn't know about it. We need to push our new branch info.
 
 1. In the terminal type `git push` <i class="fa fa-share fa-rotate-180"></i> like we did before to push our changes. Oh oh! We got an error
    ```
@@ -43,7 +46,7 @@ To push the current branch and set the remote as upstream, use
     git push --set-upstream origin cocktails-branch
    ```
    {% hint style='info' %}
-JAD TODO hint here?
+The remote, GitHub, has no knowledge of 'cocktails-branch'. We need to provide the branch name (cocktails-branch) and where to create the branch (origin). We add the flag '--set-upstream' so that the remote has this branch reference and we don't have to provide the 'cocktails-branch' and 'origin' parameters for subsequent `git push` commands.
    {% endhint %}
 
 1. Follow the instructions in the error and type `git push --set-upstream origin cocktails-branch` <i class="fa fa-share fa-rotate-180"></i>.

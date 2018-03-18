@@ -17,7 +17,12 @@ Type <code>git push</code> <i class="fa fa-share fa-rotate-180"></i>.
 
 1. There's another parameter we can add to the `git log` command to see the graph for all branches. Type `git log --graph --all` <i class="fa fa-share fa-rotate-180"></i>. 
    {% hint style='info' %}
-JAD TODO Something here? Add `--oneline`?? Read more here https://git-scm.com/docs/git-log
+Sometimes all we want to see is a high level view of the graph. You can use `git log --graph --all --oneline` <i class="fa fa-share fa-rotate-180"></i> to trim the graph up even more. Read about the different parameters you can use at [Git SCM documentation](https://git-scm.com/docs/git-log). 
+   {% endhint %}
+   {% hint style='tip' %}
+We've been using 2 commands a lot-- `git status` and `git log --graph`. These are great candidates to create as aliases. Refer to [Command Line Basics](https://www.gitbook.com/book/codingandcocktailskc/session-2-command-line-basics/details) for more details on create aliases or ask a mentor for help.
+
+Mac users - oh-my-zsh creates git aliases for you. Feel free to check out built in aliases or create your own.
    {% endhint %}
 
 1. We want to bring our changes in the 'cocktails-branch' into 'master' by creating a pull request. Before we do so, we should reconcile the differences in branches. Checkout 'cocktails-branch'.
@@ -42,7 +47,7 @@ Merge made by the 'recursive' strategy.
  1 file changed, 1 insertion(+)
    ```
    {% hint style='info' %}
-JAD TODO - Some sort of info about what's going on here? (maybe that this isn't always necessary because GH would just merge it??)
+In this case, we didn't have to merge from master. Git automatically figures out how to merge the branches together. Merge is used when you have a longer running project and need to bring in changes from the rest of the development team. Sometimes when working on larger projects, there are merge conflicts. Check out the [Merge conflicts](/homework/merge-conflicts.md) bonus work as extra practice before next session.
    {% endhint %}
 
 1. Open Atom and take a look at _README.md_. It now contains the sentence you added in the beginning of this section.

@@ -26,3 +26,6 @@ Your branch is ahead of 'origin/master' by 1 commit.
 (use "git push" to publish your local commits)
 nothing to commit, working tree clean
    ```
+  {% hint style='info' %}
+Our local version of 'master' has a commit that the remote (GitHub) doesn't know about yet. You can take a look in GitKraken to see how local and remote show a different head for their path.
+   {% endhint %}

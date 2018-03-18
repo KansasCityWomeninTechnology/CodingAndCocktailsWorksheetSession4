@@ -23,7 +23,7 @@ Tonight we'll use [Codenvy](https://codenvy.com/)-- an online development enviro
 1. In the terminal type `mkdir CodingAndCocktails` and press `Enter` to create the "CodingAndCocktails" folder. You are now ready to follow tonight's session work.
 
 {% hint style='danger' %}
-Codenvy will stop your workspace if you are idle for too long. Restart your workspace if this happens. You may have to navigate back to the directory you were working in.
+Codenvy will stop your workspace if you are idle for too long and displays a message that says "Workspace is not running". Press **Start** to start your workspace back up. You may have to navigate back to the directory you were working in.
 {% endhint %}
 
 

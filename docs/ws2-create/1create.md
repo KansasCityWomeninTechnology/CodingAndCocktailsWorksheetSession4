@@ -66,9 +66,9 @@ nothing to commit, working tree clean
 We haven't done anything to the repo so our working tree is clean. We can always run `git status` to double check our work.     
    {% endhint %}
 
-1. Let's open the repo in GitKraken. Select **File** <i class="fa fa-long-arrow-right"></i> **Open**. Select **Open a Repository** and select your "MyFirstRepo" folder in your home directory.
+1. Let's open the repo in GitKraken. Select **File** <i class="fa fa-long-arrow-right"></i> **Open Repo**. In the **Repository Management** dialog select **Open a Repository** and select your "MyFirstRepo" folder in your home directory.
 
 1. When you create a repository with a read me file, GitHub automatically commits the file for you. You have 1 commit in your repository! Feel free to inspect your commit, the file, and your branch.
 
-1. Before starting any work in a git repository, it's good practice to make sure you have the latest changes. Type `git pull` <i class="fa fa-share fa-rotate-180"></i>. Your terminal should state it's up to date.
+1. Before starting any work in a git repository, it's good practice to make sure you have the latest changes. In the terminal, type `git pull` <i class="fa fa-share fa-rotate-180"></i>. Your terminal should state it's up to date.
 

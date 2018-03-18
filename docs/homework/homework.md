@@ -18,7 +18,7 @@ In the final section you forked your buddy's "MyFirstRepo" repository. Let's con
    1. Type `git remote -v` <i class="fa fa-share fa-rotate-180"></i> to view the currently configured remotes.
    ![](/images/originRemote.png)
         
-   1. Navigate to your buddy's "MyFirstRepo" page in GitHub and copy the link for cloning her repository. Refer to [Clone a repository](ws1-inspect/#clone) if needed. 
+   1. Navigate to your buddy's "MyFirstRepo" page in GitHub and copy the link for cloning her repository. Refer to [Clone a repository](/ws1-inspect#clone) if needed. 
 
    1. Specify your upstream remote by typing `git remote add upstream `, paste your buddy's link, and <i class="fa fa-share fa-rotate-180"></i>.
         
@@ -27,7 +27,7 @@ In the final section you forked your buddy's "MyFirstRepo" repository. Let's con
 
    1. Fetch any new commits to the upstream repository. Type `git fetch upstream`.
         
-   1. Merge changes from upstream/master into your local branch.  Type `git merge upstream/master` to sync with the upstream repository without losing any local changes that you may have made.  You should now be up to date with any changes that have been committed and merged into the upstream repository since you forked the repository.
+   1. Merge changes from 'upstream/master' into your local branch.  Type `git merge upstream/master` to sync with the upstream repository without losing any local changes that you may have made.  You should now be up to date with any changes that have been committed and merged into the upstream repository since you forked the repository.
 
       {% hint style='info' %}
 This sync only updated your local copy of the repository. To update your fork on GitHub, you must push your changes to your origin remote.

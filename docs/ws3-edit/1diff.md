@@ -39,7 +39,7 @@ index 29a3e24..4d8a785 100644
    Git diff shows us the difference in the files. The top line in red with the `-` in front of it shows the line removed. The second line with the `+` in front of it shows the line added.
 
    {% hint style='info' %}
-We only see differences when a file unstaged.
+We only see differences when a file is unstaged.
    {% endhint %}
 
 1. Take a look at the diff in GitKraken by clicking on the top line and then on _cocktails.txt_ in the **Unstaged Files** list.
