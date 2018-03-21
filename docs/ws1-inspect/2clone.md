@@ -18,7 +18,9 @@ If you don't have a "CodingAndCocktails" directory, take a moment to [set up you
 
 1. On the main overview page for "DrinkOrderApp" repository, click on the green **Clone or download** button and click the <span class="octicon octicon-clippy"></span> button to copy the link to the repository.
    {% hint style='danger' %}
-Chromebook users- You will not work with GitKraken tonight. Please read through the remainder of Clone a repository section to help reinforce Git concepts. You'll pick back up at the beginning of the next section. Please skip any GitKraken instructions in the rest of the worksheet.
+##### Attention Chromebook users
+
+You will not work with GitKraken tonight. Please read through the remainder of "Clone a repository" section to help reinforce Git concepts. You'll pick back up at the beginning of the next section. Please skip any GitKraken instructions in the rest of the worksheet.
    {% endhint %}
 
 1. Open GitKraken. Clone a repo in GitKraken by selecting **File** <i class="fa fa-long-arrow-right"></i> **Clone Repo**. 

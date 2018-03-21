@@ -4,7 +4,9 @@ What was up with that Atom command?
 When you install Atom it automatically adds itself to your system PATH. The command `atom` opens Atom. Adding `.` tells Atom to open at this file location.
    {% endhint %}
    {% hint style='danger' %}
-Chromebook users- You will use the built in text editor.
+##### Attention Chromebook users
+
+You will use the built in text editor.
    {% endhint %}
 
 1. Think of your favorite cocktail and add it at the of the sentence in _cocktails.txt_. Save your file. 
