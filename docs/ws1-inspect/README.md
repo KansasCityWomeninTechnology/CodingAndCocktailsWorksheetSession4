@@ -3,16 +3,16 @@ Being able to keep track of changes in your source code is necessary. Having ver
 
 <!-- trick markdown to give me a little space between these two sections of text -->
 ## 
+{% hint style='danger' %}
+Before starting the worksheet, please take a moment to review [Setup instructions](/setup) to ensure you have all the tools and workspace setup you need for tonight's work.
+{% endhint %}
+
+<!-- trick markdown to give me a little space between these two sections of text -->
+## 
 
 This section will help guide you through the following steps:
 
 {% include "./instruction-steps.html" %}
-
-<!-- trick markdown to give me a little space between these two sections of text -->
-## 
-{% hint style='danger' %}
-If you are using a Chromebook, please skip to the [Chromebook instructions](#chromebook-instructions) below!
-{% endhint %}
 
 ## Explore a repository in GitHub {#github} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
 We will take a quick tour of GitHub and cover the UI we will use for tonight's session work.
@@ -27,10 +27,3 @@ Let's look at the same repository using a Git GUI tool called GitKraken. We'll c
 
 ## References and helpful links <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
 [Atlassian Git Tutorial-- What is version control](https://www.atlassian.com/git/tutorials/what-is-version-control)
-
-
-<!-- trick markdown to give me a little space between these two sections of text -->
-## 
-<!--sec data-title="Chromebook instructions" data-id="section0" data-show=true data-collapse=true ces-->
-{% include "./chromebook-instructions.md" %}
-<!--endsec-->

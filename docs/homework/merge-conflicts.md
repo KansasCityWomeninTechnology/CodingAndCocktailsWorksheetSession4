@@ -12,7 +12,9 @@ Merge conflicts may not happen as often, but eventually you will run into one. V
   </video>
 {% endraw %}
 
-If you want to try this yourself, reach out on Slack so a mentor can help you recreate a merge conflict scenario to practice on.
+If you want to try this yourself, you need to make an edit to the same file (add a new line at the end of ReadMe) on two separate branches and merge. 
+
+Reach out on Slack so a mentor can help you recreate a merge conflict scenario to practice on.
 
 {% hint style='tip' %}
 ##### Hey Slacker!

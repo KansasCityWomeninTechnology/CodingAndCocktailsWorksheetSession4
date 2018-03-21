@@ -1,5 +1,5 @@
 # Creating a repository and commit changes {#top}
-We'll create our own repository and commit changes to source files.  
+We'll create our own repository and commit changes to source files. At the end we'll build something similar to the "DrinkOrderApp" with commits and branches.
 
 <!-- trick markdown to give me a little space between these two sections of text -->
 ## 

@@ -15,6 +15,5 @@
 * [Homework](homework/homework.md)
 
 ----
-* [Git Cheat Sheet](references/command_line_cheat_sheet.md)
 * [References & Shortcuts](references/README.md)
 
