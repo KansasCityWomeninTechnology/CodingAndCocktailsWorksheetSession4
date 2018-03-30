@@ -55,7 +55,7 @@ GitHub is a big place! Sometimes there are many repositories with the same name.
 
    <span class="fa-stack">
      <i class="fa fa-circle fa-stack-2x help-annotations"></i>
-     <strong class="fa-stack-1x help-annotations-text">2</strong>
+     <strong class="fa-stack-1x help-annotations-text">3</strong>
    </span>
    Further actions you can take on a commit
 

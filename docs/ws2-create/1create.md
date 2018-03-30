@@ -14,10 +14,6 @@ You can ignore the **Add .gitignore** and **Add a license** dropdowns for the ti
 
 1. Open your terminal and navigate to "CodingAndCocktails/VersionControl" folder in your home directory. If you are already in "DrinkOrderApp", you can type `cd ../VersionControl` <i class="fa fa-share fa-rotate-180"></i>.
 
-   {% hint style='info' %}
-The <i class="fa fa-share fa-rotate-180"></i> icon tells you when to press `Enter`.
-   {% endhint %}
-
 1. Type `git clone` and paste the link to your repository that you copied in the previous step. Press `Enter`. Your terminal will look like this
    ```
 **[terminal]
@@ -31,8 +27,14 @@ Unpacking objects: 100% (3/3), done.
 
 1. Type `ls` <i class="fa fa-share fa-rotate-180"></i>. You should see a new folder named "MyFirstRepo". 
 
-1. Navigate into the directory by typing `cd MyFirstRepo` <i class="fa fa-share fa-rotate-180"></i>. Notice your terminal now contains the name of the branch 'master'.
+1. Open a file explorer to view your progress by using the following command for your OS and press `Enter`.
+   {% codetabs name="Mac", type="bash" -%} 
+open .
+   {%- language name="Windows", type="bash" -%} 
+start .
+   {%- endcodetabs %}
 
+1. Navigate into the directory by typing `cd MyFirstRepo` <i class="fa fa-share fa-rotate-180"></i>. Notice your terminal now contains the name of the branch 'master'.
    {% hint style='tip' %}
 Don't forget to use Tab completion to make typing in the terminal easier!
    {% endhint %}
@@ -47,6 +49,9 @@ Don't forget to use Tab completion to make typing in the terminal easier!
 .git/
 README.md
    ```
+  {% hint style='tip' %}
+Navigate into "MyFirstRepo" in the file explorer if you want to follow along in a GUI. If you don't see all the files listed, you will need to enable viewing hidden files.
+  {% endhint %}
 
 1. Type `cat README.md` <i class="fa fa-share fa-rotate-180"></i>. You should see the contents of the read me text, which is the same text displayed in GitHub repo page.
    {% hint style='info' %}
