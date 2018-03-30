@@ -1,20 +1,21 @@
-1. Open your terminal. Navigate to the "CodingAndCocktails" folder in your home directory, create a new folder named "VersionControl", and navigate into your newly created folder by following the instructions for your OS
+1. Open your terminal. Navigate to the "CodingAndCocktails" folder in your home directory by typing the command for your OS and press `Enter`. 
    {% codetabs name="Mac", type="bash" -%} 
 cd ~/CodingAndCocktails
-mkdir VersionControl
-cd VersionControl
    {%- language name="Windows", type="bash" -%} 
 cd %USERPROFILE%/CodingAndCocktails
-mkdir VersionControl
-cd VersionControl
    {%- language name="Chromebooks", type="bash" -%} 
 cd /projects/CodingAndCocktails
-mkdir VersionControl
-cd VersionControl
    {%- endcodetabs %}
    {% hint style='danger' %}
 If you don't have a "CodingAndCocktails" directory, take a moment to [set up your workspace](/setup).
    {% endhint %}    
+
+1. Create a new folder named "VersionControl" by typing `mkdir VersionControl` <i class="fa fa-share fa-rotate-180"></i>.
+   {% hint style='info' %}
+The <i class="fa fa-share fa-rotate-180"></i> icon tells you when to press `Enter`.
+   {% endhint %}
+
+1. Navigate into your new folder by typing `cd VersionControl` <i class="fa fa-share fa-rotate-180"></i>.
 
 1. On the main overview page for "DrinkOrderApp" repository, click on the green **Clone or download** button and click the <span class="octicon octicon-clippy"></span> button to copy the link to the repository.
    {% hint style='danger' %}
@@ -75,7 +76,7 @@ Windows users - Navigate to your home directory by typing `%USERPROFILE%` in the
 Right click shows more options. We won't cover using them in GitKraken but you'll use some of the concepts later in the session.
   {% endhint %} 
 
-1. Select a file from the list of files modified (circle #4). The main view changes to show the "diff view" like we saw in GitHub. Click on the "X" at the top of the main view above the checkbox for **Ignore white space**. 
+1. Select a file from the list of files modified (circle #4). The main view changes to show the "diff view" like we saw in GitHub. Click on the "X" at the top of the main view above the checkbox for **Ignore white space** to return to the graph view. 
 
 1. Double click on a branch, such as the one named "jquery-master". Notice your selected branch changed (circle #1). You may have also noticed a message appear and disappear. You switched branches and the **LOCAL** list of branches on the list now contains "jquery-master". We'll cover more about this a little later tonight. 
 

@@ -37,7 +37,7 @@ We will use GitHub and an external Git GUI tool called GitKraken tonight. Follow
 
 ## Helpful tips as you work through the worksheet
 {% hint style='tip' %}
-View the worksheet and your IDE in split screen. 
+View the worksheet and your terminal in split screen. 
 
 For Windows users, use `windows key` + `left arrow` or `windows` + `right arrow` to resize the application and position to the left or right half of your screen.
 
