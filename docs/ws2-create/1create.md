@@ -33,6 +33,9 @@ open .
    {%- language name="Windows", type="bash" -%} 
 start .
    {%- endcodetabs %}
+   {% hint style='info' %}
+Chromebook users - you will use the built in file viewer.
+   {% endhint %}
 
 1. Navigate into the directory by typing `cd MyFirstRepo` <i class="fa fa-share fa-rotate-180"></i>. Notice your terminal now contains the name of the branch 'master'.
    {% hint style='tip' %}

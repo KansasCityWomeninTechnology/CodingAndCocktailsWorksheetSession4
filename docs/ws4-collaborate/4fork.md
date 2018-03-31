@@ -7,7 +7,7 @@
 If asked, “Where should we fork this repository?” Select your personal profile. This question indicates you're a part of a GitHub organization but we want to use our personal accounts this evening.  If you are not asked that question, carry on.
     {% endhint %}
 
-1. In your terminal and navigate to "CodingAndCocktails/VersionControl" folder in your home directory. If you are already in "MyFirstRepo", you can type `cd ../VersionControl` <i class="fa fa-share fa-rotate-180"></i>.
+1. In your terminal, navigate to "CodingAndCocktails/VersionControl" folder in your home directory. If you are already in "MyFirstRepo", you can type `cd ..` <i class="fa fa-share fa-rotate-180"></i>.
 
 1. GitHub will automatically add a "-1" to the name of the repo so that repo names are unique. Once the fork completes, GitHub navigates to your fork. Click on the green clone button to get the link to clone the fork to your machine.
    {% hint style='working' %}
@@ -29,7 +29,7 @@ Type <code>git checkout -b ladydev-branch</code> <i class="fa fa-share fa-rotate
 </details>
    {% endhint %}
 
-1. In the newly created branch, create a new file named using your name with the message "Hello fellow ladydev!". Feel free to use the command line `echo` command, `vim`, or in Atom.
+1. In the newly created branch, create a new file named using your name, such as "ladydev.txt". Add the message "Hello fellow ladydev!". Feel free to use the `echo` command, `vim`, or in Atom.
 
 1. In the terminal, add, stage, and commit your file. Add a friendly commit message.
    {% hint style='tip' %}
