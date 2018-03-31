@@ -46,6 +46,20 @@ Chromebook users - use the built in text editor to make your changes.
    {% endhint %}
 
 1. Check the git status in the terminal and take a look at GitKraken. Your terminal shows _cocktails.txt_ as unstaged and ready to be committed. What?! 😕 
+   ```
+**[terminal]
+**[prompt LadyDev@Coding&Cocktails]**[path  ~/CodingAndCocktails/VersionControl/MyFirstRepo (master)]
+**[delimiter λ ]**[command git status]
+On branch master
+Your branch is up to date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)  
+**[warning    new file:   cocktails.txt]
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+**[error     modified:   cocktails.txt]
+   ```
    {% hint style='info' %}
 This is because when you ran `git add`, Git staged the file in the state at that time. With a new change, we have to stage the file again.  
    {% endhint %}

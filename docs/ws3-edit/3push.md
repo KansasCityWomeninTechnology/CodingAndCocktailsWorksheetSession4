@@ -24,7 +24,7 @@ We told git to reset the last two commits you made. This command also removes th
 <summary>
 Need a little help? Expand this section for guidance. 
 </summary>
-Type <code>git commit -am "helpful commit message here"</code> <i class="fa fa-share fa-rotate-180"></i>.
+Type <code>git commit -am "add cocktail"</code> <i class="fa fa-share fa-rotate-180"></i>.
 </details>
    {% endhint %}
 
