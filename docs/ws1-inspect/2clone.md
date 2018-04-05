@@ -17,7 +17,7 @@ The <i class="fa fa-share fa-rotate-180"></i> icon tells you when to press `Ente
 
 1. Navigate into your new folder by typing `cd VersionControl` <i class="fa fa-share fa-rotate-180"></i>.
 
-1. On the main overview page for "DrinkOrderApp" repository, click on the green **Clone or download** button and click the <span class="octicon octicon-clippy"></span> button to copy the link to the repository.
+1. In Chrome, on the main overview page for "DrinkOrderApp" repository, click on the green **Clone or download** button and click the <span class="octicon octicon-clippy"></span> button to copy the link to the repository.
    {% hint style='danger' %}
 ##### Attention Chromebook users
 

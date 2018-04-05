@@ -9,7 +9,7 @@ When you install Atom it automatically adds itself to your system PATH. The comm
 You will use the built in text editor.
    {% endhint %}
 
-1. Think of your favorite cocktail and add it at the of the sentence in _cocktails.txt_. Save your file. 
+1. Think of your favorite cocktail and add it at the of the sentence in _cocktails.txt_ in Atom. Save your file. 
 
 1. We made an edit to an existing file. Let's see what `git status` in the terminal shows. 
    ```
@@ -46,6 +46,9 @@ index 29a3e24..4d8a785 100644
    {% hint style='info' %}
 We only see differences when a file is unstaged.
    {% endhint %}
+   {% hint style='tip' %}
+Depending on the amount of changes, your terminal may display the output using 'less'. To exit out of 'less' type `q`. Refer to [Command Line Basics](https://codingandcocktailskc.gitbooks.io/session-2-command-line-basics/content/) for more details on 'less'. 
+   {% endhint %}
 
-1. Take a look at the diff in GitKraken by clicking on the top line and then on _cocktails.txt_ in the **Unstaged Files** list.
+1. In GitKraken, select the top row in the git tree named "//WIP" and then click on _cocktails.txt_ in the **Unstaged Files** list. Take a look at the diff and compare to what you saw in the terminal.
 

@@ -17,7 +17,7 @@ Sometimes we change our minds and decide we no longer want a change. We'll learn
 {% include "./2reset.md" %}
 
 ## Pushing our changes to GitHub {#push} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
-Finally, perfection! Let's push those changes up to remote, in our case, GitHub.
+Finally, perfection! Let's push those changes up to the remote, in our case, GitHub.
 {% include "./3push.md" %}
 
 

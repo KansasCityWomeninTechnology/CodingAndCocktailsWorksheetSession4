@@ -6,7 +6,8 @@
 <summary>
 Need a little help? Expand this section for guidance. 
 </summary>
-Type <code>git commit -am "personalized message here"</code> <i class="fa fa-share fa-rotate-180"></i>.
+Type <code>git add README.md</code> <i class="fa fa-share fa-rotate-180"></i>.</br>
+Type <code>git commit -m "personalized message here"</code> <i class="fa fa-share fa-rotate-180"></i>.</br>
 Type <code>git push</code> <i class="fa fa-share fa-rotate-180"></i>.
 </details>
    {% endhint %}
@@ -22,7 +23,7 @@ Sometimes all we want to see is a high level view of the graph. You can use `git
    {% hint style='tip' %}
 We've been using 2 commands a lot-- `git status` and `git log --graph`. These are great candidates to create as aliases. Refer to [Command Line Basics](https://www.gitbook.com/book/codingandcocktailskc/session-2-command-line-basics/details) for more details on create aliases or ask a mentor for help.
 
-Mac users - oh-my-zsh creates git aliases for you. Feel free to check out built in aliases or create your own.
+Mac users - oh-my-zsh creates git aliases for you. Feel free to check out the [built in aliases](https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet) or create your own.
    {% endhint %}
 
 1. We want to bring our changes in the 'cocktails-branch' into 'master' by creating a pull request. Before we do so, we should reconcile the differences in branches. Checkout 'cocktails-branch'.

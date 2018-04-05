@@ -1,5 +1,5 @@
 # Bonus - Resolve a merge conflict
-Merge conflicts may not happen as often, but eventually you will run into one. View the video below to see a merge conflict and resolving it in action. We will not practice this here but this is a skill that you can expect to training on according to your team’s procedures.
+Merge conflicts may not happen often, but eventually you will run into one. View the video below to see a merge conflict and resolving it in action. We will not practice this here but this is a skill that you can expect training according to your team’s procedures.
 
 {% raw %}
   <video id="my-video" class="video-js" controls preload="auto" width="900" height="600"
@@ -11,6 +11,11 @@ Merge conflicts may not happen as often, but eventually you will run into one. V
   </p>
   </video>
 {% endraw %}
+
+{% hint style='tip' %}
+You can also [read instructions from GitHub](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/) on how to resolve merge conflicts.
+{% endhint %}
+
 
 If you want to try this yourself, you need to make an edit to the same file (add a new line at the end of ReadMe) on two separate branches and merge. 
 

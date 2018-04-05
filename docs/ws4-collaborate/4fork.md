@@ -32,8 +32,14 @@ Type <code>git checkout -b ladydev-branch</code> <i class="fa fa-share fa-rotate
 1. In the newly created branch, create a new file named using your name, such as "ladydev.txt". Add the message "Hello fellow ladydev!". Feel free to use the `echo` command, `vim`, or in Atom.
 
 1. In the terminal, add, stage, and commit your file. Add a friendly commit message.
-   {% hint style='tip' %}
-This file is not tracked by git, so you have add the file first. Then you can stage and commit the changes. Refer to [Add a new file and check status](ws-2create/#add) for further guidance.
+   {% hint style='working' %}
+<details>
+<summary>
+Need a little help? Expand this section for guidance. 
+</summary>
+Type <code>git add ladydev.txt</code> <i class="fa fa-share fa-rotate-180"></i>.</br>
+Type <code>git commit -m "friendly commit message here"</code> <i class="fa fa-share fa-rotate-180"></i>.
+</details>
    {% endhint %}
 
 1. Push your changes and branch.
