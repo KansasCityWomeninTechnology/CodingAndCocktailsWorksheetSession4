@@ -1,4 +1,4 @@
-1. In GitHub, create a new repository by clicking the <span class="octicon octicon-plus"></span> button in the upper right corner. Select **New repository**.
+1. In Chrome, navigate to GitHub and create a new repository by clicking the <span class="octicon octicon-plus"></span> button in the upper right corner. Select **New repository**.
    
    ![](images/new-repo.png)
 
@@ -27,7 +27,7 @@ Unpacking objects: 100% (3/3), done.
 
 1. Type `ls` <i class="fa fa-share fa-rotate-180"></i>. You should see a new folder named "MyFirstRepo". 
 
-1. Open a file explorer to view your progress by using the following command for your OS and press `Enter`.
+1. Open a file explorer to view your progress by using the following command for your OS and press `Enter`. You may want to inspect files in the file explorer to help reinforce concepts throughout the worksheet.
    {% codetabs name="Mac", type="bash" -%} 
 open .
    {%- language name="Windows", type="bash" -%} 
@@ -37,7 +37,7 @@ start .
 Chromebook users - you will use the built in file viewer.
    {% endhint %}
 
-1. Navigate into the directory by typing `cd MyFirstRepo` <i class="fa fa-share fa-rotate-180"></i>. Notice your terminal now contains the name of the branch 'master'.
+1. In the terminal, navigate into the directory by typing `cd MyFirstRepo` <i class="fa fa-share fa-rotate-180"></i>. Notice your terminal now contains the name of the branch 'master'.
    {% hint style='tip' %}
 Don't forget to use Tab completion to make typing in the terminal easier!
    {% endhint %}

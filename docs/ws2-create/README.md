@@ -13,11 +13,11 @@ We'll create our first repository on GitHub and clone it so that we're prepared 
 {% include "./1create.md" %}
 
 ## Add a new file and check status {#add} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
-Now that we've cloned, we can start making changes. Let's practice by adding a file and learn about the command `git status`.
+Now that we've cloned, we can start making changes. Let's practice by adding and staging files and learn about the command `git status`.
 {% include "./2add.md" %}
 
-## Stage your file and commit your changes {#commit} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
-Our file is ready to go! Let's stage and commit our changes.
+## Commit your changes {#commit} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
+Our file is ready to go! Let's commit our changes.
 {% include "./3commit.md" %}
 
 

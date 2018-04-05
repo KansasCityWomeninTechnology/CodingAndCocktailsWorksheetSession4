@@ -9,7 +9,7 @@ This section will help guide you through the following steps:
 {% include "./instruction-steps.html" %}
 
 ## Create a branch {#branch} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
-We've been making changes to master, but most of the time you'll want to keep code work separated in branches. Let's create a branch and make some changes.
+We've been making changes to the default master branch, but most of the time you'll want to keep code work separated in branches. Let's create a branch and make some changes.
 {% include "./1branch.md" %}
 
 ## Merge master to your branch {#merge} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>

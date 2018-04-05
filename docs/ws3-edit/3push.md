@@ -10,7 +10,7 @@
 It shows each commit (with the unique identifier) and the commit message along with the author and date. Notice the top commit also has `(HEAD -> master)`. This says your own copy of the "master" branch is at the top commit. Notice the bottom commit has `(origin/master, origin/HEAD)`. This is the last change that your remote, GitHub, is aware of. Your terminal may not show where HEAD is.
    {% endhint %}
       {% hint style='tip' %}
-Your terminal automatically shows the output using 'less'. To exit out of 'less' type `q`. Refer to [Command Line Basics](https://www.gitbook.com/book/codingandcocktailskc/session-2-command-line-basics/details) for more details on 'less'. 
+Your terminal automatically shows the output using 'less'. To exit out of 'less' type `q`.
    {% endhint %}
 
 1. We have 3 commits for our work so far, but we don't need to keep both commits for _cocktails.txt_. We can squash our changes. Let's squash the last 2 changes, both of which were to _cocktails.txt_. Type `git reset --soft HEAD~2` <i class="fa fa-share fa-rotate-180"></i>.
@@ -24,7 +24,8 @@ We told git to reset the last two commits you made. This command also removes th
 <summary>
 Need a little help? Expand this section for guidance. 
 </summary>
-Type <code>git commit -am "add cocktail"</code> <i class="fa fa-share fa-rotate-180"></i>.
+Type <code>git add cocktails.txt</code> <i class="fa fa-share fa-rotate-180"></i>.</br>
+Type <code>git commit -m "add cocktail"</code> <i class="fa fa-share fa-rotate-180"></i>.
 </details>
    {% endhint %}
 
@@ -32,7 +33,7 @@ Type <code>git commit -am "add cocktail"</code> <i class="fa fa-share fa-rotate-
 
    ![](images/git-graph-squash.png)
 
-      {% hint style='tip' %}
+   {% hint style='tip' %}
 Use `q` to exit `less`.
    {% endhint %}
 

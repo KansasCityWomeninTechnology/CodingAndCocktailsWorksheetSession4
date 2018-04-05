@@ -1,4 +1,4 @@
-1. We've been making all our changes to 'master' branch. Let's create a branch for our next set of work. In the terminal, type `git checkout -b cocktails-branch` <i class="fa fa-share fa-rotate-180"></i>. It should look like this
+1. We've been making all our changes to the 'master' branch. Let's create a branch for our next set of work. In the terminal, type `git checkout -b cocktails-branch` <i class="fa fa-share fa-rotate-180"></i>. It should look like this
    ```
 **[terminal]
 **[prompt LadyDev@Coding&Cocktails]**[path  ~/CodingAndCocktails/VersionControl/MyFirstRepo (master)]
@@ -24,17 +24,20 @@ nothing to commit, working tree clean
 
 1. In Atom, edit _cocktails.txt_ by adding a new sentence. Perhaps add your second favorite cocktail? Save the file.
 
-1. In the terminal, stage your file and commit your change. 
+1. In the terminal, check git diff and git status to double check your work. 
+
+1. Stage your file and commit your change. 
    {% hint style='working' %}
 <details>
 <summary>
 Need a little help? Expand this section for guidance. 
 </summary>
-Type <code>git commit -am "personalized message here"</code> <i class="fa fa-share fa-rotate-180"></i>.
+Type <code>git add cocktails.txt</code> <i class="fa fa-share fa-rotate-180"></i>.</br>
+Type <code>git commit -m "personalized message here"</code> <i class="fa fa-share fa-rotate-180"></i>.
 </details>
    {% endhint %}
 
-1. Take a look in your on GitHub in the branches dropdown. We don't see 'cocktails-branch' in there yet. We've created a branch but the remote doesn't know about it. We need to push our new branch info.
+1. In Chrome, take a look in your on GitHub in the branches dropdown. We don't see 'cocktails-branch' in there yet. We've created a branch but the remote doesn't know about it. We need to push our new branch info.
 
 1. In the terminal type `git push` <i class="fa fa-share fa-rotate-180"></i> like we did before to push our changes. Oh oh! We got an error
    ```
@@ -50,10 +53,17 @@ The remote, GitHub, has no knowledge of 'cocktails-branch'. We need to provide t
    {% endhint %}
 
 1. Follow the instructions in the error and type `git push --set-upstream origin cocktails-branch` <i class="fa fa-share fa-rotate-180"></i>.
+   {% hint style='tip' %}
+If you get a merge conflict, you can try to resolve it yourself by following the [merge conflicts video in Bonus](/homework/merge-conflicts.md) or ask a mentor for help.
+   {% endhint %}
 
 1. Type `git log --graph` <i class="fa fa-share fa-rotate-180"></i>. You should see your change on 'cocktails-branch' and the second commit from the top is where 'master' is. You diverged from 'master'. Your git graph looks like this
 
    ![](images/git-graph-branch.png)
+
+   {% hint style='tip' %}
+Use `q` to exit `less`.
+   {% endhint %}
 
 1. Switch back to 'master' by typing `git checkout master` <i class="fa fa-share fa-rotate-180"></i>.
 
