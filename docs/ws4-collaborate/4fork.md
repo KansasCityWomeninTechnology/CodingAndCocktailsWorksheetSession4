@@ -1,7 +1,8 @@
 1. Find a buddy at your table. Using Chrome, navigate to their "MyFirstRepo" page.
 
 1. Find the **<span class="octicon octicon-repo-forked"></span> Fork** button in the upper right corner of the page and click on it.
-    ![](images/fork.png)
+
+    ![](images/fork.jpg)
 
     {% hint style='danger' %}
 If asked, “Where should we fork this repository?” Select your personal profile. This question indicates you're a part of a GitHub organization but we want to use our personal accounts this evening.  If you are not asked that question, carry on.

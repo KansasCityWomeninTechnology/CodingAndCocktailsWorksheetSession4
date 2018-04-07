@@ -17,7 +17,7 @@ GitHub is a big place! Sometimes there are many repositories with the same name.
      <i class="fa fa-circle fa-stack-2x help-annotations"></i>
      <strong class="fa-stack-1x help-annotations-text">2</strong>
    </span>
-   The selected branch and the number changes (aka commits) made in that branch
+   The selected branch and the number of changes (aka commits) made in that branch
 
    <span class="fa-stack">
      <i class="fa fa-circle fa-stack-2x help-annotations"></i>

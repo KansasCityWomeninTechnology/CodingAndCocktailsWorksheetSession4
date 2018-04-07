@@ -19,7 +19,7 @@ We will take a quick tour of GitHub and cover the UI we will use for tonight's s
 {% include "./1github.md" %}
 
 ## Clone a repository {#clone} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
-Let's look at the same repository using a Git GUI tool called GitKraken. We'll clone the repository to our machines and see a unified visualization of the separate branches and paths we inspected earlier. 
+Let's look at the same repository using a Git GUI tool called GitKraken. We'll clone the repository to our machines and see a unified visualization of the separate branches and commits we inspected earlier. 
 {% include "./2clone.md" %}
 
 <!-- trick markdown to give me a little space between these two sections of text -->

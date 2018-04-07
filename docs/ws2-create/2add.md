@@ -24,9 +24,9 @@ nothing added to commit but untracked files present (use "git add" to track)
 An untracked file is a file that Git doesn't know about. You have to explicitly ask Git to track a file. Git doesn't do this automatically in case you accidentally include files that shouldn't be in source control (such as large files or application files).
    {% endhint %}
 
-1. We can add the file to git and stage the file at the same time by typing `git add cocktails.txt` <i class="fa fa-share fa-rotate-180"></i>.
+1. We can add the file to Git and stage the file at the same time by typing `git add cocktails.txt` <i class="fa fa-share fa-rotate-180"></i>.
 
-1. Let's check out the status again. This time the terminal lists _cocktails.txt_ as a change to be committed. GitKraken also shows the file in **Staged Files**.
+1. Let's check out the status again. This time the terminal lists _cocktails.txt_ as a change to be committed. 
    ```
 **[terminal]
 **[prompt LadyDev@Coding&Cocktails]**[path  ~/CodingAndCocktails/VersionControl/MyFirstRepo (master)]
@@ -38,9 +38,13 @@ Changes to be committed:
 **[warning    new file:   cocktails.txt]
    ```
 
+1. In GitKraken, click on the **View change** button or click ont "//WIP" in the git tree view to see the staged files.
+
+   ![](images/gitkraken-staged-files.png)
+
 1. Oops! We meant to add some text to the file. It should say "My favorite cocktail is" in _cocktails.txt_. We need to fix that. You can use any editor you want to add the text. Make the change and save the file.
    {% hint style='info' %}
-This is a good opportunity to practice your vim skills. Type `vim cocktails.txt` <i class="fa fa-share fa-rotate-180"></i> to launch vim. Type `i` for insert and add the text. When complete, type `Esc` and then type `:wq`. Press `Enter` to save your file. Refer to [Command Line Basics](https://www.gitbook.com/book/codingandcocktailskc/session-2-command-line-basics/details) for more details on 'vim'.
+This is a good opportunity to practice your vim skills. In the terminal, type `vim cocktails.txt` <i class="fa fa-share fa-rotate-180"></i> to launch vim. Type `i` for insert and add the text. When complete, type `Esc` and then type `:wq`. Press `Enter` to save your file. Refer to [Command Line Basics](https://www.gitbook.com/book/codingandcocktailskc/session-2-command-line-basics/details) for more details on 'vim'.
 
 Chromebook users - use the built in text editor to make your changes.
    {% endhint %}

@@ -16,14 +16,16 @@ In the final section you forked your buddy's "MyFirstRepo" repository. Let's con
 1. Configure your upstream remote (where you forked from).
 
    1. Type `git remote -v` <i class="fa fa-share fa-rotate-180"></i> to view the currently configured remotes.
-   ![](images/originRemote.png)
+
+   ![](images/originRemote.jpg)
         
    1. Navigate to your buddy's "MyFirstRepo" page in GitHub and copy the link for cloning her repository. Refer to [Clone a repository](/ws1-inspect#clone) if needed. 
 
    1. Specify your upstream remote by typing `git remote add upstream `, paste your buddy's link, and <i class="fa fa-share fa-rotate-180"></i>.
         
    1. Double check you have a new remote configured by typing `git remote -v` again.  This time you should see both origin remotes and upstream remotes. The image shows an example using a different repository so it won't look exactly the same.
-      ![](images/upstreamRemote.png)
+
+      ![](images/upstreamRemote.jpg)
 
    1. Fetch any new commits to the upstream repository. Type `git fetch upstream`.
         

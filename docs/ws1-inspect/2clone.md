@@ -16,12 +16,15 @@ The <i class="fa fa-share fa-rotate-180"></i> icon tells you when to press `Ente
    {% endhint %}
 
 1. Navigate into your new folder by typing `cd VersionControl` <i class="fa fa-share fa-rotate-180"></i>.
+   {% hint style='tip' %}
+Use Tab completion to make typing in the terminal easier. Type `cd Ver` and press `Tab` key to have your terminal auto complete the folder name. Then press `Enter` key to execute the command.
+   {% endhint %}
 
 1. In Chrome, on the main overview page for "DrinkOrderApp" repository, click on the green **Clone or download** button and click the <span class="octicon octicon-clippy"></span> button to copy the link to the repository.
    {% hint style='danger' %}
 ##### Attention Chromebook users
 
-You will not work with GitKraken tonight. Please read through the remainder of "Clone a repository" section to help reinforce Git concepts. You'll pick back up at the beginning of the next section. Please skip any GitKraken instructions in the rest of the worksheet.
+You will not work with GitKraken tonight. Please read through the "Clone a repository" section to help reinforce Git concepts. You'll pick back up at the beginning of the next section. Please skip any GitKraken instructions in the rest of the worksheet.
    {% endhint %}
 
 1. Open GitKraken. Clone a repo in GitKraken by selecting **File** <i class="fa fa-long-arrow-right"></i> **Clone Repo**. 
@@ -78,6 +81,8 @@ Right click shows more options. We won't cover using them in GitKraken but you'l
 
 1. Select a file from the list of files modified (circle #4). The main view changes to show the "diff view" like we saw in GitHub. Click on the "X" at the top of the main view above the checkbox for **Ignore white space** to return to the graph view. 
 
+   ![](images/gitkraken-close-diff.png)
+
 1. Double click on a branch, such as the one named "jquery-master". Notice your selected branch changed (circle #1). You may have also noticed a message appear and disappear. You switched branches and the **LOCAL** list of branches on the list now contains "jquery-master". We'll cover more about this a little later tonight. 
 
 1. Now let's turn our attention towards the Git tree. This shows all the branches in an unified view and how each path converges and diverges. Each branch is a different color. Circles with pictures and solid circles represent different commits. 
@@ -93,4 +98,9 @@ It looks like a maze, but using this view we can trace revisions and see how a c
    {% hint style='info' %}
 Targeting one branch in a view makes identifying changes easier. This is the same view we had in GitHub when we saw all the commits for the selected branch.
   {% endhint %} 
+
+1. In your terminal, navigate to "CodingAndCocktails/VersionControl" directory. You can check what folder you're in by typing `pwd` <i class="fa fa-share fa-rotate-180"></i>.
+
+1. Type `ls` <i class="fa fa-share fa-rotate-180"></i>. Notice GitKraken created a folder with the same name as the repository you cloned, "DrinkOrderApp".
+
 

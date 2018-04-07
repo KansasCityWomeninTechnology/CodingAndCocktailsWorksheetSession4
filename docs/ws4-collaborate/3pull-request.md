@@ -31,5 +31,5 @@ Fetch updates references in your local repository so that it's aware of what's g
 
 1. Open Atom and take a look at _cocktails.txt_. You now have the changes you made in 'cocktails-branch'.
 
-1. Check the git graph for 'master' branch. It now contains the commits you made in 'cocktails-branch. Your git graph now looks like this
+1. In the terminal, check the git graph for 'master' branch. It now contains the commits you made in 'cocktails-branch. Feel free to also use GitKraken to look at your work. Your git graph now looks like this
    ![](images/git-graph-pull-request.png)
