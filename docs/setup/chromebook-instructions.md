@@ -31,7 +31,7 @@ You may have to enter your GitHub username and GitHub password every time you pu
 {% endhint %}
 
 {% hint style='danger' %}
-Codenvy will stop your workspace if you are idle for too long and displays a message that says "Workspace is not running". Press **Start** to start your workspace back up. You may have to navigate back to the directory you were working in.
+Codenvy will stop your workspace if you are idle for too long and displays a message that says "Workspace is not running". Press **Start** to start your workspace back up. You will have to navigate back to the directory you were working in.
 {% endhint %}
 
 

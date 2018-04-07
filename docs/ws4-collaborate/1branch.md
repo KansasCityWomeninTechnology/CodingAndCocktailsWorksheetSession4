@@ -37,7 +37,7 @@ Type <code>git commit -m "personalized message here"</code> <i class="fa fa-shar
 </details>
    {% endhint %}
 
-1. In Chrome, take a look in your on GitHub in the branches dropdown. We don't see 'cocktails-branch' in there yet. We've created a branch but the remote doesn't know about it. We need to push our new branch info.
+1. In Chrome, take a look at the branches dropdown on GitHub. We don't see 'cocktails-branch' in there yet. We've created a branch but the remote doesn't know about it. We need to push our new branch info.
 
 1. In the terminal type `git push` <i class="fa fa-share fa-rotate-180"></i> like we did before to push our changes. Oh oh! We got an error
    ```
@@ -53,9 +53,6 @@ The remote, GitHub, has no knowledge of 'cocktails-branch'. We need to provide t
    {% endhint %}
 
 1. Follow the instructions in the error and type `git push --set-upstream origin cocktails-branch` <i class="fa fa-share fa-rotate-180"></i>.
-   {% hint style='tip' %}
-If you get a merge conflict, you can try to resolve it yourself by following the [merge conflicts video in Bonus](/homework/merge-conflicts.md) or ask a mentor for help.
-   {% endhint %}
 
 1. Type `git log --graph` <i class="fa fa-share fa-rotate-180"></i>. You should see your change on 'cocktails-branch' and the second commit from the top is where 'master' is. You diverged from 'master'. Your git graph looks like this
 

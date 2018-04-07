@@ -1,6 +1,6 @@
 1. In Chrome, navigate to GitHub and create a new repository by clicking the <span class="octicon octicon-plus"></span> button in the upper right corner. Select **New repository**.
    
-   ![](images/new-repo.png)
+   ![](images/new-repo.jpg)
 
 1. Name your repository "MyFirstRepo". Add a short description and check the **Initialize this repository with a README** checkbox. Click **Create repository**.
 
@@ -10,11 +10,14 @@
 You can ignore the **Add .gitignore** and **Add a license** dropdowns for the time being.  You won't need them for what we are doing this evening.
     {% endhint %}
 
-1. You now have a repo! Notice you're automatically on 'master' branch. Click the green **Clone or download** button and copy the link by clicking on the <span class="octicon octicon-clippy"></span> button.
+1. You now have a repository! Notice you're automatically on 'master' branch. Click the green **Clone or download** button and copy the link by clicking on the <span class="octicon octicon-clippy"></span> button.
 
-1. Open your terminal and navigate to "CodingAndCocktails/VersionControl" folder in your home directory. If you are already in "DrinkOrderApp", you can type `cd ../VersionControl` <i class="fa fa-share fa-rotate-180"></i>.
+1. Open your terminal and navigate to "CodingAndCocktails/VersionControl" folder in your home directory.
+    {% hint style='tip' %}
+You can check what folder you're in by typing `pwd` <i class="fa fa-share fa-rotate-180"></i>. Then use the `cd` commands to navigate the file system. You can navigate up a directory by using `cd ..`.
+    {% endhint %}
 
-1. Type `git clone` and paste the link to your repository that you copied in the previous step. Press `Enter`. Your terminal will look like this
+1. In the "VersionControl" folder, type `git clone` and paste the link to your repository that you copied in the previous step. Press `Enter`. Your terminal will look like this
    ```
 **[terminal]
 **[prompt LadyDev@Coding&Cocktails]**[path  ~/CodingAndCocktails/VersionControl]
@@ -34,7 +37,7 @@ open .
 start .
    {%- endcodetabs %}
    {% hint style='info' %}
-Chromebook users - you will use the built in file viewer.
+Chromebook users - you will use the built in file viewer. You will also not see the name of the branch automatically display in the terminal. 
    {% endhint %}
 
 1. In the terminal, navigate into the directory by typing `cd MyFirstRepo` <i class="fa fa-share fa-rotate-180"></i>. Notice your terminal now contains the name of the branch 'master'.
@@ -53,12 +56,12 @@ Don't forget to use Tab completion to make typing in the terminal easier!
 README.md
    ```
   {% hint style='tip' %}
-Navigate into "MyFirstRepo" in the file explorer if you want to follow along in a GUI. If you don't see all the files listed, you will need to enable viewing hidden files.
+Navigate into "MyFirstRepo" in the file explorer if you want to follow along in a GUI. If you don't see the ".git" folder in the file explorer, you will need to enable viewing hidden files.
   {% endhint %}
 
-1. Type `cat README.md` <i class="fa fa-share fa-rotate-180"></i>. You should see the contents of the read me text, which is the same text displayed in GitHub repo page.
+1. Type `cat README.md` <i class="fa fa-share fa-rotate-180"></i>. You should see the contents of the read me text, which is the same text displayed in GitHub repository page.
    {% hint style='info' %}
-Git has special files. One of them is the ".git" folder. It contains all the information on reconstructing the version history for your repo.   
+Git has special files. One of them is the ".git" folder. It contains all the information on reconstructing the version history for your repository.   
    {% endhint %}
 
 1. Type `git status` <i class="fa fa-share fa-rotate-180"></i>. You will see something like this
@@ -71,10 +74,10 @@ Your branch is up to date with 'origin/master'.
 nothing to commit, working tree clean
    ```
    {% hint style='info' %}
-We haven't done anything to the repo so our working tree is clean. We can always run `git status` to double check our work.     
+We haven't done anything to the repository so our working tree is clean. We can always run `git status` to double check our work.     
    {% endhint %}
 
-1. Let's open the repo in GitKraken. Select **File** <i class="fa fa-long-arrow-right"></i> **Open Repo**. In the **Repository Management** dialog select **Open a Repository** and select your "MyFirstRepo" folder in your home directory.
+1. Let's open the repository in GitKraken. Select **File** <i class="fa fa-long-arrow-right"></i> **Open Repo**. In the **Repository Management** dialog select **Open a Repository** and select your "MyFirstRepo" folder in your home directory.
 
 1. When you create a repository with a read me file, GitHub automatically commits the file for you. You have 1 commit in your repository! Feel free to inspect your commit, the file, and your branch.
 
