@@ -27,7 +27,7 @@ Use Tab completion to make typing in the terminal easier. Type `cd Ver` and pres
 You will not work with GitKraken tonight. Please read through the "Clone a repository" section to help reinforce Git concepts. You'll pick back up at the beginning of the next section. Please skip any GitKraken instructions in the rest of the worksheet.
    {% endhint %}
 
-1. Open GitKraken. Clone a repo in GitKraken by selecting **File** <i class="fa fa-long-arrow-right"></i> **Clone Repo**. 
+1. Open GitKraken. Clone a repository in GitKraken by selecting **File** <i class="fa fa-long-arrow-right"></i> **Clone Repo**. 
 
 1. In the **Repository Management** dialog that displays, select **Clone with URL**. Click on **Browse**. Navigate to and select the "VersionControl" folder to populate the **Where to clone to** field.
   

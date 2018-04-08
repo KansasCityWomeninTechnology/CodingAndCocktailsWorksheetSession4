@@ -10,7 +10,7 @@ If asked, “Where should we fork this repository?” Select your personal profi
 
 1. In your terminal, navigate to "CodingAndCocktails/VersionControl" folder in your home directory. If you are already in "MyFirstRepo", you can type `cd ..` <i class="fa fa-share fa-rotate-180"></i>.
 
-1. GitHub will automatically add a "-1" to the name of the repo so that repo names are unique. Once the fork completes, GitHub navigates to your fork. Click on the green clone button to get the link to clone the fork to your machine.
+1. GitHub will automatically add a "-1" to the name of the repository so that repository names are unique. Once the fork completes, GitHub navigates to your fork. Click on the green clone button to get the link to clone the fork to your machine.
    {% hint style='working' %}
 <details>
 <summary>
