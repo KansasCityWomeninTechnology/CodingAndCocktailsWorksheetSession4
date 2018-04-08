@@ -44,7 +44,7 @@ Changes to be committed:
 
 1. Oops! We meant to add some text to the file. It should say "My favorite cocktail is" in _cocktails.txt_. We need to fix that. You can use any editor you want to add the text. Make the change and save the file.
    {% hint style='info' %}
-This is a good opportunity to practice your vim skills. In the terminal, type `vim cocktails.txt` <i class="fa fa-share fa-rotate-180"></i> to launch vim. Type `i` for insert and add the text. When complete, type `Esc` and then type `:wq`. Press `Enter` to save your file. Refer to [Command Line Basics](https://www.gitbook.com/book/codingandcocktailskc/session-2-command-line-basics/details) for more details on 'vim'.
+This is a good opportunity to practice your vim skills. In the terminal, type `vim cocktails.txt` <i class="fa fa-share fa-rotate-180"></i> to launch vim. Type `i` for insert and add the text. When complete, type `Esc` and then type `:wq`. Press `Enter` to save your file. Refer to [Command Line Basics](https://codingandcocktailskc.gitbooks.io/session-2-command-line-basics/content/ws2-redirect-pipes/#edit) for more details on 'vim'.
 
 Chromebook users - use the built in text editor to make your changes.
    {% endhint %}
