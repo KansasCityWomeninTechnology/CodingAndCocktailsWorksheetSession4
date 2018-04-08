@@ -21,7 +21,7 @@ Type <code>git push</code> <i class="fa fa-share fa-rotate-180"></i>.
 Sometimes all we want to see is a high level view of the graph. You can use `git log --graph --all --oneline` <i class="fa fa-share fa-rotate-180"></i> to trim the graph up even more. Read about the different parameters you can use at [Git SCM documentation](https://git-scm.com/docs/git-log). 
    {% endhint %}
    {% hint style='tip' %}
-We've been using 2 commands a lot-- `git status` and `git log --graph`. These are great candidates to create as aliases. Refer to [Command Line Basics](https://www.gitbook.com/book/codingandcocktailskc/session-2-command-line-basics/details) for more details on create aliases or ask a mentor for help.
+We've been using 2 commands a lot-- `git status` and `git log --graph`. These are great candidates to create as aliases. Refer to [Command Line Basics](https://codingandcocktailskc.gitbooks.io/session-2-command-line-basics/content/ws3-variables-aliases/) for more details on create aliases or ask a mentor for help.
 
 Mac users - oh-my-zsh creates git aliases for you. Feel free to check out the [built in aliases](https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet) or create your own.
    {% endhint %}
