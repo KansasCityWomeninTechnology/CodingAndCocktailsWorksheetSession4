@@ -21,6 +21,9 @@ Use Tab completion to make typing in the terminal easier. Type `cd Ver` and pres
    {% endhint %}
 
 1. In Chrome, on the main overview page for "DrinkOrderApp" repository, click on the green **Clone or download** button and click the <span class="octicon octicon-clippy"></span> button to copy the link to the repository.
+   
+   ![](images/github-clone.png)
+
    {% hint style='danger' %}
 ##### Attention Chromebook users
 
