@@ -15,28 +15,28 @@ Save the file by navigating to **File** <i class="fa fa-long-arrow-right"></i> *
 View the worksheet and the IDE in split screen mode to make it easier to work through tonight's session. Check out the [helpful tips in the Setup guide](/setup#tips). 
    {% endhint %}
 
-1. Let's display an alert message by adding `alert('click');` inside the `clickHandler` function in Atom. The `clickHandler` function should look like this:
+1. It's easier to understand what's going on if we have visual indications of our work. Browsers have a build-in function to display alert messages. Let's display an alert message with the word "click" inside of it. Find the `clickHandler` function in _myscript.js_ in Atom and add `alert('click');` inside the function (between the curly braces). The `clickHandler` function should look like this:
 
    ```js
-const clickHandler = function(text) {
-      alert('click');
-};
+   const clickHandler = function(text) {
+         alert('click');
+   };
    ```
-   {% hint style='info' %}
-You can create functions using **Function Expression** like we did above. Or you can create functions using **Function Declaration** using the syntax 
-```js
-function clickHandler (text) {
-      alert('click');
-}
-```
+
+   {% hint style='tip' %}
+Notice `alert('click');` is **indented** inside the function. Indenting code inside functions make it easier for you to see where a function begins (the open curly brace) and where it ends (the close curly brace). Indention makes code human readable.
    {% endhint %}
 
-1. Now try clicking the button in Chrome. An alert message appears! Close the alert message by clicking "Ok".
+   {% hint style='info' %}
+We passed in the string "click" to the built in function `alert`. You can use either double quotes "" or single quotes '' for strings.
+   {% endhint %}
+
+1. Now try clicking the button in Chrome. An alert message appears! Close the alert message by clicking **Ok**.
 
 1. In Atom, define a new variable called `numberOfClicks` above the line with the code `const clickHandler = function(text)` so we can keep track of the number of button clicks and set the value to 0. Your variable should look like this:
 
    ```js
-var numberOfClicks = 0;
+   var numberOfClicks = 0;
    ```
 
    {% hint style='info' %}
@@ -46,21 +46,21 @@ You declared `numberOfClicks` variable outside of the function so that it's acce
 1. Track the clicks by incrementing `numberOfClicks` by 1 for each button click. We can do this inside the `clickHandler` function. Place your cursor after the opening curly brace and press `Enter` to create a new line above `alert('click');`. Type the following statement:
 
    ```js
-numberOfClicks = numberOfClicks + 1;
+   numberOfClicks = numberOfClicks + 1;
    ```
    {% hint style='info' %}
 We are adding 1 to `numberOfClicks` variables and setting the result back to `numberOfClicks`. 
 
 There are other ways to assign an increment to the `numberOfClicks` variable. You could have also written:
 ```js
-numberOfClicks += 1;
-numberOfClicks++;
+   numberOfClicks += 1;
+   numberOfClicks++;
 ```
   {% endhint %}   
 
 1. Update the alert message to show the number of clicks by adding `numberOfClicks` to the display text using string concatenation.
    ```js
-alert('click ' + numberOfClicks);
+   alert('click ' + numberOfClicks);
    ```
 
 1. In Chrome, click the button a few times to see your click counter in action. Don't forget to close the alert message between each click.

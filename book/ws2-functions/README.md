@@ -28,6 +28,10 @@ As applications grow, we need ways to troubleshoot code. We'll learn the basics 
 Business needs can be complex. We'll add conditional logic to execute different code paths.
 {% include "./4conditional.md" %}
 
+### Celebrate with a cocktail or mocktail! You deserve it, rockstar!
+
+   ![](https://media.giphy.com/media/bEbRqmAnOeRi/giphy.gif)
+
 <!-- trick markdown to give me a little space between these two sections of text -->
 ## 
 

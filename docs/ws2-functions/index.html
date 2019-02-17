@@ -372,19 +372,17 @@
 <p><div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>View the worksheet and the IDE in split screen mode to make it easier to work through tonight&apos;s session. Check out the <a href="../setup#tips">helpful tips in the Setup guide</a>. </p>
 </div></div></p>
 </li>
-<li><p>Let&apos;s display an alert message by adding <code>alert(&apos;click&apos;);</code> inside the <code>clickHandler</code> function in Atom. The <code>clickHandler</code> function should look like this:</p>
+<li><p>It&apos;s easier to understand what&apos;s going on if we have visual indications of our work. Browsers have a build-in function to display alert messages. Let&apos;s display an alert message with the word &quot;click&quot; inside of it. Find the <code>clickHandler</code> function in <em>myscript.js</em> in Atom and add <code>alert(&apos;click&apos;);</code> inside the function (between the curly braces). The <code>clickHandler</code> function should look like this:</p>
 <pre><code class="lang-js"><span class="hljs-keyword">const</span> clickHandler = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">text</span>) </span>{
-   alert(<span class="hljs-string">&apos;click&apos;</span>);
+      alert(<span class="hljs-string">&apos;click&apos;</span>);
 };
 </code></pre>
-<p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>You can create functions using <strong>Function Expression</strong> like we did above. Or you can create functions using <strong>Function Declaration</strong> using the syntax </p>
-<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">clickHandler</span> (<span class="hljs-params">text</span>) </span>{
-      alert(<span class="hljs-string">&apos;click&apos;</span>);
-}
-</code></pre>
+<p><div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>Notice <code>alert(&apos;click&apos;);</code> is <strong>indented</strong> inside the function. Indenting code inside functions make it easier for you to see where a function begins (the open curly brace) and where it ends (the close curly brace). Indention makes code human readable.</p>
+</div></div></p>
+<p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>We passed in the string &quot;click&quot; to the built in function <code>alert</code>. You can use either double quotes &quot;&quot; or single quotes &apos;&apos; for strings.</p>
 </div></div></p>
 </li>
-<li><p>Now try clicking the button in Chrome. An alert message appears! Close the alert message by clicking &quot;Ok&quot;.</p>
+<li><p>Now try clicking the button in Chrome. An alert message appears! Close the alert message by clicking <strong>Ok</strong>.</p>
 </li>
 <li><p>In Atom, define a new variable called <code>numberOfClicks</code> above the line with the code <code>const clickHandler = function(text)</code> so we can keep track of the number of button clicks and set the value to 0. Your variable should look like this:</p>
 <pre><code class="lang-js"><span class="hljs-keyword">var</span> numberOfClicks = <span class="hljs-number">0</span>;
@@ -397,8 +395,8 @@
 </code></pre>
 <p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>We are adding 1 to <code>numberOfClicks</code> variables and setting the result back to <code>numberOfClicks</code>. </p>
 <p>There are other ways to assign an increment to the <code>numberOfClicks</code> variable. You could have also written:</p>
-<pre><code class="lang-js">numberOfClicks += <span class="hljs-number">1</span>;
-numberOfClicks++;
+<pre><code class="lang-js">   numberOfClicks += <span class="hljs-number">1</span>;
+   numberOfClicks++;
 </code></pre>
 </div></div>   </p>
 </li>
@@ -421,7 +419,7 @@ numberOfClicks++;
 <li><p>We still want to see the button click counter for troubleshooting purposes. We can log the number of clicks to the console. Add <code>console.log(numberOfClicks);</code> right after incrementing the clicks in the <code>clickHandler</code> function.</p>
 </li>
 <li><p>To see console logging in action, open the Chrome DevTools and click on the button. You should see the number of clicks write to the console. Leave DevTools open.</p>
-<p><div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>Open Chrome DevTools by using <code>cmd</code> + <code>option</code> + <code>i</code> on Macs, <code>F12</code> on Windows, and <code>ctrl</code> + <code>shift</code> + <code>i</code> on Chromebooks. Refer to <a href="../references">Helpful Keyboard Shortcuts</a>.</p>
+<p><div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>Open Chrome DevTools by using <code>cmd</code> + <code>option</code> + <code>i</code> on Macs, <code>F12</code> on Windows. Refer to <a href="../references">Helpful Keyboard Shortcuts</a>.</p>
 </div></div>   </p>
 </li>
 <li><p>We declared <code>numberOfClicks</code> using <code>var</code>. What happens if we used <code>const</code>? In Atom, change the declaration for <code>numberOfClicks</code> to use <code>const</code>.
@@ -447,7 +445,7 @@ Change <code>var numberOfClicks = 0;</code> to <code>const numberOfClicks = 0;</
 <ol>
 <li><p>Inside the <code>clickHandler</code> function, add an <code>if</code> statement to only show the alert for greater than 2 button clicks by adding a conditional statement:</p>
 <pre><code class="lang-js"><span class="hljs-keyword">if</span> (numberOfClicks &gt; <span class="hljs-number">2</span>) {
-   alert(text);
+      alert(text);
 }
 </code></pre>
 <p><div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>Notice the indention on the <code>alert(text);</code>. Indent everything inside the <code>if</code> statement to make it easier to read your code. Doing so helps your brain group logical units of code together at a glance!</p>
@@ -476,18 +474,18 @@ Change <code>if (numberOfClicks &gt; 2)</code> to either
 </li>
 <li><p>What if we want to show a different alert message after 3 button clicks? Add an <code>else</code> clause to the conditional statement:</p>
 <pre><code class="lang-js"><span class="hljs-keyword">if</span> (numberOfClicks &lt;= <span class="hljs-number">3</span>) {
-   alert(text);
+      alert(text);
 } <span class="hljs-keyword">else</span> {
-   alert(<span class="hljs-string">&quot;Drink in moderation-- no more cocktails for you!&quot;</span>);
+      alert(<span class="hljs-string">&quot;Drink in moderation-- no more cocktails for you!&quot;</span>);
 }
 </code></pre>
 </li>
 <li><p>This is starting to become difficult to track using <code>console.log</code>. Let&apos;s try <strong>debugging</strong> the <code>onClickHandler</code> function in DevTools. Add <code>debugger;</code> as the first line of the <code>clickHandler</code> function. Your function should look like this:</p>
 <pre><code class="lang-js"><span class="hljs-keyword">const</span> clickHandler = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">text</span>) </span>{
-   <span class="hljs-keyword">debugger</span>;
-   numberOfClicks = numberOfClicks + <span class="hljs-number">1</span>;
+      <span class="hljs-keyword">debugger</span>;
+      numberOfClicks = numberOfClicks + <span class="hljs-number">1</span>;
 
-   <span class="hljs-comment">// rest of the function remains here</span>
+      <span class="hljs-comment">// rest of the function remains here</span>
 };
 </code></pre>
 </li>
@@ -496,14 +494,14 @@ Change <code>if (numberOfClicks &gt; 2)</code> to either
 </div></div></p>
 </li>
 <li><p>In the <em>scripts.js</em> tab in Chrome, hover over <code>numberOfClicks</code>. It shows you the current value of the variable, 0. Click <strong>Step</strong> button, <img src="images/step.png" alt=""> (located at the upper right of DevTools window), to execute the next line of code in <em>scripts.js</em>. The line where we increment <code>numberOfClicks</code> highlights. The current value of <code>numberOfClicks</code> is still 0.</p>
-<p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>The <img src="images/step.png" alt=""> steps through the source code. You can also Step into and step out of lines of code. Tonight we will use step. </p>
+<p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>The <img src="images/step.png" alt=""> steps through the source code. You can also <strong>Step</strong> into and step out of lines of code. Tonight we will use step. </p>
 </div></div>   </p>
 </li>
-<li><p>Click step again. Now we see <code>numberOfClicks</code> increment to 1. </p>
+<li><p>Click <strong>Step</strong> again. Now we see <code>numberOfClicks</code> increment to 1. </p>
 </li>
-<li><p>Click step until the <code>if</code> statement highlights.</p>
+<li><p>Click <strong>Step</strong> until the <code>if</code> statement highlights.</p>
 </li>
-<li><p>Click step to execute the <code>if</code> statement. Since 1 is less than or equal to 3, we expect to execute <code>alert(text);</code> statement. Does it?</p>
+<li><p>Click <strong>Step</strong> to execute the <code>if</code> statement. Since 1 is less than or equal to 3, we expect to execute <code>alert(text);</code> statement. Does it?</p>
 </li>
 <li><p>Click <strong>Resume</strong>, <img src="images/resume.png" alt="">, to resume execution on the rest of the code. </p>
 <p><div class="alert alert-warning hints-alert"><div class="hints-icon"><i class="fa fa-question-circle fa-lg"></i></div><div class="hints-container"><p>We are using <strong>Step</strong> in this session, but debugging tools, such as Chrome DevTools, have other capabilities to make debugging easy. You can add <strong>breakpoints</strong> to force your web page to pause execution without adding <code>debugger;</code> statements so you can execute multiple lines of code pausing execution using the <strong>Resume</strong> button instead of <strong>Step</strong>. You can also add the <code>numberOfClicks</code> variable to a watch list so that you can see the value at a glance. </p>
@@ -516,10 +514,9 @@ Change <code>if (numberOfClicks &gt; 2)</code> to either
 <div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p><code>debugger;</code> is helpful for writing code, but don&apos;t use it for production code. Most linters will red flag <code>debugger</code> during the build process to help safe-guard your application. </p>
 </div></div></p>
 </li>
-<li><p>Celebrate with a cocktail or mocktail! You deserve it, rockstar!</p>
-<p><img src="https://media.giphy.com/media/bEbRqmAnOeRi/giphy.gif" alt=""></p>
-</li>
 </ol>
+<h3 id="celebrate-with-a-cocktail-or-mocktail-you-deserve-it-rockstar"><a name="celebrate-with-a-cocktail-or-mocktail-you-deserve-it-rockstar" class="plugin-anchor" href="#celebrate-with-a-cocktail-or-mocktail-you-deserve-it-rockstar"><i class="fa fa-link" aria-hidden="true"></i></a>Celebrate with a cocktail or mocktail! You deserve it, rockstar!</h3>
+<p>   <img src="https://media.giphy.com/media/bEbRqmAnOeRi/giphy.gif" alt=""></p>
 <!-- trick markdown to give me a little space between these two sections of text -->
 <h2 id=""><a name="" class="plugin-anchor" href="#"><i class="fa fa-link" aria-hidden="true"></i></a> </h2>
 <h2 id="checkpoint-"><a name="checkpoint-" class="plugin-anchor" href="#checkpoint-"><i class="fa fa-link" aria-hidden="true"></i></a>Checkpoint <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
@@ -595,7 +592,7 @@ Change <code>if (numberOfClicks &gt; 2)</code> to either
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Working with functions","level":"2.2","depth":1,"next":{"title":"Arrays","level":"2.3","depth":1,"path":"ws3-loops/README.md","ref":"ws3-loops/README.md","articles":[]},"previous":{"title":"Introduction to JavaScript","level":"2.1","depth":1,"path":"ws1-intro/README.md","ref":"ws1-intro/README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["custom-favicon","hints","anchors","codeblock-label","codetabs"],"root":"./book","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"codeblock-label":{},"search":{},"codetabs":{},"hints":{"danger":"fa fa-exclamation-circle fa-lg","info":"fa fa-info-circle fa-lg","tip":"fa fa-lightbulb-o fa-lg","working":"fa fa-question-circle fa-lg"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"book/assets/favicon.ico","custom-favicon":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"ws2-functions/README.md","mtime":"2019-02-17T16:02:18.628Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-02-17T16:16:41.949Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Working with functions","level":"2.2","depth":1,"next":{"title":"Arrays","level":"2.3","depth":1,"path":"ws3-loops/README.md","ref":"ws3-loops/README.md","articles":[]},"previous":{"title":"Introduction to JavaScript","level":"2.1","depth":1,"path":"ws1-intro/README.md","ref":"ws1-intro/README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["custom-favicon","hints","anchors","codeblock-label","codetabs"],"root":"./book","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"codeblock-label":{},"search":{},"codetabs":{},"hints":{"danger":"fa fa-exclamation-circle fa-lg","info":"fa fa-info-circle fa-lg","tip":"fa fa-lightbulb-o fa-lg","working":"fa fa-question-circle fa-lg"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"book/assets/favicon.ico","custom-favicon":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"ws2-functions/README.md","mtime":"2019-02-17T20:06:28.336Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-02-17T20:49:18.868Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

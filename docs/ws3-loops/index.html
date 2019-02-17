@@ -318,8 +318,13 @@
 <h2 id="array"><a name="array" class="plugin-anchor" href="#array"><i class="fa fa-link" aria-hidden="true"></i></a>Declaring and defining arrays  <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
 <p>First we&apos;ll declare an array so we can use the array data in the application. We&apos;ll also use the array length property to determine how many items are in the array.</p>
 <ol>
-<li><p>Declare an array called <code>brainSkills</code> below the <code>// Declare brainSkills array below this line</code> comment by typing <code>const brainSkills = [];</code>. 
-<div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>This creates an empty array called <code>brainSkills</code> that is accessible by anything in <em>scripts.js</em>.</p>
+<li><p>Declare an const variable called <code>brainSkills</code> below the <code>// Declare brainSkills array below this line</code> and set the value to an empty array (<code>[]</code>). 
+<div class="alert alert-warning hints-alert"><div class="hints-icon"><i class="fa fa-question-circle fa-lg"></i></div><div class="hints-container"><details>
+<summary>
+Need a little help? Expand this section for guidance. 
+</summary> 
+Type <code>const brainSkills = [];</code>.
+</details>
 </div></div>  </p>
 <p><div class="alert alert-danger hints-alert"><div class="hints-icon"><i class="fa fa-exclamation-circle fa-lg"></i></div><div class="hints-container"><p>Don&apos;t forget to save your file after each code change!</p>
 </div></div></p>
@@ -328,20 +333,26 @@
 <div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>You added an element to the array. Your array now has a length of 1.</p>
 </div></div>  </p>
 </li>
-<li><p>Inside the <code>document.addEventListener</code> method, add a <code>console.log</code> to log out the length of the array. Type</p>
-<pre><code class="lang-js"><span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;brainSkills.length &quot;</span> + brainSkills.length);
-</code></pre>
+<li><p>Inside the <code>document.addEventListener</code> method, add a <code>console.log</code> to log out the array. What do you see in DevTools when you reload the webpage? 
+<div class="alert alert-warning hints-alert"><div class="hints-icon"><i class="fa fa-question-circle fa-lg"></i></div><div class="hints-container"><details>
+<summary>
+Need a little help? Expand this section for guidance. 
+</summary> 
+Type <code>console.log(brainSkills);</code>.
+</details>
+</div></div>  </p>
+</li>
+<li><p>Arrays have built in properties. One property of an array is the length. Let&apos;s change our <code>console.log</code> above to log out the length of the array by using <code>brainSkills.length</code>. What do you see in DevTools when you reload the webpage?</p>
 </li>
 <li><p>Add more skills you learned at Coding &amp; Cocktails or about coding tonight to the array by comma separating values. Your <code>brainSkills</code> array might look something like this:</p>
 <pre><code class="lang-js"><span class="hljs-keyword">const</span> brainSkills = [
- <span class="hljs-string">&quot;HTML&quot;</span>,
- <span class="hljs-string">&quot;CSS&quot;</span>,
- <span class="hljs-string">&quot;Command line operations&quot;</span>,
- <span class="hljs-string">&quot;Vim&quot;</span>,
- <span class="hljs-string">&quot;Git&quot;</span>,
- <span class="hljs-string">&quot;Front-End Architecture&quot;</span>,
- <span class="hljs-string">&quot;Yeoman&quot;</span>,
- <span class="hljs-string">&quot;JavaScript Types&quot;</span>
+   <span class="hljs-string">&quot;Front-End Architecture&quot;</span>,
+   <span class="hljs-string">&quot;HTML&quot;</span>,
+   <span class="hljs-string">&quot;CSS&quot;</span>,
+   <span class="hljs-string">&quot;Command line operations&quot;</span>,
+   <span class="hljs-string">&quot;Vim&quot;</span>,
+   <span class="hljs-string">&quot;Git&quot;</span>,
+   <span class="hljs-string">&quot;JavaScript Types&quot;</span>
 ];
 </code></pre>
 <p><div class="alert alert-warning hints-alert"><div class="hints-icon"><i class="fa fa-question-circle fa-lg"></i></div><div class="hints-container"><p>What is your array length now?</p>
@@ -406,6 +417,8 @@ Use <code>addDevSkill(element);</code> to call the function with the array eleme
 <li><p>Delete the commented out <code>for</code> loop and the log for the array length above it.</p>
 </li>
 </ol>
+<h3 id="good-job-take-a-moment-to-think-about-all-the-things-you-learned-tonight-and-pat-yourself-on-the-back"><a name="good-job-take-a-moment-to-think-about-all-the-things-you-learned-tonight-and-pat-yourself-on-the-back" class="plugin-anchor" href="#good-job-take-a-moment-to-think-about-all-the-things-you-learned-tonight-and-pat-yourself-on-the-back"><i class="fa fa-link" aria-hidden="true"></i></a>Good job! Take a moment to think about all the things you learned tonight and pat yourself on the back!</h3>
+<p>   <img src="https://media.giphy.com/media/l0NhWxFoiIGEbOzfO/giphy.gif" alt=""></p>
 <!-- trick markdown to give me a little space between these two sections of text -->
 <h2 id=""><a name="" class="plugin-anchor" href="#"><i class="fa fa-link" aria-hidden="true"></i></a> </h2>
 <h2 id="checkpoint-"><a name="checkpoint-" class="plugin-anchor" href="#checkpoint-"><i class="fa fa-link" aria-hidden="true"></i></a>Checkpoint <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
@@ -478,7 +491,7 @@ Use <code>addDevSkill(element);</code> to call the function with the array eleme
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Arrays","level":"2.3","depth":1,"next":{"title":"Quiz","level":"2.4","depth":1,"path":"quiz.md","ref":"quiz.md","articles":[]},"previous":{"title":"Working with functions","level":"2.2","depth":1,"path":"ws2-functions/README.md","ref":"ws2-functions/README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["custom-favicon","hints","anchors","codeblock-label","codetabs"],"root":"./book","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"codeblock-label":{},"search":{},"codetabs":{},"hints":{"danger":"fa fa-exclamation-circle fa-lg","info":"fa fa-info-circle fa-lg","tip":"fa fa-lightbulb-o fa-lg","working":"fa fa-question-circle fa-lg"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"book/assets/favicon.ico","custom-favicon":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"ws3-loops/README.md","mtime":"2019-02-17T15:47:42.314Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-02-17T16:16:41.949Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Arrays","level":"2.3","depth":1,"next":{"title":"Quiz","level":"2.4","depth":1,"path":"quiz.md","ref":"quiz.md","articles":[]},"previous":{"title":"Working with functions","level":"2.2","depth":1,"path":"ws2-functions/README.md","ref":"ws2-functions/README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["custom-favicon","hints","anchors","codeblock-label","codetabs"],"root":"./book","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"codeblock-label":{},"search":{},"codetabs":{},"hints":{"danger":"fa fa-exclamation-circle fa-lg","info":"fa fa-info-circle fa-lg","tip":"fa fa-lightbulb-o fa-lg","working":"fa fa-question-circle fa-lg"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"book/assets/favicon.ico","custom-favicon":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"ws3-loops/README.md","mtime":"2019-02-17T20:10:03.610Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-02-17T20:49:18.868Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

@@ -34,14 +34,12 @@ Make sure to check your email and follow instructions from CodePen to complete t
 
 1. [Coding & Cocktails folder](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tips-directory-structure/)
 
-1. [Now](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-now/)
-
 
 ## Create a folder for tonight's work
 
 Create a folder named "JavaScriptBasics" in your "CodingAndCocktails" folder by following the steps below
 
-1. In your terminal, navigate to your home directory by typing the instructions for your OS and press `Enter`.
+1. In your terminal, navigate to your home directory by typing the command below for your OS and press `Enter`.
 
    {% codetabs name="Mac", type="bash" -%} 
 cd ~/CodingAndCocktails

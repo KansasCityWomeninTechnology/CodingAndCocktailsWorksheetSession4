@@ -20,7 +20,7 @@ Notice the first element is index 0 and the last index is array.length - 1. This
 
 1. Let's call the provided `addDevSkill` function for each element of the array. Remove the `console.log` and replace with a call to `addDevSkill` and pass in the array element:
    ```js
-addDevSkill(brainSkills[index]);
+   addDevSkill(brainSkills[index]);
    ```
 
 1. We now see the content of our array in the web page!
@@ -30,9 +30,9 @@ The `addDevSkill` function takes a string and adds it to the web page as a list 
 
 1. Let's refactor our `for` loop to use a shorthand syntax, `forEach`. Comment out the `for` loop by adding `//` before each line of code to look like this:
    ```js
-// for (let index = 0; index < brainSkills.length; index++) {
-//       addDevSkill(brainSkills[index]);
-// }
+   // for (let index = 0; index < brainSkills.length; index++) {
+   //       addDevSkill(brainSkills[index]);
+   // }
    ```
    {% hint style='tip' %}
 You can also highlight all 3 lines of the `for` loop and use keyboard shortcut `ctrl` + `/` on Windows and `cmd` + `/` on Macs to toggle between adding and removing comments.
@@ -42,7 +42,7 @@ You can also highlight all 3 lines of the `for` loop and use keyboard shortcut `
 
 1. The `forEach` method requires a parameter of type `function` that gets called on each array element. We need to pass in a function with an element parameter. Place your cursor between the open and close parenthesis of the `forEach` and add `function(element) {}` to look like this:
    ```js
-brainSkills.forEach( function(element) {});
+   brainSkills.forEach( function(element) {});
    ```
    {% hint style="info" %}
 In JavaScript, you can declare **functions** and **function expressions**. Function declarations use the syntax `function myFunction(){}` while function expressions use the syntax `const myFunction = function(){};`. In a function expression, you are assigning the function to a variable. This makes it easier to pass functions as parameters. We have been using **function expressions**.

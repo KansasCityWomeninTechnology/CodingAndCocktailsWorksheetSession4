@@ -28,20 +28,33 @@ Type <code>const ladyDevs = [];</code>.
    * Margaret Hamilton
    * Sister Mary Kenneth Keller
 
-1. Find the declaration for the function `addDevSkill` at the top of _scripts.js_. After the `addDevSkill` function closing curly brace, declare a new function to use for writing the names of the lady devs to the DOM. Your function should look like this:
-  
-   ```js
+1. Find the declaration for the function `addDevSkill` at the top of _scripts.js_. After the `addDevSkill` function closing curly brace, declare a new function to use for writing the names of the lady devs to the DOM. Remember, function names are verbs.
+      {% hint style='working' %}
+<details>
+<summary>
+Need a little help? Expand this section for guidance. 
+</summary> 
+Create a new function and name it after the action (the verb). In this example, the action is `addLadyDev`. You can use <b>Function expression</b> or <b>Function declaration</b>. Your function should look something like this:
+
+<pre>
+<code class="lang-javascript">
 const addLadyDev = function (ladyDev) {
 };
-   ```
+</code>
+</pre>
+</details>
+   {% endhint %}
 
-1. Between the opening and closing curly braces of the `addLadyDev` function, type the following code to create a new list element, set the text, and add it to the DOM:
+1. Between the opening and closing curly braces of your new function, type the following code to create a new list element, set the text, and add it to the DOM:
   
    ```js
-let listItem = document.createElement('li');
-listItem.innerHTML = ladyDev;
-document.getElementById("fellow-ladydevs").appendChild(listItem);
+   let listItem = document.createElement('li');
+   listItem.innerHTML = ladyDev;
+   document.getElementById("fellow-ladydevs").appendChild(listItem);
    ```
+   {% hint style='info' %}
+This is a sneak peek at a concept we'll cover in more detail next session-- DOM manipulation. Here we are creating a list dynamically in JavaScript and adding it to the webpage. Now you're extra prepared for next session!
+   {% endhint %}
 
 1. In the `document.addEventListener("DOMContentLoaded", ...)` function at the bottom of _scripts.js_, iterate through the new array and call the `addLadyDev` function.   
    {% hint style='working' %}
@@ -53,7 +66,7 @@ Take a look at how you iterated over <code>brainSkills</code> and called the <co
 </details>
    {% endhint %}
 
-1. Save your file and start atom-live-server. Do you see the names of fellow LadyDevs? Upload a picture of your web page to Slack and show off your work! 🎉😎
+1. Save your file and start atom-live-server. Do you see the names of fellow LadyDevs? Upload a picture of your web page to Slack and show off your work!
 
 <!-- trick markdown to give me a little space between these two sections of text -->
 ## 

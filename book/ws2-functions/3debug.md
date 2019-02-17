@@ -1,7 +1,7 @@
 1. There's a better way to display in the alert. In Atom, change the parameter you pass in to the `alert` method to use the variable named `text`. You are using the same parameter passed into the `clickHandler` function. Your code should look like this:
 
    ```js
-alert(text);
+   alert(text);
    ```
    {% hint style='working' %}
 Notice there are no quotation marks. This now references the variable named `text`, not the string "text". Try adding quotation marks and interact with the button in Chrome to see the difference.
@@ -12,7 +12,7 @@ Notice there are no quotation marks. This now references the variable named `tex
 1. To see console logging in action, open the Chrome DevTools and click on the button. You should see the number of clicks write to the console. Leave DevTools open.
 
    {% hint style='tip' %}
-Open Chrome DevTools by using `cmd` + `option` + `i` on Macs, `F12` on Windows, and `ctrl` + `shift` + `i` on Chromebooks. Refer to [Helpful Keyboard Shortcuts](/references).
+Open Chrome DevTools by using `cmd` + `option` + `i` on Macs, `F12` on Windows. Refer to [Helpful Keyboard Shortcuts](/references).
    {% endhint %}   
 
 1. We declared `numberOfClicks` using `var`. What happens if we used `const`? In Atom, change the declaration for `numberOfClicks` to use `const`.

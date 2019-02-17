@@ -15,6 +15,10 @@ First we'll declare an array so we can use the array data in the application. We
 To use the array data, we need to access the array elements. We can do this by index (AKA array position) or by iterating over each item in the array. 
 {% include "./2loops.md" %}
 
+### Good job! Take a moment to think about all the things you learned tonight and pat yourself on the back!
+
+   ![](https://media.giphy.com/media/l0NhWxFoiIGEbOzfO/giphy.gif)
+
 <!-- trick markdown to give me a little space between these two sections of text -->
 ## 
 
