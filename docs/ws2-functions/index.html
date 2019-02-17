@@ -1,0 +1,638 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Working with functions · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-hints/plugin-hints.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-codeblock-label/block.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-codetabs/codetabs.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../ws3-loops/" />
+    
+    
+    <link rel="prev" href="../ws1-intro/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../setup/">
+            
+                <a href="../setup/">
+            
+                    
+                    Setup Instructions
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Worksheet</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../ws1-intro/">
+            
+                <a href="../ws1-intro/">
+            
+                    
+                    Introduction to JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Working with functions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../ws3-loops/">
+            
+                <a href="../ws3-loops/">
+            
+                    
+                    Arrays
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../quiz.html">
+            
+                <a href="../quiz.html">
+            
+                    
+                    Quiz
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Bonus</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../homework/new-list.html">
+            
+                <a href="../homework/new-list.html">
+            
+                    
+                    Add a new list to the web page
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../homework/homework.html">
+            
+                <a href="../homework/homework.html">
+            
+                    
+                    Homework
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../references/">
+            
+                <a href="../references/">
+            
+                    
+                    References & Shortcuts
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Working with functions</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="top"><a name="top" class="plugin-anchor" href="#top"><i class="fa fa-link" aria-hidden="true"></i></a>Writing Javascript </h1>
+<p>Now we will create a web page with interactive elements. In the rest of the worksheet we will build button click handling and manipulate the elements on the web page. When complete, you will have a web page that looks like this</p>
+<p><img src="images/goal.png" alt=""></p>
+<p>In this section, we will write our own functions in JavaScript by using conditional logic and learn how to debug our code. </p>
+<!-- trick markdown to give me a little space between these two sections of text -->
+<h2 id=""><a name="" class="plugin-anchor" href="#"><i class="fa fa-link" aria-hidden="true"></i></a> </h2>
+<p>This section will help guide you through the following steps:</p>
+<div class="instructions">
+    <ul class="fa-ul">
+        <li>
+            <a href="#prepare">
+                <i class="check fa-li fa fa-check-square-o fa-lg" aria-hidden="true"></i>
+                <span class="text">Prepare workspace</span>
+                <i class="fa fa-chevron-circle-down fa-lg navigate-arrow" title="Take me to this step" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#function">
+                <i class="check fa-li fa fa-check-square-o fa-lg" aria-hidden="true"></i>
+                <span class="text">Write a function</span>
+                <i class="fa fa-chevron-circle-down fa-lg navigate-arrow" title="Take me to this step" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#debug">
+                <i class="check fa-li fa fa-check-square-o fa-lg" aria-hidden="true"></i>
+                <span class="text">Debug your application</span>
+                <i class="fa fa-chevron-circle-down fa-lg navigate-arrow" title="Take me to this step" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#conditional">
+                <i class="check fa-li fa fa-check-square-o fa-lg" aria-hidden="true"></i>
+                <span class="text">Apply conditional logic</span>
+                <i class="fa fa-chevron-circle-down fa-lg navigate-arrow" title="Take me to this step" aria-hidden="true"></i>
+            </a>
+        </li>
+    </ul>                
+</div>
+
+
+
+<h2 id="prepare"><a name="prepare" class="plugin-anchor" href="#prepare"><i class="fa fa-link" aria-hidden="true"></i></a>Prepare your workspace  <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p>Let&apos;s get the files we need and set up our workspace.</p>
+<ol>
+<li><p>Using Chrome, download the zip file <a href="https://github.com/KansasCityWomeninTechnology/javascript-101/archive/master.zip" target="_blank">from the GitHub repo</a> and extract the contents to &quot;CodingAndCocktails/JavaScriptBasics&quot; folder.
+<div class="alert alert-danger hints-alert"><div class="hints-icon"><i class="fa fa-exclamation-circle fa-lg"></i></div><div class="hints-container"><p>If you don&apos;t have a &quot;CodingAndCocktails/JavaScriptBasics&quot; folder, take a moment to <a href="../setup">set up your workspace</a>.</p>
+</div></div>   </p>
+</li>
+<li><p>Open the &quot;JavaScriptBasics&quot; folder in Atom.
+<div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>To open the folder in Atom, follow the instructions below:</p>
+<ol>
+<li>Open Atom </li>
+<li>Select <strong>File</strong> <i class="fa fa-long-arrow-right"></i> <strong>Open Folder</strong></li>
+<li><p>Navigate to and select &quot;JavaScriptBasics&quot; folder</p>
+<p>You can close all tabs except for <em>index.html</em> and <em>scripts.js</em>.</p>
+</li>
+</ol>
+</div></div>   </p>
+</li>
+<li><p>We will use the atom-live-server package we installed to serve the <em>index.html</em>. This package opens up the web page in your default browser and reload the page whenever you save files. Start the live server by selecting <strong>Packages</strong> <i class="fa fa-long-arrow-right"></i> <strong>atom-live-server</strong>. Select <strong>Start server</strong>. A browser tab will open.
+<div class="alert alert-danger hints-alert"><div class="hints-icon"><i class="fa fa-exclamation-circle fa-lg"></i></div><div class="hints-container"><p>If you don&apos;t have the atom-live-server package, take a moment to <a href="../setup">set up your workspace</a>.</p>
+</div></div>   </p>
+<p><div class="alert alert-danger hints-alert"><div class="hints-icon"><i class="fa fa-exclamation-circle fa-lg"></i></div><div class="hints-container"><p>If the tab opens in another browser, copy the URL and paste it into a new tab in Chrome. The reload will automatically happen in Chrome.</p>
+<p>If you get an access warning, click &quot;Allow&quot; to let atom-live-server serve the application.</p>
+</div></div>   </p>
+</li>
+</ol>
+<h2 id="function"><a name="function" class="plugin-anchor" href="#function"><i class="fa fa-link" aria-hidden="true"></i></a>Write a function  <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p>Let&apos;s get coding! We&apos;ll call a function and keep track of click events.</p>
+<ol>
+<li><p>In your Atom, open <em>scripts.js</em>. You&apos;ll see MadLibs items like we had in the first section of the worksheet. </p>
+</li>
+<li><p>Search for <strong>&lt;noun&gt;</strong> and <strong>&lt;verb&gt;</strong> and replace the variables. Save the file and look at the web page in Chrome. The lavender button now has the text &quot;I&apos;d like a cocktail please!&quot;, but we want it do something when we click on it.
+<div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p><strong>Every time you make a change, save the file.</strong> </p>
+<p>The atom-live-server package will automatically refresh the Chrome tab to keep the app up to date with your <strong>saved</strong> work. Atom alerts you to unsaved work by displaying a blue circle in the tab:</p>
+<p><img src="images/atom-save.png" alt=""></p>
+<p>Save the file by navigating to <strong>File</strong> <i class="fa fa-long-arrow-right"></i> <strong>Save</strong> or by using the keyboard shortcut <code>cmd</code> + <code>s</code> for Macs and <code>ctrl</code> + <code>s</code> for Windows. Refer to <a href="../references">Helpful Keyboard Shortcuts</a>.</p>
+</div></div></p>
+<p><div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>View the worksheet and the IDE in split screen mode to make it easier to work through tonight&apos;s session. Check out the <a href="../setup#tips">helpful tips in the Setup guide</a>. </p>
+</div></div></p>
+</li>
+<li><p>Let&apos;s display an alert message by adding <code>alert(&apos;click&apos;);</code> inside the <code>clickHandler</code> function in Atom. The <code>clickHandler</code> function should look like this:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> clickHandler = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">text</span>) </span>{
+   alert(<span class="hljs-string">&apos;click&apos;</span>);
+};
+</code></pre>
+<p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>You can create functions using <strong>Function Expression</strong> like we did above. Or you can create functions using <strong>Function Declaration</strong> using the syntax </p>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">clickHandler</span> (<span class="hljs-params">text</span>) </span>{
+      alert(<span class="hljs-string">&apos;click&apos;</span>);
+}
+</code></pre>
+</div></div></p>
+</li>
+<li><p>Now try clicking the button in Chrome. An alert message appears! Close the alert message by clicking &quot;Ok&quot;.</p>
+</li>
+<li><p>In Atom, define a new variable called <code>numberOfClicks</code> above the line with the code <code>const clickHandler = function(text)</code> so we can keep track of the number of button clicks and set the value to 0. Your variable should look like this:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> numberOfClicks = <span class="hljs-number">0</span>;
+</code></pre>
+<p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>You declared <code>numberOfClicks</code> variable outside of the function so that it&apos;s accessible by more than <code>clickHandler</code> function. The <strong>scope</strong> of the variable and function determines accessibility of that variable or function in the application. We will learn more about scope next session.</p>
+</div></div></p>
+</li>
+<li><p>Track the clicks by incrementing <code>numberOfClicks</code> by 1 for each button click. We can do this inside the <code>clickHandler</code> function. Place your cursor after the opening curly brace and press <code>Enter</code> to create a new line above <code>alert(&apos;click&apos;);</code>. Type the following statement:</p>
+<pre><code class="lang-js">numberOfClicks = numberOfClicks + <span class="hljs-number">1</span>;
+</code></pre>
+<p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>We are adding 1 to <code>numberOfClicks</code> variables and setting the result back to <code>numberOfClicks</code>. </p>
+<p>There are other ways to assign an increment to the <code>numberOfClicks</code> variable. You could have also written:</p>
+<pre><code class="lang-js">numberOfClicks += <span class="hljs-number">1</span>;
+numberOfClicks++;
+</code></pre>
+</div></div>   </p>
+</li>
+<li><p>Update the alert message to show the number of clicks by adding <code>numberOfClicks</code> to the display text using string concatenation.</p>
+<pre><code class="lang-js">alert(<span class="hljs-string">&apos;click &apos;</span> + numberOfClicks);
+</code></pre>
+</li>
+<li><p>In Chrome, click the button a few times to see your click counter in action. Don&apos;t forget to close the alert message between each click.</p>
+</li>
+</ol>
+<h2 id="debug"><a name="debug" class="plugin-anchor" href="#debug"><i class="fa fa-link" aria-hidden="true"></i></a>Navigate Chrome DevTools debugging interface and learn different debugging techniques  <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p>As applications grow, we need ways to troubleshoot code. We&apos;ll learn the basics of debugging a web app.</p>
+<ol>
+<li><p>There&apos;s a better way to display in the alert. In Atom, change the parameter you pass in to the <code>alert</code> method to use the variable named <code>text</code>. You are using the same parameter passed into the <code>clickHandler</code> function. Your code should look like this:</p>
+<pre><code class="lang-js">alert(text);
+</code></pre>
+<p><div class="alert alert-warning hints-alert"><div class="hints-icon"><i class="fa fa-question-circle fa-lg"></i></div><div class="hints-container"><p>Notice there are no quotation marks. This now references the variable named <code>text</code>, not the string &quot;text&quot;. Try adding quotation marks and interact with the button in Chrome to see the difference.</p>
+</div></div>   </p>
+</li>
+<li><p>We still want to see the button click counter for troubleshooting purposes. We can log the number of clicks to the console. Add <code>console.log(numberOfClicks);</code> right after incrementing the clicks in the <code>clickHandler</code> function.</p>
+</li>
+<li><p>To see console logging in action, open the Chrome DevTools and click on the button. You should see the number of clicks write to the console. Leave DevTools open.</p>
+<p><div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>Open Chrome DevTools by using <code>cmd</code> + <code>option</code> + <code>i</code> on Macs, <code>F12</code> on Windows, and <code>ctrl</code> + <code>shift</code> + <code>i</code> on Chromebooks. Refer to <a href="../references">Helpful Keyboard Shortcuts</a>.</p>
+</div></div>   </p>
+</li>
+<li><p>We declared <code>numberOfClicks</code> using <code>var</code>. What happens if we used <code>const</code>? In Atom, change the declaration for <code>numberOfClicks</code> to use <code>const</code>.
+<div class="alert alert-warning hints-alert"><div class="hints-icon"><i class="fa fa-question-circle fa-lg"></i></div><div class="hints-container"><details>
+<summary>
+Need a little help? Expand this section for guidance. 
+</summary>
+Change <code>var numberOfClicks = 0;</code> to <code>const numberOfClicks = 0;</code>.
+</details>
+</div></div></p>
+</li>
+<li><p>Try clicking on the button in Chrome. Oh no! Now we see an error in the console. Notice how DevTools helps you debug your script. It tells you which line of code the failure occurs <code>scripts.js:7</code>. The line number may be different for you.
+<div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>It also provides information on caller of the failing line-- <code>HTMLButtonElement.onClick (index:25)</code>. As you create complex applications, there may be layers of functions called. The layers of functions called is a <strong>call stack</strong>. The output containing the error, along with all the functions called leading up to it, is a <strong>stack trace</strong>.</p>
+</div></div></p>
+</li>
+<li><p>The keyword <code>const</code> makes a variable read-only, so we can&apos;t increment the value. The error message helps us identify the problem by providing both the line of code and why. In Atom, change the declaration of <code>numberOfClicks</code> to use <code>let</code>. Leave DevTools open.</p>
+</li>
+<li><p>Click the button in Chrome and notice we fixed the error.</p>
+</li>
+</ol>
+<h2 id="conditional"><a name="conditional" class="plugin-anchor" href="#conditional"><i class="fa fa-link" aria-hidden="true"></i></a>Conditional logic  <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p>Business needs can be complex. We&apos;ll add conditional logic to execute different code paths.</p>
+<ol>
+<li><p>Inside the <code>clickHandler</code> function, add an <code>if</code> statement to only show the alert for greater than 2 button clicks by adding a conditional statement:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">if</span> (numberOfClicks &gt; <span class="hljs-number">2</span>) {
+   alert(text);
+}
+</code></pre>
+<p><div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>Notice the indention on the <code>alert(text);</code>. Indent everything inside the <code>if</code> statement to make it easier to read your code. Doing so helps your brain group logical units of code together at a glance!</p>
+</div></div></p>
+</li>
+<li><p>Use the <code>console.log</code> output to confirm we show the alert starting from the 3rd button click. 
+<div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>You will use Atom to type code statements and Chrome to verify your work when your web page reloads. Don&apos;t forget to save <em>scripts.js</em> every time you type a code statement.</p>
+</div></div></p>
+</li>
+<li><p>If we want to only show the alert the first 3 times you clicked the button, how would you change the conditional statement?
+<div class="alert alert-warning hints-alert"><div class="hints-icon"><i class="fa fa-question-circle fa-lg"></i></div><div class="hints-container"><details>
+<summary>
+Need a little help? Expand this section for guidance. 
+</summary>
+There are 2 different ways to apply this condition. 
+Change <code>if (numberOfClicks &gt; 2)</code> to either
+<pre>
+<code class="lang-javascript">
+<span class="hljs-keyword">if</span> (numberOfClicks &lt;= <span class="hljs-number">3</span>)
+
+<span class="hljs-keyword">if</span> (numberOfClicks &lt; <span class="hljs-number">4</span>)
+</code>
+</pre>
+</details>
+</div></div></p>
+</li>
+<li><p>What if we want to show a different alert message after 3 button clicks? Add an <code>else</code> clause to the conditional statement:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">if</span> (numberOfClicks &lt;= <span class="hljs-number">3</span>) {
+   alert(text);
+} <span class="hljs-keyword">else</span> {
+   alert(<span class="hljs-string">&quot;Drink in moderation-- no more cocktails for you!&quot;</span>);
+}
+</code></pre>
+</li>
+<li><p>This is starting to become difficult to track using <code>console.log</code>. Let&apos;s try <strong>debugging</strong> the <code>onClickHandler</code> function in DevTools. Add <code>debugger;</code> as the first line of the <code>clickHandler</code> function. Your function should look like this:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> clickHandler = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">text</span>) </span>{
+   <span class="hljs-keyword">debugger</span>;
+   numberOfClicks = numberOfClicks + <span class="hljs-number">1</span>;
+
+   <span class="hljs-comment">// rest of the function remains here</span>
+};
+</code></pre>
+</li>
+<li><p>In Chrome, click on the button. Your web page paused execution and DevTools now shows <em>scripts.js</em>. We can now step through the code line by line and inspect the function along the way.
+<div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p><code>debugger;</code> works only when debugging capabilities, such as Chrome DevTools, is open. </p>
+</div></div></p>
+</li>
+<li><p>In the <em>scripts.js</em> tab in Chrome, hover over <code>numberOfClicks</code>. It shows you the current value of the variable, 0. Click <strong>Step</strong> button, <img src="images/step.png" alt=""> (located at the upper right of DevTools window), to execute the next line of code in <em>scripts.js</em>. The line where we increment <code>numberOfClicks</code> highlights. The current value of <code>numberOfClicks</code> is still 0.</p>
+<p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>The <img src="images/step.png" alt=""> steps through the source code. You can also Step into and step out of lines of code. Tonight we will use step. </p>
+</div></div>   </p>
+</li>
+<li><p>Click step again. Now we see <code>numberOfClicks</code> increment to 1. </p>
+</li>
+<li><p>Click step until the <code>if</code> statement highlights.</p>
+</li>
+<li><p>Click step to execute the <code>if</code> statement. Since 1 is less than or equal to 3, we expect to execute <code>alert(text);</code> statement. Does it?</p>
+</li>
+<li><p>Click <strong>Resume</strong>, <img src="images/resume.png" alt="">, to resume execution on the rest of the code. </p>
+<p><div class="alert alert-warning hints-alert"><div class="hints-icon"><i class="fa fa-question-circle fa-lg"></i></div><div class="hints-container"><p>We are using <strong>Step</strong> in this session, but debugging tools, such as Chrome DevTools, have other capabilities to make debugging easy. You can add <strong>breakpoints</strong> to force your web page to pause execution without adding <code>debugger;</code> statements so you can execute multiple lines of code pausing execution using the <strong>Resume</strong> button instead of <strong>Step</strong>. You can also add the <code>numberOfClicks</code> variable to a watch list so that you can see the value at a glance. </p>
+<p>Ask a mentor to help you set a breakpoint on the <code>if</code> statement and check out the homework to practice debugging using DevTools. </p>
+</div></div></p>
+</li>
+<li><p>Repeat the stepping through the code and resuming until you click for the 4th time. Does the <code>else</code> condition execute?</p>
+</li>
+<li><p>In Atom, remove the <code>debugger;</code> statement so we aren&apos;t interrupted in the rest of the worksheet. Feel free to add it back if you get stuck!
+<div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p><code>debugger;</code> is helpful for writing code, but don&apos;t use it for production code. Most linters will red flag <code>debugger</code> during the build process to help safe-guard your application. </p>
+</div></div></p>
+</li>
+<li><p>Celebrate with a cocktail or mocktail! You deserve it, rockstar!</p>
+<p><img src="https://media.giphy.com/media/bEbRqmAnOeRi/giphy.gif" alt=""></p>
+</li>
+</ol>
+<!-- trick markdown to give me a little space between these two sections of text -->
+<h2 id=""><a name="" class="plugin-anchor" href="#"><i class="fa fa-link" aria-hidden="true"></i></a> </h2>
+<h2 id="checkpoint-"><a name="checkpoint-" class="plugin-anchor" href="#checkpoint-"><i class="fa fa-link" aria-hidden="true"></i></a>Checkpoint <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p>Compare your <em>scripts.js</em> against the answer key for your work so far. It might look a little different depending on spacing.  </p>
+<div class="checkpoint">
+    <div class="badge">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-certificate fa-stack-2x certificate"></i>
+            <i class="fa fa-check fa-stack-1x checkmark"></i>
+        </span>
+    </div>
+    <div class="content">
+        <details>
+            <summary>
+                Expand this section to compare your work.
+            </summary>
+            <img src="images/checkpoint.png">
+            <p>
+             You can also compare your <i>scripts.js</i> file with our <a href="https://github.com/KansasCityWomeninTechnology/javascript-101/blob/answerkey-functions/scripts.js" target="_blank">answer key</a> if the image is too difficult to read.
+            </p>
+        </details>
+    </div>
+</div>
+
+
+<!-- trick markdown to give me a little space between these two sections of text -->
+<h2 id=""><a name="" class="plugin-anchor" href="#"><i class="fa fa-link" aria-hidden="true"></i></a> </h2>
+<h2 id="references-and-helpful-links-"><a name="references-and-helpful-links-" class="plugin-anchor" href="#references-and-helpful-links-"><i class="fa fa-link" aria-hidden="true"></i></a>References and helpful links <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators" target="_blank">MDN Reference: Variable assignment</a></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Arithmetic" target="_blank">MDN Reference: Arithemetic operators</a></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else" target="_blank">MDN Reference: if else</a></p>
+<p><a href="https://developers.google.com/web/tools/chrome-devtools/javascript/reference" target="_blank">Chrome DevTools JavaScript Debugging Reference</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../ws1-intro/" class="navigation navigation-prev " aria-label="Previous page: Introduction to JavaScript">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../ws3-loops/" class="navigation navigation-next " aria-label="Next page: Arrays">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Working with functions","level":"2.2","depth":1,"next":{"title":"Arrays","level":"2.3","depth":1,"path":"ws3-loops/README.md","ref":"ws3-loops/README.md","articles":[]},"previous":{"title":"Introduction to JavaScript","level":"2.1","depth":1,"path":"ws1-intro/README.md","ref":"ws1-intro/README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["custom-favicon","hints","anchors","codeblock-label","codetabs"],"root":"./book","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"codeblock-label":{},"search":{},"codetabs":{},"hints":{"danger":"fa fa-exclamation-circle fa-lg","info":"fa fa-info-circle fa-lg","tip":"fa fa-lightbulb-o fa-lg","working":"fa fa-question-circle fa-lg"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"book/assets/favicon.ico","custom-favicon":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"ws2-functions/README.md","mtime":"2019-02-17T16:02:18.628Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-02-17T16:16:41.949Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-codetabs/codetabs.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

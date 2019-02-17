@@ -1,0 +1,523 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Introduction to JavaScript · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-hints/plugin-hints.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-codeblock-label/block.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-codetabs/codetabs.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../ws2-functions/" />
+    
+    
+    <link rel="prev" href="../setup/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../setup/">
+            
+                <a href="../setup/">
+            
+                    
+                    Setup Instructions
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Worksheet</li>
+        
+        
+    
+        <li class="chapter active" data-level="2.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction to JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../ws2-functions/">
+            
+                <a href="../ws2-functions/">
+            
+                    
+                    Working with functions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../ws3-loops/">
+            
+                <a href="../ws3-loops/">
+            
+                    
+                    Arrays
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../quiz.html">
+            
+                <a href="../quiz.html">
+            
+                    
+                    Quiz
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Bonus</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../homework/new-list.html">
+            
+                <a href="../homework/new-list.html">
+            
+                    
+                    Add a new list to the web page
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../homework/homework.html">
+            
+                <a href="../homework/homework.html">
+            
+                    
+                    Homework
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../references/">
+            
+                <a href="../references/">
+            
+                    
+                    References & Shortcuts
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Introduction to JavaScript</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="top"><a name="top" class="plugin-anchor" href="#top"><i class="fa fa-link" aria-hidden="true"></i></a>Introducing JavaScript </h1>
+<p>We will explore the building blocks for programming-- variables, math operators, and data types using JavaScript. JavaScript is one of many programming languages used for application development.</p>
+<!-- trick markdown to give me a little space between these two sections of text -->
+<h2 id=""><a name="" class="plugin-anchor" href="#"><i class="fa fa-link" aria-hidden="true"></i></a> </h2>
+<p><div class="alert alert-danger hints-alert"><div class="hints-icon"><i class="fa fa-exclamation-circle fa-lg"></i></div><div class="hints-container"><p>Before starting the worksheet, please take a moment to review <a href="../setup">Setup instructions</a> to ensure you have all the tools and workspace setup you need for tonight&apos;s work.</p>
+</div></div></p>
+<!-- trick markdown to give me a little space between these two sections of text -->
+<h2 id=""><a name="" class="plugin-anchor" href="#"><i class="fa fa-link" aria-hidden="true"></i></a> </h2>
+<p>This section will help guide you through the following steps:</p>
+<div class="instructions">
+    <ul class="fa-ul">
+        <li>
+            <a href="#variables">
+                <i class="check fa-li fa fa-check-square-o fa-lg" aria-hidden="true"></i>
+                <span class="text">Declare and assign variables</span>
+                <i class="fa fa-chevron-circle-down fa-lg navigate-arrow" title="Take me to this step" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#types">
+                <i class="check fa-li fa fa-check-square-o fa-lg" aria-hidden="true"></i>
+                <span class="text">Use type comparisons and equality</span>
+                <i class="fa fa-chevron-circle-down fa-lg navigate-arrow" title="Take me to this step" aria-hidden="true"></i>
+            </a>
+        </li>
+    </ul>                
+</div>
+
+
+
+<h2 id="variables"><a name="variables" class="plugin-anchor" href="#variables"><i class="fa fa-link" aria-hidden="true"></i></a>Declare variables and assign values  <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p>You&apos;ll start practicing some JavaScript basics covered in the presentation.  We&apos;ll use CodePen, an online development environment tool, and play a variation of <a href="https://en.wikipedia.org/wiki/Mad_Libs" target="_blank">Mad Libs</a>. You will replace temporary code snippets with nouns or verbs of your choosing as instructed. The code to replace will look like this: <strong>&lt;noun_1&gt;</strong>.  You&apos;ll replace everything, including the angle brackets, so <strong>&lt;noun_1&gt;</strong> becomes <strong>drink</strong>.</p>
+<p><div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>A noun is a person, place or thing such as &quot;pen&quot; or &quot;drink.&quot;</p>
+<p>A verb is a word used to describe an action such as &quot;make&quot; or &quot;become.&quot;</p>
+</div></div></p>
+<ol>
+<li><p>In Google Chrome, navigate to <a href="https://codepen.io/CodingCocktailsKC/pen/BRgQrE" target="_blank">https://codepen.io/CodingCocktailsKC/pen/BRgQrE</a> </p>
+</li>
+<li><p>In the JS editor, look for the MadLibs items to replace. Remember these are the noun or verb text surrounded by angle brackets: <strong>&lt;noun_2&gt;</strong>. You can use choose any noun or verb you like for the variable name. </p>
+<p> <img src="images/replace.png" alt=""></p>
+<p> <div class="alert alert-danger hints-alert"><div class="hints-icon"><i class="fa fa-exclamation-circle fa-lg"></i></div><div class="hints-container"><p>Make sure to replace all instances of a variable with the same noun!</p>
+<p>Make sure to remove the angle brackets &lt;&gt; around the text so your code will work!</p>
+</div></div></p>
+</li>
+<li><p>Place the cursor at the end of the last line and press <code>Enter</code> to trigger a refresh of the display area. The lower portion of the Pen should display the output of your code.</p>
+<p> <img src="images/codepen-output.png" alt=""></p>
+</li>
+</ol>
+<h2 id="types"><a name="types" class="plugin-anchor" href="#types"><i class="fa fa-link" aria-hidden="true"></i></a>Explore type comparisons and equality operators  <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p>Logical operations are the basis of computer programming. Explore types, arithmetic operations, and equality comparison.</p>
+<ol>
+<li><p>Try some other data types and comparisons! Change the first variable&apos;s value to the string &quot;5&quot; by adding quotation marks around the 5.  Change second variable&apos;s value to the number 5 without quotation marks.</p>
+<p> <div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>The value of a variable is to the right of the &apos;=&apos; sign.</p>
+</div></div></p>
+<p> <div class="alert alert-warning hints-alert"><div class="hints-icon"><i class="fa fa-question-circle fa-lg"></i></div><div class="hints-container"><p>What is the output of &quot;What type is the first variable&quot; when you add quotation marks around the 5? What if you change the variable in <code>typeof()</code> on line 13 to use the variable <strong>&lt;noun_3&gt;</strong> from line 6?</p>
+</div></div></p>
+</li>
+<li><p>Remove the <code>* 2</code> from line 6 then change the <code>&gt;</code> to <code>==</code>. Make note of the comparison value in the output.</p>
+</li>
+<li><p>After reviewing the comparison with <code>==</code>, change it to <code>===</code>.  How is the output different from the <code>==</code> comparison in the previous step?</p>
+<p> <div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p><code>==</code> compares the value and does not care about the data type so a string &quot;5&quot; is the same as the number 5.  </p>
+<p><code>===</code> compares both the value and the data type so a string &quot;5&quot; is not the same as the number 5.</p>
+</div></div></p>
+</li>
+<li><p>Try out other variable values, different mathematic operators, or different comparison operators and see what happens.  </p>
+</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Mathematic operator</th>
+<th>Operation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>+</td>
+<td>Addition</td>
+</tr>
+<tr>
+<td>-</td>
+<td>Subtraction</td>
+</tr>
+<tr>
+<td>*</td>
+<td>Multiplication</td>
+</tr>
+<tr>
+<td>/</td>
+<td>Division</td>
+</tr>
+<tr>
+<td>%</td>
+<td>Modulus</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Comparison operator</th>
+<th>Operation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&gt;</td>
+<td>Greater than</td>
+</tr>
+<tr>
+<td>&gt;=</td>
+<td>Greater than or equal to</td>
+</tr>
+<tr>
+<td>&lt;</td>
+<td>Less than</td>
+</tr>
+<tr>
+<td>&lt;=</td>
+<td>Less than or equal to</td>
+</tr>
+<tr>
+<td>==</td>
+<td>Equality</td>
+</tr>
+<tr>
+<td>===</td>
+<td>Strict equality</td>
+</tr>
+<tr>
+<td>!=</td>
+<td>Inequality</td>
+</tr>
+<tr>
+<td>!==</td>
+<td>Strict inequality</td>
+</tr>
+</tbody>
+</table>
+<!-- trick markdown to give me a little space between these two sections of text -->
+<h2 id=""><a name="" class="plugin-anchor" href="#"><i class="fa fa-link" aria-hidden="true"></i></a> </h2>
+<!-- trick markdown to give me a little space between these two sections of text -->
+<h2 id=""><a name="" class="plugin-anchor" href="#"><i class="fa fa-link" aria-hidden="true"></i></a> </h2>
+<h2 id="references-and-helpful-links-"><a name="references-and-helpful-links-" class="plugin-anchor" href="#references-and-helpful-links-"><i class="fa fa-link" aria-hidden="true"></i></a>References and helpful links <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p><a href="https://vimeo.com/250067069" target="_blank">What is a programming language video</a></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures" target="_blank">JavaScript data types</a></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators" target="_blank">JavaScript operators</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../setup/" class="navigation navigation-prev " aria-label="Previous page: Setup Instructions">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../ws2-functions/" class="navigation navigation-next " aria-label="Next page: Working with functions">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Introduction to JavaScript","level":"2.1","depth":1,"next":{"title":"Working with functions","level":"2.2","depth":1,"path":"ws2-functions/README.md","ref":"ws2-functions/README.md","articles":[]},"previous":{"title":"Setup Instructions","level":"1.2","depth":1,"path":"setup/README.md","ref":"setup/README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["custom-favicon","hints","anchors","codeblock-label","codetabs"],"root":"./book","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"codeblock-label":{},"search":{},"codetabs":{},"hints":{"danger":"fa fa-exclamation-circle fa-lg","info":"fa fa-info-circle fa-lg","tip":"fa fa-lightbulb-o fa-lg","working":"fa fa-question-circle fa-lg"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"book/assets/favicon.ico","custom-favicon":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"ws1-intro/README.md","mtime":"2019-02-17T15:47:25.027Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-02-17T16:16:41.949Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-codetabs/codetabs.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

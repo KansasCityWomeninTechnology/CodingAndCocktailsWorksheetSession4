@@ -1,6 +1,6 @@
-# Coding & Cocktails Session 4: Git
+# Coding & Cocktails Session 4: JavaScript
 
-The `docs` directory contains worksheets for Coding & Cocktails session 4 published on Gitbooks: [Coding & Cocktails - Session 4: Version Control Using Git](https://www.gitbook.com/book/codingandcocktailskc/session-4-version-control-using-git/details).
+The `docs` directory contains worksheets for Coding & Cocktails session 4 published on Gitbooks: [Coding & Cocktails - Session 4: Intro to JavaScript](https://www.gitbook.com/book/codingandcocktailskc/session-4/details).
 
 ## Getting Going
 
@@ -11,8 +11,17 @@ npm run docs:install
 To serve Gitbook, `npm start`.
 To build without serving, `npm run docs:build`.
 
+## To build and deploy to Github pages
+Run command prior to pushing to master.
+```bash
+npm run book:deploy
+```
+
 ## Associated Repos
-[DrinkOrderApp](https://github.com/KansasCityWomeninTechnology/DrinkOrderApp) 
+- [javascript-101](https://github.com/KansasCityWomeninTechnology/javascript-101)
+
+## Associated CodePens 
+ - [MadLibs (part 1)](https://codepen.io/CodingCocktailsKC/pen/BRgQrE) 
 
 ## TODO
 - [x] 2018 updates!

@@ -1,0 +1,521 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Arrays · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-hints/plugin-hints.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-codeblock-label/block.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-codetabs/codetabs.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../quiz.html" />
+    
+    
+    <link rel="prev" href="../ws2-functions/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../setup/">
+            
+                <a href="../setup/">
+            
+                    
+                    Setup Instructions
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Worksheet</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../ws1-intro/">
+            
+                <a href="../ws1-intro/">
+            
+                    
+                    Introduction to JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../ws2-functions/">
+            
+                <a href="../ws2-functions/">
+            
+                    
+                    Working with functions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Arrays
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../quiz.html">
+            
+                <a href="../quiz.html">
+            
+                    
+                    Quiz
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Bonus</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../homework/new-list.html">
+            
+                <a href="../homework/new-list.html">
+            
+                    
+                    Add a new list to the web page
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../homework/homework.html">
+            
+                <a href="../homework/homework.html">
+            
+                    
+                    Homework
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../references/">
+            
+                <a href="../references/">
+            
+                    
+                    References & Shortcuts
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Arrays</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="top"><a name="top" class="plugin-anchor" href="#top"><i class="fa fa-link" aria-hidden="true"></i></a>Arrays and loops </h1>
+<p>In this section, we will create and populate an array and iterate through the array to add list items to the web page. </p>
+<!-- trick markdown to give me a little space between these two sections of text -->
+<h2 id=""><a name="" class="plugin-anchor" href="#"><i class="fa fa-link" aria-hidden="true"></i></a> </h2>
+<p>This section will help guide you through the following steps:</p>
+<div class="instructions">
+    <ul class="fa-ul">
+        <li>
+            <a href="#array">
+                <i class="check fa-li fa fa-check-square-o fa-lg" aria-hidden="true"></i>
+                <span class="text">Create an array</span>
+                <i class="fa fa-chevron-circle-down fa-lg navigate-arrow" title="Take me to this step" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#loops">
+                <i class="check fa-li fa fa-check-square-o fa-lg" aria-hidden="true"></i>
+                <span class="text">Work with arrays</span>
+                <i class="fa fa-chevron-circle-down fa-lg navigate-arrow" title="Take me to this step" aria-hidden="true"></i>
+            </a>
+        </li>
+    </ul>                
+</div>
+
+
+<h2 id="array"><a name="array" class="plugin-anchor" href="#array"><i class="fa fa-link" aria-hidden="true"></i></a>Declaring and defining arrays  <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p>First we&apos;ll declare an array so we can use the array data in the application. We&apos;ll also use the array length property to determine how many items are in the array.</p>
+<ol>
+<li><p>Declare an array called <code>brainSkills</code> below the <code>// Declare brainSkills array below this line</code> comment by typing <code>const brainSkills = [];</code>. 
+<div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>This creates an empty array called <code>brainSkills</code> that is accessible by anything in <em>scripts.js</em>.</p>
+</div></div>  </p>
+<p><div class="alert alert-danger hints-alert"><div class="hints-icon"><i class="fa fa-exclamation-circle fa-lg"></i></div><div class="hints-container"><p>Don&apos;t forget to save your file after each code change!</p>
+</div></div></p>
+</li>
+<li><p>Place your cursor between the opening and closing square brackets and press <code>Enter</code>. Type <code>&quot;JavaScript Types&quot;</code>. 
+<div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>You added an element to the array. Your array now has a length of 1.</p>
+</div></div>  </p>
+</li>
+<li><p>Inside the <code>document.addEventListener</code> method, add a <code>console.log</code> to log out the length of the array. Type</p>
+<pre><code class="lang-js"><span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;brainSkills.length &quot;</span> + brainSkills.length);
+</code></pre>
+</li>
+<li><p>Add more skills you learned at Coding &amp; Cocktails or about coding tonight to the array by comma separating values. Your <code>brainSkills</code> array might look something like this:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> brainSkills = [
+ <span class="hljs-string">&quot;HTML&quot;</span>,
+ <span class="hljs-string">&quot;CSS&quot;</span>,
+ <span class="hljs-string">&quot;Command line operations&quot;</span>,
+ <span class="hljs-string">&quot;Vim&quot;</span>,
+ <span class="hljs-string">&quot;Git&quot;</span>,
+ <span class="hljs-string">&quot;Front-End Architecture&quot;</span>,
+ <span class="hljs-string">&quot;Yeoman&quot;</span>,
+ <span class="hljs-string">&quot;JavaScript Types&quot;</span>
+];
+</code></pre>
+<p><div class="alert alert-warning hints-alert"><div class="hints-icon"><i class="fa fa-question-circle fa-lg"></i></div><div class="hints-container"><p>What is your array length now?</p>
+</div></div>  </p>
+</li>
+</ol>
+<h2 id="loops"><a name="loops" class="plugin-anchor" href="#loops"><i class="fa fa-link" aria-hidden="true"></i></a>Working with arrays  <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p>To use the array data, we need to access the array elements. We can do this by index (AKA array position) or by iterating over each item in the array. </p>
+<ol>
+<li><p>Iterate through the array using a <code>for</code> loop. Inside the <code>document.addEventListener</code> method, iterate through <code>brainSkills</code> array and add a console log for <code>index</code>:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> index = <span class="hljs-number">0</span>; index &lt; brainSkills.length; index++) {
+   <span class="hljs-built_in">console</span>.log(index);
+}
+</code></pre>
+<p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>You are logging out the array index. The index is the value corresponding to the element&apos;s position in the array. </p>
+</div></div>  </p>
+</li>
+<li><p>We can access an array element by the index using the syntax <code>name-of-array[index]</code>. Inside the <code>for</code> loop, change the <code>console.log</code> to access each array element:</p>
+<pre><code class="lang-js"><span class="hljs-built_in">console</span>.log(index + <span class="hljs-string">&quot; &quot;</span> + brainSkills[index]);
+</code></pre>
+</li>
+<li><p>In Chrome, take a look in the DevTools console to see the output.
+<div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>Notice the first element is index 0 and the last index is array.length - 1. This affects conditional logic and is often the cause of errors. Developers call these errors &quot;off by one error&quot;.</p>
+</div></div>  </p>
+</li>
+<li><p>Let&apos;s call the provided <code>addDevSkill</code> function for each element of the array. Remove the <code>console.log</code> and replace with a call to <code>addDevSkill</code> and pass in the array element:</p>
+<pre><code class="lang-js">addDevSkill(brainSkills[index]);
+</code></pre>
+</li>
+<li><p>We now see the content of our array in the web page!
+<div class="alert alert-warning hints-alert"><div class="hints-icon"><i class="fa fa-question-circle fa-lg"></i></div><div class="hints-container"><p>The <code>addDevSkill</code> function takes a string and adds it to the web page as a list item. Feel free to inspect using <code>debugger</code> to see the parameter for each function call.</p>
+</div></div>  </p>
+</li>
+<li><p>Let&apos;s refactor our <code>for</code> loop to use a shorthand syntax, <code>forEach</code>. Comment out the <code>for</code> loop by adding <code>//</code> before each line of code to look like this:</p>
+<pre><code class="lang-js"><span class="hljs-comment">// for (let index = 0; index &lt; brainSkills.length; index++) {</span>
+<span class="hljs-comment">//       addDevSkill(brainSkills[index]);</span>
+<span class="hljs-comment">// }</span>
+</code></pre>
+<p><div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>You can also highlight all 3 lines of the <code>for</code> loop and use keyboard shortcut <code>ctrl</code> + <code>/</code> on Windows and <code>cmd</code> + <code>/</code> on Macs to toggle between adding and removing comments.</p>
+</div></div>  </p>
+<p>Below the existing <code>for</code> loop, add <code>brainSkills.forEach();</code>. We will get an error in the console.</p>
+</li>
+<li><p>The <code>forEach</code> method requires a parameter of type <code>function</code> that gets called on each array element. We need to pass in a function with an element parameter. Place your cursor between the open and close parenthesis of the <code>forEach</code> and add <code>function(element) {}</code> to look like this:</p>
+<pre><code class="lang-js">brainSkills.forEach( <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">element</span>) </span>{});
+</code></pre>
+<p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>In JavaScript, you can declare <strong>functions</strong> and <strong>function expressions</strong>. Function declarations use the syntax <code>function myFunction(){}</code> while function expressions use the syntax <code>const myFunction = function(){};</code>. In a function expression, you are assigning the function to a variable. This makes it easier to pass functions as parameters. We have been using <strong>function expressions</strong>.</p>
+<p>Additionally, JavaScript functions can be named or anonymous. The function declaration inside the <code>forEach</code> is an example of an anonymous function.</p>
+<p>Check out the references in this section to read more about functions.</p>
+</div></div></p>
+</li>
+<li><p>Place your cursor between the opening and closing curly brace and press <code>Enter</code>. Type <code>console.log(element);</code> to log the element parameter to the console.</p>
+</li>
+<li><p>We&apos;re back in business! Remove the <code>console.log(element);</code> and replace it with the call to <code>addDevSkill</code>.
+<div class="alert alert-warning hints-alert"><div class="hints-icon"><i class="fa fa-question-circle fa-lg"></i></div><div class="hints-container"><details>
+<summary>
+Need a little help? Expand this section for guidance. 
+</summary> 
+Use <code>addDevSkill(element);</code> to call the function with the array element to display on the web page.
+</details>
+</div></div></p>
+</li>
+<li><p>Delete the commented out <code>for</code> loop and the log for the array length above it.</p>
+</li>
+</ol>
+<!-- trick markdown to give me a little space between these two sections of text -->
+<h2 id=""><a name="" class="plugin-anchor" href="#"><i class="fa fa-link" aria-hidden="true"></i></a> </h2>
+<h2 id="checkpoint-"><a name="checkpoint-" class="plugin-anchor" href="#checkpoint-"><i class="fa fa-link" aria-hidden="true"></i></a>Checkpoint <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p>Compare your <em>script.js</em> against the answer key for your work so far. It might look a little different depending on spacing.  </p>
+<div class="checkpoint">
+    <div class="badge">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-certificate fa-stack-2x certificate"></i>
+            <i class="fa fa-check fa-stack-1x checkmark"></i>
+        </span>
+    </div>
+    <div class="content">
+        <details>
+            <summary>
+                Expand this section to compare your work.
+            </summary>
+            <img src="images/checkpoint.png">
+            <p>
+             You can also compare your <i>scripts.js</i> file with our <a href="https://github.com/KansasCityWomeninTechnology/javascript-101/blob/answerkey-arrays/scripts.js" target="_blank">answer key</a> if the image is too difficult to read.
+            </p>
+        </details>
+    </div>
+</div>
+
+<!-- trick markdown to give me a little space between these two sections of text -->
+<h2 id=""><a name="" class="plugin-anchor" href="#"><i class="fa fa-link" aria-hidden="true"></i></a> </h2>
+<h2 id="references-and-helpful-links-"><a name="references-and-helpful-links-" class="plugin-anchor" href="#references-and-helpful-links-"><i class="fa fa-link" aria-hidden="true"></i></a>References and helpful links <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array" target="_blank">MDN Reference: Array</a></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Glossary/Function" target="_blank">MDN Reference: Function</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../ws2-functions/" class="navigation navigation-prev " aria-label="Previous page: Working with functions">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../quiz.html" class="navigation navigation-next " aria-label="Next page: Quiz">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Arrays","level":"2.3","depth":1,"next":{"title":"Quiz","level":"2.4","depth":1,"path":"quiz.md","ref":"quiz.md","articles":[]},"previous":{"title":"Working with functions","level":"2.2","depth":1,"path":"ws2-functions/README.md","ref":"ws2-functions/README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["custom-favicon","hints","anchors","codeblock-label","codetabs"],"root":"./book","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"codeblock-label":{},"search":{},"codetabs":{},"hints":{"danger":"fa fa-exclamation-circle fa-lg","info":"fa fa-info-circle fa-lg","tip":"fa fa-lightbulb-o fa-lg","working":"fa fa-question-circle fa-lg"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"book/assets/favicon.ico","custom-favicon":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"ws3-loops/README.md","mtime":"2019-02-17T15:47:42.314Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-02-17T16:16:41.949Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-codetabs/codetabs.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
