@@ -3,6 +3,13 @@
 If you don't have a "CodingAndCocktails/JavaScriptBasics" folder, take a moment to [set up your workspace](/setup).
    {% endhint %}   
 
+   {% hint style='tip' %}
+Not sure how to extract the contents of the zip file?
+
+**Mac users**: Double click on the downloaded file with the .zip extension<br/>
+**Windows users**: Right click on the file with the .zip extension and choose "Extract All." Select the destination you would like to extract the files to.
+   {% endhint %}   
+
 1. Open the "JavaScriptBasics" folder in Atom.
    {% hint style='tip' %}
 To open the folder in Atom, follow the instructions below:
