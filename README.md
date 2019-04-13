@@ -2,6 +2,8 @@
 
 The `docs` directory contains worksheets for Coding & Cocktails session 4 published on Gitbooks: [Coding & Cocktails - Session 4: Intro to JavaScript](https://www.gitbook.com/book/codingandcocktailskc/session-4/details).
 
+Also deployed to [https://kansascitywomenintechnology.github.io/CodingAndCocktailsWorksheetSession4/](https://kansascitywomenintechnology.github.io/CodingAndCocktailsWorksheetSession4/)
+
 ## Getting Going
 
 ```bash
