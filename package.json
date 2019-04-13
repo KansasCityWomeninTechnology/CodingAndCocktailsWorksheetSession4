@@ -1,27 +1,29 @@
 {
   "name": "session4",
   "version": "0.0.0",
-  "description": "Instructions for Coding & Cocktails program session 4 - Intro to version control",
-  "main": "docs/README.md",
+  "description": "Instructions for Coding & Cocktails program session 4: The Liquor- Intro to JavaScript",
+  "main": "book/README.md",
   "directories": {
-    "doc": "docs"
+    "doc": "book"
   },
   "dependencies": {
     "gitbook-plugin-anchors": "^0.7.1",
+    "gitbook-plugin-codeblock-label": "^1.0.1",
     "gitbook-plugin-codetabs": "^1.0.0",
-    "gitbook-plugin-custom-favicon": "^0.0.4",
-    "gitbook-plugin-local-video": "^1.0.1",
-    "gitbook-plugin-hints": "^1.0.2",
-    "gitbook-plugin-sectionx": "^3.1.0",
-    "gitbook-plugin-terminal": "^0.3.2"
+    "gitbook-plugin-custom-favicon": "0.0.4",
+    "gitbook-plugin-hints": "^1.0.2"
   },
   "devDependencies": {
-    "gitbook-cli": "^2.3.2"
+    "copyfiles": "^2.1.0",
+    "gitbook-cli": "^2.3.2",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.6.3"
   },
   "scripts": {
-    "docs:install": "gitbook install",
-    "docs:build": "gitbook build",
-    "start": "gitbook serve"
+    "book:install": "gitbook install",
+    "book:build": "gitbook build",
+    "start": "gitbook serve",
+    "book:deploy": "npm run book:build && rimraf docs && mkdirp docs && copyfiles -u 1 \"./_book/**/!(*.md)\" docs"
   },
   "repository": {
     "type": "git",

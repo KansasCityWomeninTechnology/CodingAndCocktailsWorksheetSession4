@@ -1,5 +1,5 @@
 {
-    "root": "./docs",
+    "root": "./book",
     "structure": {
         "readme": "README.md",
         "summary": "SUMMARY.md"
@@ -7,24 +7,17 @@
     "plugins": [
         "custom-favicon",
         "hints",
-        "sectionx",
-        "local-video",
         "anchors",
-        "terminal",
+        "codeblock-label",
         "codetabs"
     ],
     "pluginsConfig": {
-        "favicon": "docs/assets/favicon.ico",
+        "favicon": "book/assets/favicon.ico",
         "hints": {
             "info": "fa fa-info-circle fa-lg",
             "tip": "fa fa-lightbulb-o fa-lg",
             "danger": "fa fa-exclamation-circle fa-lg",
             "working": "fa fa-question-circle fa-lg"
-        },
-        "terminal": {
-            "copyButtons": true,
-            "fade": true,
-            "style": "flat"
         }
     }
 }
