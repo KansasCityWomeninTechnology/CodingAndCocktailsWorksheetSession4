@@ -46,7 +46,7 @@ const addLadyDev = function (ladyDev) {
    {% endhint %}
 
    {% hint style='danger' %}
-   If you didn't use the help section, you'll want to rename the function you created in this step to `addLadyDev` and the paramater to `ladyDev` before continuing.
+   If you didn't use the help section, you'll want to rename the function you created in this step to `addLadyDev` and the parameter to `ladyDev` before continuing.
    {% endhint %}
 
 1. Between the opening and closing curly braces of your new function, type the following code to create a new list element, set the text, and add it to the DOM:
