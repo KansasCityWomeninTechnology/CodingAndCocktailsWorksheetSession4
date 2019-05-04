@@ -1,4 +1,4 @@
-1. Declare an const variable called `brainSkills` below the `// Declare brainSkills array below this line` and set the value to an empty array (`[]`). 
+1. Declare a const variable called `brainSkills` below the `// Declare brainSkills array below this line` and set the value to an empty array (`[]`). 
    {% hint style='working' %}
 <details>
 <summary>

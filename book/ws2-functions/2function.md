@@ -15,7 +15,7 @@ Save the file by navigating to **File** <i class="fa fa-long-arrow-right"></i> *
 View the worksheet and the IDE in split screen mode to make it easier to work through tonight's session. Check out the [helpful tips in the Setup guide](/setup#tips). 
    {% endhint %}
 
-1. It's easier to understand what's going on if we have visual indications of our work. Browsers have a build-in function to display alert messages. Let's display an alert message with the word "click" inside of it. Find the `clickHandler` function in _myscript.js_ in Atom and add `alert('click');` inside the function (between the curly braces). The `clickHandler` function should look like this:
+1. It's easier to understand what's going on if we have visual indications of our work. Browsers have a built-in function to display alert messages. Let's display an alert message with the word "click" inside of it. Find the `clickHandler` function in _myscript.js_ in Atom and add `alert('click');` inside the function (between the curly braces). The `clickHandler` function should look like this:
 
    ```js
    const clickHandler = function(text) {
@@ -49,7 +49,7 @@ You declared `numberOfClicks` variable outside of the function so that it's acce
    numberOfClicks = numberOfClicks + 1;
    ```
    {% hint style='info' %}
-We are adding 1 to `numberOfClicks` variables and setting the result back to `numberOfClicks`. 
+We are adding 1 to `numberOfClicks` variable and setting the result back to `numberOfClicks`. 
 
 There are other ways to assign an increment to the `numberOfClicks` variable. You could have also written:
 ```js

@@ -316,7 +316,7 @@ Type <code>const ladyDevs = [];</code>.
 <li>Sister Mary Kenneth Keller</li>
 </ul>
 </li>
-<li><p>Find the declaration for the function <code>addDevSkill</code> at the top of <em>scripts.js</em>. After the <code>addDevSkill</code> function closing curly brace, declare a new function to use for writing the names of the lady devs to the DOM. Remember, function names are verbs.
+<li><p>Find the declaration for the function <code>addDevSkill</code> at the top of <em>scripts.js</em>. After the <code>addDevSkill</code> function closing curly brace, declare a new function to use for writing the names of the lady devs to the DOM. Remember, function names are verbs and parameters are nouns.
    <div class="alert alert-warning hints-alert"><div class="hints-icon"><i class="fa fa-question-circle fa-lg"></i></div><div class="hints-container"><details>
 <summary>
 Need a little help? Expand this section for guidance. 
@@ -331,16 +331,18 @@ Create a new function and name it after the action (the verb). In this example, 
 </pre>
 </details>
 </div></div></p>
+<!-- <div class="alert alert-danger hints-alert"><div class="hints-icon"><i class="fa fa-exclamation-circle fa-lg"></i></div><div class="hints-container"><p>   If you didn&#39;t use the help section, you&#39;ll want to rename the function you created in this step to <code>addLadyDev</code> and the parameter to <code>ladyDev</code> before continuing.</p>
+</div></div> -->
 </li>
 <li><p>Between the opening and closing curly braces of your new function, type the following code to create a new list element, set the text, and add it to the DOM:</p>
 <pre><code class="lang-js"><span class="hljs-keyword">let</span> listItem = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">&apos;li&apos;</span>);
-listItem.innerHTML = ladyDev;
-<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&quot;fellow-ladydevs&quot;</span>).appendChild(listItem);
-</code></pre>
+listItem.innerHTML = <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">your</span> <span class="hljs-attr">function</span>&apos;<span class="hljs-attr">s</span> <span class="hljs-attr">parameter</span> <span class="hljs-attr">for</span> <span class="hljs-attr">lady</span> <span class="hljs-attr">devs</span>&gt;</span>;
+document.getElementById(&quot;fellow-ladydevs&quot;).appendChild(listItem);
+</span></code></pre>
 <p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>This is a sneak peek at a concept we&apos;ll cover in more detail next session-- DOM manipulation. Here we are creating a list dynamically in JavaScript and adding it to the webpage. Now you&apos;re extra prepared for next session!</p>
 </div></div></p>
 </li>
-<li><p>In the <code>document.addEventListener(&quot;DOMContentLoaded&quot;, ...)</code> function at the bottom of <em>scripts.js</em>, iterate through the new array and call the <code>addLadyDev</code> function.<br><div class="alert alert-warning hints-alert"><div class="hints-icon"><i class="fa fa-question-circle fa-lg"></i></div><div class="hints-container"><details>
+<li><p>In the <code>document.addEventListener(&quot;DOMContentLoaded&quot;, ...)</code> function at the bottom of <em>scripts.js</em>, iterate through the new array and call your newly created function.<br><div class="alert alert-warning hints-alert"><div class="hints-icon"><i class="fa fa-question-circle fa-lg"></i></div><div class="hints-container"><details>
 <summary>
 Need a little help? Expand this section for guidance. 
 </summary> 
@@ -416,7 +418,7 @@ Take a look at how you iterated over <code>brainSkills</code> and called the <co
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Add a new list to the web page","level":"3.1","depth":1,"next":{"title":"Homework","level":"3.2","depth":1,"path":"homework/homework.md","ref":"homework/homework.md","articles":[]},"previous":{"title":"Quiz","level":"2.4","depth":1,"path":"quiz.md","ref":"quiz.md","articles":[]},"dir":"ltr"},"config":{"plugins":["custom-favicon","hints","anchors","codeblock-label","codetabs"],"root":"./book","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"codeblock-label":{},"search":{},"codetabs":{},"hints":{"danger":"fa fa-exclamation-circle fa-lg","info":"fa fa-info-circle fa-lg","tip":"fa fa-lightbulb-o fa-lg","working":"fa fa-question-circle fa-lg"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"book/assets/favicon.ico","custom-favicon":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"homework/new-list.md","mtime":"2019-02-17T20:49:07.984Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-02-24T16:51:10.697Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Add a new list to the web page","level":"3.1","depth":1,"next":{"title":"Homework","level":"3.2","depth":1,"path":"homework/homework.md","ref":"homework/homework.md","articles":[]},"previous":{"title":"Quiz","level":"2.4","depth":1,"path":"quiz.md","ref":"quiz.md","articles":[]},"dir":"ltr"},"config":{"plugins":["custom-favicon","hints","anchors","codeblock-label","codetabs"],"root":"./book","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"codeblock-label":{},"search":{},"codetabs":{},"hints":{"danger":"fa fa-exclamation-circle fa-lg","info":"fa fa-info-circle fa-lg","tip":"fa fa-lightbulb-o fa-lg","working":"fa fa-question-circle fa-lg"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"book/assets/favicon.ico","custom-favicon":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"homework/new-list.md","mtime":"2019-05-04T22:21:23.503Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-05-04T22:22:12.216Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

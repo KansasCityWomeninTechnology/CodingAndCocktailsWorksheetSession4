@@ -29,7 +29,7 @@ You don't need all the tools for tonight's session. If you haven't installed all
 
 1. [CodePen Account](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/user-accounts/#optional-accounts)
    {% hint style='danger' %}
-Make sure to check your email and follow instructions from CodePen to complete the registration process. A completed registration provides access all the features we need for tonight's session.
+Make sure to check your email and follow instructions from CodePen to complete the registration process. A completed registration provides access to all the features we need for tonight's session.
    {% endhint %}
 
 1. [Coding & Cocktails folder](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tips-directory-structure/)
