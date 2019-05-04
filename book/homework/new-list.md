@@ -28,7 +28,7 @@ Type <code>const ladyDevs = [];</code>.
    * Margaret Hamilton
    * Sister Mary Kenneth Keller
 
-1. Find the declaration for the function `addDevSkill` at the top of _scripts.js_. After the `addDevSkill` function closing curly brace, declare a new function to use for writing the names of the lady devs to the DOM. Remember, function names are verbs.
+1. Find the declaration for the function `addDevSkill` at the top of _scripts.js_. After the `addDevSkill` function closing curly brace, declare a new function to use for writing the names of the lady devs to the DOM. Remember, function names are verbs and parameters are nouns.
       {% hint style='working' %}
 <details>
 <summary>
@@ -45,22 +45,22 @@ const addLadyDev = function (ladyDev) {
 </details>
    {% endhint %}
 
-   {% hint style='danger' %}
+   <!-- {% hint style='danger' %}
    If you didn't use the help section, you'll want to rename the function you created in this step to `addLadyDev` and the parameter to `ladyDev` before continuing.
-   {% endhint %}
+   {% endhint %} -->
 
 1. Between the opening and closing curly braces of your new function, type the following code to create a new list element, set the text, and add it to the DOM:
   
    ```js
    let listItem = document.createElement('li');
-   listItem.innerHTML = ladyDev;
+   listItem.innerHTML = <your function's parameter for lady devs>;
    document.getElementById("fellow-ladydevs").appendChild(listItem);
    ```
    {% hint style='info' %}
 This is a sneak peek at a concept we'll cover in more detail next session-- DOM manipulation. Here we are creating a list dynamically in JavaScript and adding it to the webpage. Now you're extra prepared for next session!
    {% endhint %}
 
-1. In the `document.addEventListener("DOMContentLoaded", ...)` function at the bottom of _scripts.js_, iterate through the new array and call the `addLadyDev` function.   
+1. In the `document.addEventListener("DOMContentLoaded", ...)` function at the bottom of _scripts.js_, iterate through the new array and call your newly created function.   
    {% hint style='working' %}
 <details>
 <summary>
