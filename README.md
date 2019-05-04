@@ -8,10 +8,10 @@ Also deployed to [https://kansascitywomenintechnology.github.io/CodingAndCocktai
 
 ```bash
 npm install
-npm run docs:install
+npm run book:install
 ```
 To serve Gitbook, `npm start`.
-To build without serving, `npm run docs:build`.
+To build without serving, `npm run book:build`.
 
 ## To build and deploy to Github pages
 Run command prior to pushing to master.
