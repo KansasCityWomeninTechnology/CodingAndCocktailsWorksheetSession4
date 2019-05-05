@@ -14,7 +14,7 @@ To serve Gitbook, `npm start`.
 To build without serving, `npm run book:build`.
 
 ## To build and deploy to Github pages
-Run command prior to pushing to master.
+Run command prior to final push to master. It will create dist files in the `docs` directory that need to be included with push.
 ```bash
 npm run book:deploy
 ```
