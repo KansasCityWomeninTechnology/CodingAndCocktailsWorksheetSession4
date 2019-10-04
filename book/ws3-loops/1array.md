@@ -13,6 +13,10 @@ Don't forget to save your file after each code change!
    {% endhint %}
 
 1. Place your cursor between the opening and closing square brackets and press `Enter`. Type `"JavaScript Types"`. 
+   {% hint style='tip' %}
+Don't forget the double quotes to make the value a string.
+   {% endhint %}
+   
    {% hint style='info' %}
 You added an element to the array. Your array now has a length of 1.
    {% endhint %}  
