@@ -11,7 +11,7 @@ Follow the instructions below to get your environment going.
 1. Use your GitHub credentials to sign in.
 
 1. In the **New Sandbox** page, select **Import** tab and paste the following URL into the input box labeled **GitHub Repository URL...**: 
-`https://github.com/KansasCityWomeninTechnology/javascript-102/tree/ad/code-sandbox`
+`https://github.com/KansasCityWomeninTechnology/javascript-101/tree/ad/code-sandbox`
 
 1. Click **Open Sandbox** to create your project.
 
