@@ -9,7 +9,8 @@
         "hints",
         "anchors",
         "codeblock-label",
-        "codetabs"
+        "codetabs",
+        "sectionx"
     ],
     "pluginsConfig": {
         "favicon": "book/assets/favicon.ico",

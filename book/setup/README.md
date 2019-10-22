@@ -9,6 +9,15 @@ If you are borrowing a laptop, please ask your mentor to explain the tools.
 
 <!-- trick markdown to give me a little space between these two sections of text -->
 ## 
+{% hint style='danger' %}
+If you are using a Chromebook, having trouble installing tools, or otherwise need to use a Cloud IDE option, we will use a cloud development environment called [**CodeSandbox**](https://codesandbox.io). In order to use CodeSandbox, you will need to create a GitHub account. 
+
+Follow the instructions in the [Tools Installation to create a GitHub account](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-git/#create-a-github-account) and return here. You won't install any tools listed on this page, but please read through them so you have context for tonight's worksheet.
+{% endhint %}
+
+
+<!-- trick markdown to give me a little space between these two sections of text -->
+## 
 Follow the instructions on this page to prepare your workspace.
 
 {% hint style='tip' %}

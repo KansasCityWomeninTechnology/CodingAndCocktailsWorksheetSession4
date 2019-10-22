@@ -4,7 +4,7 @@ We will explore the building blocks for programming-- variables, math operators,
 <!-- trick markdown to give me a little space between these two sections of text -->
 ## 
 {% hint style='danger' %}
-Before starting the worksheet, please take a moment to review [Setup instructions](/setup) to ensure you have all the tools and workspace setup you need for tonight's work.
+If you are using CodeSandbox, please skip to [CloudSandbox instructions](#cloud-ide) below.
 {% endhint %}
 
 <!-- trick markdown to give me a little space between these two sections of text -->
@@ -41,5 +41,4 @@ Logical operations are the basis of computer programming. Explore types, arithme
 [JavaScript data types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 
 [JavaScript operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators)
-
 
