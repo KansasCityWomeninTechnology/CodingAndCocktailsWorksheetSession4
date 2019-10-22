@@ -5,6 +5,13 @@ Now we will create a web page with interactive elements. In the rest of the work
 
 In this section, we will write our own functions in JavaScript by using conditional logic and learn how to debug our code. 
 
+
+<!-- trick markdown to give me a little space between these two sections of text -->
+## 
+{% hint style='danger' %}
+Before starting the worksheet, please take a moment to review [Setup instructions](/setup) to ensure you have all the tools and workspace setup you need for tonight's work.
+{% endhint %}
+
 <!-- trick markdown to give me a little space between these two sections of text -->
 ## 
 This section will help guide you through the following steps:
@@ -52,3 +59,11 @@ Compare your _scripts.js_ against the answer key for your work so far. It might 
 [Chrome DevTools JavaScript Debugging Reference](https://developers.google.com/web/tools/chrome-devtools/javascript/reference)
 
 
+<!-- trick markdown to give me a little space between these two sections of text -->
+## 
+
+
+## Cloud IDE instructions {#cloud-ide}
+<!-- sec data-title="CodeSandbox instructions" data-id="section0" data-show=true data-collapse=true ces -->
+{% include "./cloud-ide.md" %}
+<!--endsec-->
